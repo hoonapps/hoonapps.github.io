@@ -21,7 +21,7 @@ Let's begin.
 
 As mentioned in the introduction, we attempted to run an application container and a PostgreSQL container using `docker-compose`. However, the error shown in the image below occurred:
 
-![1](/assets/img/posts/24.11/241129_01.png)
+![5-1](/assets/img/posts/24.11/5-1.png)
 
 ### Why does this happen?
 
@@ -33,7 +33,7 @@ The issue arises because `localhost` refers to the internal IP (`127.0.0.1`) of 
 
 The database host is managed through the `.env` file. As shown below, we can use either `172.17.0.1` or `host.docker.internal` as the `DB_HOST`.
 
-![2](/assets/img/posts/24.11/241129_02.png)
+![5-2](/assets/img/posts/24.11/5-2.png)
 
 <br />
 
@@ -63,7 +63,7 @@ Let’s verify if the bridge is created, whether the containers are connected to
 ```bash
 docker network ls
 ```
-![3](/assets/img/posts/24.11/241129_03.png)
+![5-3](/assets/img/posts/24.11/5-3.png)
 
 As shown above, the created containers are part of the `DRIVER(bridge)` network.
 
@@ -133,7 +133,7 @@ docker exec -it nestjs-app sh
 ping host.docker.internal
 ```
 
-![4](/assets/img/posts/24.11/241129_04.png)
+![5-4](/assets/img/posts/24.11/5-4.png)
 
 It maps to `192.168.65.254`, which explains why setting the `DB_HOST` to `192.168.65.254` also works.
 

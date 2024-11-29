@@ -133,7 +133,7 @@ docker exec -it nestjs-app sh
 ping host.docker.internal
 ```
 
-![3](/assets/img/posts/24.11/241129_04.png)
+![4](/assets/img/posts/24.11/241129_04.png)
 
 It maps to `192.168.65.254`, which explains why setting the `DB_HOST` to `192.168.65.254` also works.
 

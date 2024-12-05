@@ -1,6 +1,6 @@
 ---
 title: "[Nestjs] Setting Up a NestJS Monorepo with Docker"
-date: 2024-12-04 21:00:00 +0900
+date: 2024-12-05 21:00:00 +0900
 categories: [NestJS]
 tags: [NestJS, Docker, monorepo]
 image: /assets/img/Nest.js.png

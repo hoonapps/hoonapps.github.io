@@ -152,7 +152,7 @@ RUN yarn install
 
 COPY . .
 
-RUN yarn build
+RUN yarn build:admin
 
 CMD ["yarn", "start:admin"]
 ```
@@ -166,6 +166,8 @@ The user Dockerfile can be set up similarly, but replace admin with user.
 "scripts":{
     "start:user": "nest start user --watch",
     "start:admin": "nest start admin --watch",
+    "build:user": "nest build user",
+    "build:admin": "nest build admin",
   }
 ```
 

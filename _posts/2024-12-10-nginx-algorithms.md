@@ -212,7 +212,7 @@ echo "Total time taken: ${overall_elapsed_time} seconds"
 
 ---
 
-## 3. Visualization in Kibana
+## Step: 3. Visualization in Kibana
 
 ### Metrics to Monitor
 - **Requests Per Second (RPS)**: Number of requests handled over time.

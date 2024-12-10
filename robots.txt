@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://hoonapps.github.io/sitemap.xml

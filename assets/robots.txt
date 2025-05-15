@@ -7,4 +7,5 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: {{ '/sitemap.xml' | absolute_url }}
+Sitemap: https://hoonapps.github.io/sitemap.xml
+

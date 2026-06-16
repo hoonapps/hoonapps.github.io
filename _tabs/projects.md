@@ -1,6 +1,6 @@
 ---
 icon: fas fa-code-branch
-order: 2
+order: 3
 title: 프로젝트
 ---
 

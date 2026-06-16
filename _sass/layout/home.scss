@@ -356,6 +356,43 @@
   line-height: 1.55;
 }
 
+.archive-route {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--lab-border);
+  border-radius: 8px;
+  background: var(--lab-bg);
+}
+
+.archive-route span {
+  color: var(--lab-blue);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.archive-route strong {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--lab-text);
+  font-size: 0.95rem;
+}
+
+.archive-route a {
+  flex: 0 0 auto;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid rgba(121, 184, 217, 0.35);
+  border-radius: 8px;
+  color: var(--lab-blue);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
 #access-lastmod a {
   display: block;
   max-width: 100%;
@@ -367,7 +404,9 @@
 .radar-overview,
 .radar-board,
 .radar-sources,
-.radar-criteria {
+.radar-criteria,
+.track-grid,
+.reading-path {
   display: grid;
   gap: 0.75rem;
 }
@@ -380,7 +419,9 @@
 .radar-overview div,
 .radar-card,
 .radar-sources section,
-.radar-criteria section {
+.radar-criteria section,
+.track-grid section,
+.reading-path a {
   border: 1px solid var(--lab-border);
   border-radius: 8px;
   background: var(--lab-panel);
@@ -393,7 +434,10 @@
 .radar-overview span,
 .radar-source,
 .radar-verdict,
-.radar-card dt {
+.radar-card dt,
+.track-grid span,
+.reading-path span,
+.reading-path em {
   color: var(--lab-muted);
   font-size: 0.74rem;
   font-weight: 800;
@@ -512,23 +556,61 @@
   margin: 1rem 0 2rem;
 }
 
+.track-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1rem 0 2rem;
+}
+
 .radar-sources section,
-.radar-criteria section {
+.radar-criteria section,
+.track-grid section {
   padding: 1rem;
 }
 
 .radar-sources h2,
-.radar-criteria h2 {
+.radar-criteria h2,
+.track-grid h2 {
   margin: 0 0 0.5rem;
   color: var(--lab-text);
   font-size: 1rem;
 }
 
 .radar-sources p,
-.radar-criteria p {
+.radar-criteria p,
+.track-grid p {
   color: var(--lab-muted);
   font-size: 0.88rem;
   line-height: 1.55;
+}
+
+.track-grid span {
+  color: var(--lab-green);
+}
+
+.reading-path {
+  margin: 1rem 0 2rem;
+}
+
+.reading-path a {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.85rem;
+  color: inherit;
+}
+
+.reading-path strong {
+  overflow: hidden;
+  color: var(--lab-text);
+  font-size: 0.95rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reading-path em {
+  color: var(--lab-amber);
+  font-style: normal;
 }
 
 .radar-sources a {
@@ -557,6 +639,7 @@
   #post-list.lab-post-list,
   .signal-board,
   .operating-model,
+  .track-grid,
   .radar-overview,
   .radar-board,
   .radar-sources,
@@ -575,5 +658,22 @@
 
   .signal-column a {
     white-space: normal;
+  }
+
+  .archive-route {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .archive-route a {
+    text-align: center;
+  }
+
+  .reading-path a {
+    grid-template-columns: 2rem minmax(0, 1fr);
+  }
+
+  .reading-path em {
+    grid-column: 2;
   }
 }

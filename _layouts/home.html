@@ -48,7 +48,7 @@ refactor: true
     <strong>AI Radar</strong>
     <span>모델, 에이전트, MCP, RAG, 로컬 LLM, 오픈소스를 매일 추적합니다.</span>
   </a>
-  <a class="editorial-item" href="{{ '/categories/backend/' | relative_url }}">
+  <a class="editorial-item" href="{{ '/backend/' | relative_url }}">
     <span class="item-index">02</span>
     <strong>Backend Core</strong>
     <span>DB, 트랜잭션, 큐, 캐시, 네트워크, 관측성을 깊게 다룹니다.</span>
@@ -58,7 +58,7 @@ refactor: true
     <strong>Open Source Lab</strong>
     <span>트렌딩 기술을 설치하고, 코드와 운영 가능성까지 리뷰합니다.</span>
   </a>
-  <a class="editorial-item" href="{{ '/categories/projects/' | relative_url }}">
+  <a class="editorial-item" href="{{ '/projects/' | relative_url }}">
     <span class="item-index">04</span>
     <strong>Project Log</strong>
     <span>새로운 작업의 설계 의도, 의사결정, 배포 과정을 남깁니다.</span>
@@ -133,12 +133,20 @@ refactor: true
         </li>
       {% else %}
         <li>
-          <a href="{{ '/categories/backend/' | relative_url }}">Backend Core 카테고리 보기</a>
+          <a href="{{ '/backend/' | relative_url }}">Backend Core 읽기 경로 보기</a>
           <span>새 글 준비 중</span>
         </li>
       {% endfor %}
     </ul>
   </div>
+</section>
+
+<section class="archive-route" aria-label="Archive route">
+  <div>
+    <span>Archive</span>
+    <strong>기존 영어 글은 보존하고, 새 글은 한국어 기준으로 씁니다.</strong>
+  </div>
+  <a href="{{ '/english-archive/' | relative_url }}">영문 아카이브</a>
 </section>
 
 <section class="operating-model" aria-labelledby="operating-title">

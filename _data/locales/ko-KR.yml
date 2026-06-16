@@ -16,6 +16,8 @@ tabs:
   archives: 아카이브
   about: 정보
   ai-radar: AI 레이더
+  backend: 백엔드 코어
+  english-archive: 영문 아카이브
   projects: 프로젝트
 
 # the text displayed in the search bar & search results

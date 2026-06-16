@@ -1,6 +1,6 @@
-# Hoonapps Lab
+# Hoonapps
 
-Hoonapps Lab is a Korean technical blog for AI-era backend engineering,
+Hoonapps is a personal technical blog for backend development, AI tool notes,
 open-source experiments, system design notes, and project logs.
 
 The site keeps the existing English archive, but new publishing is Korean-first.
@@ -21,7 +21,7 @@ Open <http://127.0.0.1:4000/>.
 bundle exec jekyll build
 ```
 
-## AI Radar
+## AI Notes
 
 Collect current AI engineering candidates:
 
@@ -40,11 +40,11 @@ The generated data is rendered at `/ai-radar/`.
 ## Content System
 
 - Operating guide: `docs/CONTENT_OPERATING_SYSTEM.md`
-- AI Radar template: `docs/templates/ai-radar.md`
+- AI notes template: `docs/templates/ai-radar.md`
 - Backend Deep Dive template: `docs/templates/backend-deep-dive.md`
 - Project Log template: `docs/templates/project-log.md`
 
 ## Deployment
 
 GitHub Pages deployment is handled by `.github/workflows/pages-deploy.yml`.
-AI Radar data refresh is handled by `.github/workflows/ai-radar.yml`.
+AI topic data refresh is handled by `.github/workflows/ai-radar.yml`.

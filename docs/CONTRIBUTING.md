@@ -1,13 +1,13 @@
 # Contributing
 
-Hoonapps Lab is a personal engineering lab. Contributions are reviewed through the same lens as published posts: technical depth, reproducibility, and clear operational judgment.
+Hoonapps is a personal technical blog. Contributions are reviewed through the same lens as published posts: clarity, reproducibility, and useful engineering context.
 
 ## Content Changes
 
 - Prefer Korean for new public posts.
 - Keep English archive posts intact unless fixing a factual or rendering issue.
 - Every technical claim should be backed by source links, runnable examples, code, diagrams, or explicit assumptions.
-- AI Radar posts should separate observation, hands-on result, and production-readiness judgment.
+- AI posts should separate observation, hands-on result, and practical judgment.
 - Backend deep dives should include failure modes, tradeoffs, and operational checks, not only definitions.
 
 ## Code Changes

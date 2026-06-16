@@ -14,13 +14,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Hoonapps Lab # the main title
+title: Hoonapps # the main title
 
-tagline: AI, Backend, Systems # it will display as the subtitle
+tagline: AI Agent, AX, Backend # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  AI 시대의 백엔드 엔지니어링, 오픈소스 실험, 시스템 설계, 제품 개발 기록을
-  한국어로 깊게 정리하는 Hoonapps 기술 연구소.
+  AI Agent, AX, 백엔드 개발과 프로젝트 기록을 정리하는 개인 기술 블로그.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

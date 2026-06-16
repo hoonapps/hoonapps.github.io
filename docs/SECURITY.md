@@ -1,6 +1,6 @@
 # Security Policy
 
-Hoonapps Lab is a static GitHub Pages site with a small automation workflow for AI Radar collection.
+Hoonapps is a static GitHub Pages site with a small automation workflow for AI topic collection.
 
 ## Reporting
 

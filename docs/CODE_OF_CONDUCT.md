@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Hoonapps Lab is a technical writing and engineering workspace. Discussion should stay useful, precise, and respectful.
+Hoonapps is a technical writing workspace. Discussion should stay useful, precise, and respectful.
 
 ## Standards
 

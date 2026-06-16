@@ -1,12 +1,11 @@
-# Hoonapps Lab Content Operating System
+# Hoonapps Content Notes
 
-이 문서는 블로그를 “가끔 쓰는 개발 일기”가 아니라 지속적으로 누적되는 기술 연구소로
-운영하기 위한 기준이다.
+이 문서는 블로그를 꾸준히 정리하기 위한 기준이다.
 
 ## Editorial Position
 
-Hoonapps Lab은 AI 시대의 백엔드 엔지니어링을 한국어로 검증하는 공간이다. 글은
-뉴스 요약보다 직접 실행한 결과, 운영 리스크, 설계 판단을 우선한다.
+Hoonapps는 백엔드 개발과 AI 도구 사용 경험을 한국어로 정리하는 공간이다. 글은
+뉴스 요약보다 직접 실행한 결과와 설계 판단을 우선한다.
 
 ## Core Categories
 
@@ -15,26 +14,26 @@ Hoonapps Lab은 AI 시대의 백엔드 엔지니어링을 한국어로 검증하
 | AI | 모델, 에이전트, MCP, RAG, 로컬 LLM, 개발 도구 |
 | Backend | DB, 트랜잭션, 큐, 캐시, 네트워크, 관측성 |
 | DeepDive | 한 개념을 내부 동작과 운영 관점까지 파는 장문 |
-| OpenSource | 새 도구를 설치하고 코드/운영성/보안 경계를 검증 |
+| OpenSource | 새 도구를 설치하고 코드/운영성/보안 경계를 확인 |
 | Projects | 실제 작업의 설계 결정, 실패 기록, 배포 기록 |
 
 ## Weekly Rhythm
 
 | Cadence | Output | Scope |
 | --- | --- | --- |
-| Daily | AI Radar | 후보 1개 이상 검토, Adopt/Watch/Skip 판단 |
+| Daily | AI notes | 후보 1개 이상 검토 |
 | Weekly | Backend Deep Dive | 실무에서 터지는 깊은 주제 1개 |
-| Weekly | Open Source Lab | 직접 실행한 도구 리뷰 1개 |
+| Weekly | Open Source | 직접 실행한 도구 리뷰 1개 |
 | Monthly | Project Review | 진행 중인 프로젝트의 아키텍처/운영 회고 |
 
-## AI Radar Workflow
+## AI Notes Workflow
 
 1. `python tools/ai_radar.py --write-data`로 후보를 수집한다.
 2. `/ai-radar/`에서 후보를 훑고 하나를 고른다.
 3. 공식 문서, README, 라이선스, 최근 commit, issue를 확인한다.
 4. 가능하면 로컬에서 실행한다.
 5. `docs/templates/ai-radar.md`를 기준으로 글을 작성한다.
-6. 결론은 `Adopt`, `Watch`, `Skip` 중 하나로 끝낸다.
+6. 필요하면 `Adopt`, `Watch`, `Skip` 중 하나로 결론을 남긴다.
 
 자동 수집 결과는 후보일 뿐이다. 실행 전에는 `Adopt`를 쓰지 않는다.
 

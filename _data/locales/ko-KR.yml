@@ -15,6 +15,8 @@ tabs:
   tags: 태그
   archives: 아카이브
   about: 정보
+  ai-radar: AI 레이더
+  projects: 프로젝트
 
 # the text displayed in the search bar & search results
 search:

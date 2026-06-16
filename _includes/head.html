@@ -45,7 +45,7 @@
 
   <title>
     {%- unless page.layout == 'home' -%} {{ page.title | append: ' | ' }} {%-
-    endunless -%} {{ site.title | append: ' - Dev Blog' }}
+    endunless -%} {{ site.title | append: ' - ' | append: site.tagline }}
   </title>
 
   {% include_cached favicons.html %}

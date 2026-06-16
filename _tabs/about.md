@@ -1,8 +1,40 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 6
+title: 정보
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+# Hoonapps Lab
+
+AI가 개발 방식을 바꾸는 속도는 빠르지만, 실제 서비스에 넣을 수 있는 기술은
+항상 검증을 통과해야 합니다. 이 블로그는 그 검증 과정을 한국어로 기록하는
+개인 기술 연구소입니다.
+
+저는 백엔드 엔지니어로서 NestJS, .NET, Docker, 데이터베이스, 운영 자동화,
+실시간 시스템을 다뤄왔고, 앞으로는 AI 에이전트와 백엔드 시스템이 만나는 지점을
+집중적으로 기록합니다.
+
+## 다루는 것
+
+- AI 모델, 에이전트, MCP, RAG, 로컬 LLM, 개발 도구
+- 백엔드 내부 동작, DB, 트랜잭션, 큐, 캐시, 네트워크, 관측성
+- GitHub/Threads/Hacker News에서 발견한 오픈소스 실험
+- 새 프로젝트의 설계 결정, 구현 과정, 실패 기록
+- 기존 영어 글은 아카이브로 보존
+
+## 글의 기준
+
+좋은 기술 글은 정보를 많이 나열하는 글이 아니라 판단을 돕는 글이라고 생각합니다.
+그래서 이 블로그의 글은 가능한 한 다음 질문에 답합니다.
+
+1. 이 기술은 어떤 문제를 해결하는가?
+2. 직접 실행했을 때 어디에서 막히는가?
+3. 실무 백엔드 시스템에 넣는다면 어떤 위험이 있는가?
+4. 지금 채택할 기술인가, 지켜볼 기술인가, 피할 기술인가?
+
+## 운영 리듬
+
+- 매일: AI Radar 짧은 기술 감시 글
+- 매주: Backend Deep Dive 장문
+- 매주: Open Source Lab 실험 기록
+- 프로젝트 진행 시: Project Log

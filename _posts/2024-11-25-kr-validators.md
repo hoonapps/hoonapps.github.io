@@ -2,7 +2,7 @@
 title: "[NestJS] Publishing a Custom Class Validator as an NPM Package"
 date: 2024-11-25 10:00:00 +0900
 categories: [NestJS]
-tags: [NestJS, Github, npm, class-validator]
+tags: [NestJS, GitHub, npm, class-validator]
 image: /assets/img/Nest.js.png
 ---
 
@@ -178,7 +178,7 @@ Thank you for reading, and happy blogging! 🚀
 title: "[NestJS] Publishing a Custom Class Validator as an NPM Package"
 date: 2024-11-25 10:00:00 +0900
 categories: [NestJS]
-tags: [NestJS, Github, npm, class-validator]
+tags: [NestJS, GitHub, npm, class-validator]
 image: /assets/img/Nest.js.png
 ---
 

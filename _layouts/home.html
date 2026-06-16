@@ -5,111 +5,165 @@ refactor: true
 
 {% include lang.html %}
 
-{% assign pinned = site.posts | where: 'pin', 'true' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+{% assign visible_posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
+{% assign ai_posts = visible_posts | where_exp: 'post', 'post.categories contains "AI"' %}
+{% assign backend_posts = visible_posts | where_exp: 'post', 'post.categories contains "Backend"' %}
+{% assign project_posts = visible_posts | where_exp: 'post', 'post.categories contains "Projects"' %}
+{% assign lab_posts = visible_posts | where_exp: 'post', 'post.categories contains "OpenSource"' %}
+{% assign deep_posts = visible_posts | where_exp: 'post', 'post.categories contains "DeepDive"' %}
 
-{% assign posts = '' | split: '' %}
+<section class="lab-hero" aria-labelledby="lab-hero-title">
+  <div class="hero-kicker">Hoonapps Technical Lab</div>
+  <h1 id="lab-hero-title">AI 시대의 백엔드, 시스템, 제품 개발을 직접 검증해서 기록합니다.</h1>
+  <p>
+    매일 새로 등장하는 AI 기술을 실제로 써보고, 백엔드 엔지니어링의 깊은 개념은
+    운영 관점까지 내려가며, 새 프로젝트는 설계 결정과 실패 기록까지 남깁니다.
+  </p>
 
-<!-- Get pinned posts -->
+  <div class="hero-actions" aria-label="Primary sections">
+    <a href="{{ '/ai-radar/' | relative_url }}">AI 레이더</a>
+    <a href="{{ '/projects/' | relative_url }}">프로젝트 로그</a>
+    <a href="{{ '/categories/' | relative_url }}">기술 분류</a>
+  </div>
 
-{% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
-{% assign pinned_num = pinned.size | minus: offset %}
+  <dl class="hero-metrics">
+    <div>
+      <dt>Daily</dt>
+      <dd>AI 기술 감시</dd>
+    </div>
+    <div>
+      <dt>Weekly</dt>
+      <dd>Backend Deep Dive</dd>
+    </div>
+    <div>
+      <dt>Always</dt>
+      <dd>코드와 운영 증거 중심</dd>
+    </div>
+  </dl>
+</section>
 
-{% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
-    {% assign posts = posts | push: pinned[i] %}
-  {% endfor %}
-{% else %}
-  {% assign pinned_num = 0 %}
-{% endif %}
+<section class="editorial-grid" aria-label="Editorial direction">
+  <a class="editorial-item" href="{{ '/categories/ai/' | relative_url }}">
+    <span class="item-index">01</span>
+    <strong>AI Radar</strong>
+    <span>모델, 에이전트, MCP, RAG, 로컬 LLM, 오픈소스를 매일 추적합니다.</span>
+  </a>
+  <a class="editorial-item" href="{{ '/categories/backend/' | relative_url }}">
+    <span class="item-index">02</span>
+    <strong>Backend Core</strong>
+    <span>DB, 트랜잭션, 큐, 캐시, 네트워크, 관측성을 깊게 다룹니다.</span>
+  </a>
+  <a class="editorial-item" href="{{ '/categories/opensource/' | relative_url }}">
+    <span class="item-index">03</span>
+    <strong>Open Source Lab</strong>
+    <span>트렌딩 기술을 설치하고, 코드와 운영 가능성까지 리뷰합니다.</span>
+  </a>
+  <a class="editorial-item" href="{{ '/categories/projects/' | relative_url }}">
+    <span class="item-index">04</span>
+    <strong>Project Log</strong>
+    <span>새로운 작업의 설계 의도, 의사결정, 배포 과정을 남깁니다.</span>
+  </a>
+</section>
 
-<!-- Get default posts -->
+<section class="home-section" aria-labelledby="latest-title">
+  <div class="section-heading">
+    <p>Latest</p>
+    <h2 id="latest-title">최근 기록</h2>
+  </div>
 
-{% assign default_beg = offset | minus: pinned.size %}
-
-{% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
-{% endif %}
-
-{% assign default_num = paginator.posts | size | minus: pinned_num %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
-
-{% if default_num > 0 %}
-  {% for i in (default_beg..default_end) %}
-    {% assign posts = posts | push: default[i] %}
-  {% endfor %}
-{% endif %}
-
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in posts %}
-    <article class="card-wrapper card">
-      <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
-        {% assign card_body_col = '12' %}
-
-        {% if post.image %}
-          {% assign src = post.image.path | default: post.image %}
-          {% unless src contains '//' %}
-            {% assign src = post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
-          {% endunless %}
-
-          {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
-
-          {% assign lqip = null %}
-
-          {% if post.image.lqip %}
-            {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
-          {% endif %}
-
-          <div class="col-md-5">
-            <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
-          </div>
-
-          {% assign card_body_col = '7' %}
-        {% endif %}
-
-        <div class="col-md-{{ card_body_col }}">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>{% include post-description.html %}</p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                {% include datetime.html date=post.date lang=lang %}
-
-                <!-- categories -->
-                {% if post.categories.size > 0 %}
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    {% for category in post.categories %}
-                      {{ category }}
-                      {%- unless forloop.last -%},{%- endunless -%}
-                    {% endfor %}
-                  </span>
-                {% endif %}
-              </div>
-
-              {% if post.pin %}
-                <div class="pin ms-1">
-                  <i class="fas fa-thumbtack fa-fw"></i>
-                  <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
-                </div>
+  <div id="post-list" class="lab-post-list">
+    {% for post in visible_posts limit: 6 %}
+      <article class="lab-post-card">
+        <a href="{{ post.url | relative_url }}" class="post-preview">
+          <div class="post-card-main">
+            <div class="post-meta-line">
+              {% include datetime.html date=post.date lang=lang %}
+              {% if post.categories.size > 0 %}
+                <span>{{ post.categories | join: ' / ' }}</span>
               {% endif %}
             </div>
-            <!-- .post-meta -->
+            <h3>{{ post.title }}</h3>
+            <p>{% include post-description.html %}</p>
           </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  {% endfor %}
-</div>
-<!-- #post-list -->
+          {% if post.pin %}
+            <span class="post-pin">
+              <i class="fas fa-thumbtack fa-fw"></i>
+              고정
+            </span>
+          {% endif %}
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
 
-{% if paginator.total_pages > 1 %}
-  {% include post-paginator.html %}
-{% endif %}
+<section class="signal-board" aria-label="Focused reading paths">
+  <div class="signal-column">
+    <div class="section-heading compact">
+      <p>Radar</p>
+      <h2>AI와 오픈소스</h2>
+    </div>
+    <ul>
+      {% assign radar_posts = ai_posts | concat: lab_posts | uniq %}
+      {% for post in radar_posts limit: 5 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span>{% include datetime.html date=post.date lang=lang %}</span>
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ '/ai-radar/' | relative_url }}">AI Radar 운영체계부터 시작하기</a>
+          <span>새 글 준비 중</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="signal-column">
+    <div class="section-heading compact">
+      <p>Depth</p>
+      <h2>백엔드 딥다이브</h2>
+    </div>
+    <ul>
+      {% assign core_posts = deep_posts | concat: backend_posts | uniq %}
+      {% for post in core_posts limit: 5 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span>{% include datetime.html date=post.date lang=lang %}</span>
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ '/categories/backend/' | relative_url }}">Backend Core 카테고리 보기</a>
+          <span>새 글 준비 중</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="operating-model" aria-labelledby="operating-title">
+  <div>
+    <div class="section-heading compact">
+      <p>Operating Model</p>
+      <h2 id="operating-title">블로그 운영 원칙</h2>
+    </div>
+    <p>
+      단순 요약보다 직접 실행한 증거, 아키텍처 선택의 이유, 운영에서 터질 수 있는
+      실패 모드를 우선합니다. 좋은 글은 지식보다 판단력을 남겨야 합니다.
+    </p>
+  </div>
+  <ol>
+    <li>
+      <strong>기술은 직접 실행한다.</strong>
+      <span>README 요약이 아니라 설치, 예제, 한계, 대체재를 확인합니다.</span>
+    </li>
+    <li>
+      <strong>백엔드는 내부 동작까지 간다.</strong>
+      <span>API 사용법에서 멈추지 않고 DB, 네트워크, 런타임, 장애 지점을 봅니다.</span>
+    </li>
+    <li>
+      <strong>프로젝트는 결정 기록을 남긴다.</strong>
+      <span>무엇을 만들었는지보다 왜 그렇게 만들었는지를 추적합니다.</span>
+    </li>
+  </ol>
+</section>

@@ -108,6 +108,7 @@ A WebSocket is a communication protocol that provides full-duplex communication 
 
 2. **Initialize WebSocket in React**
 
+    {% raw %}
     ```tsx
     "use client"
 
@@ -231,6 +232,7 @@ A WebSocket is a communication protocol that provides full-duplex communication 
 
     export default Home
     ```
+    {% endraw %}
 
 ---
 

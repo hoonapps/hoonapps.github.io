@@ -12,8 +12,7 @@ title: 영문 아카이브
 ## 보존한 글
 
 {% for post in site.posts %}
-  {% assign year = post.date | date: "%Y" %}
-  {% if year < "2026" %}
+  {% if post.legacy %}
 - [{{ post.title }}]({{ post.url | relative_url }}) · {{ post.date | date: "%Y.%m.%d" }} · {{ post.categories | join: " / " }}
   {% endif %}
 {% endfor %}

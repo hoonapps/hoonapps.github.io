@@ -5,7 +5,7 @@ refactor: true
 
 {% include lang.html %}
 
-{% assign visible_posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
+{% assign visible_posts = site.posts | where_exp: 'post', 'post.hidden != true and post.legacy != true' %}
 {% assign ai_posts = visible_posts | where_exp: 'post', 'post.categories contains "AI"' %}
 {% assign backend_posts = visible_posts | where_exp: 'post', 'post.categories contains "Backend"' %}
 {% assign project_posts = visible_posts | where_exp: 'post', 'post.categories contains "Projects"' %}

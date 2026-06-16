@@ -1,6 +1,7 @@
 ---
 title: "[Nestjs] Setting Up a NestJS Monorepo with Docker"
 date: 2024-12-05 21:00:00 +0900
+legacy: true
 categories: [NestJS]
 tags: [NestJS, Docker, monorepo]
 image: /assets/img/Nest.js.png
@@ -250,5 +251,4 @@ Thank you for reading, and happy blogging! 🚀
 
 - [Nestjs Document](https://docs.nestjs.com/cli/monorepo)
 - [Sample Github](https://github.com/hoonapps/sample-nestjs-monorepo-docker)
-
 

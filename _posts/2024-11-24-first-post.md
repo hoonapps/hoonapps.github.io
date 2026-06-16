@@ -1,6 +1,7 @@
 ---
 title: "Starting My Development Blog"
 date: 2024-11-24 10:00:00 +0900
+legacy: true
 categories: [etc]
 tags: [TechBlog, TechJourney]
 image: /assets/img/posts/24.11/24.11.24.jpg
@@ -87,4 +88,3 @@ Thank you for your support and encouragement! 🙌
 블로그를 통해 만나는 분들과 **지식**을 나누고, 함께 성장해 나가고 싶습니다.  
 앞으로 많은 관심과 응원 부탁드립니다! 🙌
 -->
-

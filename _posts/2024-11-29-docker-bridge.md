@@ -1,6 +1,7 @@
 ---
 title: "Why 'localhost' Fails in Docker: Exploring Bridge Networks and Solutions"
 date: 2024-11-29 11:00:00 +0900
+legacy: true
 categories: [Docker]
 tags: [NestJS, Docker, Postgresql, bridge]
 image: /assets/img/docker.png

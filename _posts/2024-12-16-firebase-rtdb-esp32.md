@@ -1,6 +1,7 @@
 ---
 title: "Implementing Firebase RTDB Streaming with REST API on ESP32"
 date: 2024-12-16 21:00:00 +0900
+legacy: true
 categories: [ESP32]
 tags: [ESP32, RTDB, Firebase, Arduino, REST API, Streaming]
 image: /assets/img/firebase.png
@@ -374,5 +375,4 @@ Thank you for reading, and happy blogging! 🚀
 - [FirebaseClient Library](https://github.com/mobizt/FirebaseClient/blob/main/examples/RealtimeDatabase/Async/Callback/StreamConcurentcy/StreamConcurentcy.ino)
 - [Google Docs](https://firebase.google.com/docs/reference/rest/auth)
 - [Code Github](https://github.com/hoonapps/ESP32_Firebase_RestApi_Stream)
-
 

@@ -1,6 +1,7 @@
 ---
 title: "Comparing Round Robin and Least Connections in Nginx Load Balancing"
 date: 2024-12-10 21:00:00 +0900
+legacy: true
 categories: [NestJS]
 tags: [NestJS, Docker, Nginx, Round Robin, Least Connections, ELK]
 ---
@@ -258,5 +259,4 @@ Thank you for reading, and happy blogging! 🚀
 - [Reference](https://www.researchgate.net/publication/366834494_Load_Balancing_Analysis_Using_Round-Robin_and_Least-Connection_Algorithms_for_Server_Service_Response_Time#:~:text=research%20%5B17%5D.,Figure%201.)
 - [Reference](https://www.geeksforgeeks.org/network-load-balancing-round-robin-vs-least-connections/)
 - [Sample Github](https://github.com/hoonapps/nginx-balancer-algorithms-elk-test)
-
 

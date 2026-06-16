@@ -28,22 +28,11 @@
     {% endif %}
   </p>
 
-  <p>
-    {%- capture _platform -%}
-      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-    {%- endcapture -%}
-
-    {%- capture _theme -%}
-      <a
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="v{{ theme.version }}"
-        href="https://github.com/cotes2020/jekyll-theme-chirpy"
-        target="_blank"
-        rel="noopener"
-      >Chirpy</a>
-    {%- endcapture -%}
-
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+  <p class="lab-footer-meta">
+    <a href="{{ '/ai-radar/' | relative_url }}">AI Radar</a>
+    <span aria-hidden="true">·</span>
+    <a href="{{ '/backend/' | relative_url }}">Backend Core</a>
+    <span aria-hidden="true">·</span>
+    <a href="{{ '/projects/' | relative_url }}">Project Log</a>
   </p>
 </footer>

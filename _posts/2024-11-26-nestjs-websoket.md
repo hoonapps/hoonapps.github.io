@@ -1,6 +1,7 @@
 ---
 title: "[NestJS + NextJS] Building Real-Time Collaboration with WebSocket"
 date: 2024-11-26 10:00:00 +0900
+legacy: true
 categories: [NestJS]
 tags: [NestJS, NextJS, WebSocket, Real-Time, Markdown]
 image: /assets/img/posts/24.11/24.11.26.gif

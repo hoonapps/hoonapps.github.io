@@ -128,7 +128,6 @@ def is_relevant_hn(hit: dict[str, Any]) -> bool:
         [
             str(hit.get("title") or ""),
             str(hit.get("url") or ""),
-            str(hit.get("story_text") or ""),
         ]
     ).lower()
     return any(term in haystack for term in HN_RELEVANCE_TERMS)

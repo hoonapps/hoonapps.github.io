@@ -13,11 +13,10 @@ tabs:
   home: 홈
   categories: 카테고리
   tags: 태그
-  archives: 아카이브
-  about: 정보
+  archives: 전체 글
+  about: 소개
   ai-radar: AI
   backend: 백엔드
-  english-archive: 영문 아카이브
   projects: 프로젝트
 
 # the text displayed in the search bar & search results

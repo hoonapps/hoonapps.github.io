@@ -3,7 +3,7 @@ title: "AI Radar: agent authorization이 제품 경계가 되는 시점"
 date: 2026-06-17 14:50:00 +0900
 categories: [AI, OpenSource]
 tags: [ai, agent, mcp, authorization, security, llm, open-source, backend, ax]
-image: /assets/img/posts/2026/06/agent-deck-terminal-workspace.png
+image: /assets/img/posts/2026/06/arcade-secure-action-layer.png
 ---
 
 AI agent 이야기는 보통 모델 성능, prompt, workflow builder에서 시작한다. 그런데 실제 서비스에
@@ -21,6 +21,8 @@ AI agent 이야기는 보통 모델 성능, prompt, workflow builder에서 시�
 - 공식 발표: [Arcade Raises $60M to Become the Secure Action Layer Behind Every Production AI Agent](https://www.businesswire.com/news/home/20260615229631/en/Arcade-Raises-%2460M-to-Become-the-Secure-Action-Layer-Behind-Every-Production-AI-Agent)
 - 제품 설명: [Arcade.dev](https://www.arcade.dev/)
 - 오픈소스 framework: [ArcadeAI/arcade-mcp](https://github.com/arcadeai/arcade-mcp)
+
+대표 이미지는 Arcade 공식 사이트의 Open Graph 이미지를 사용했다.
 
 ## 핵심 메모
 

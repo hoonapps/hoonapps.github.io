@@ -44,9 +44,17 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        run: |
+          bundle exec jekyll clean
+          bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
+
+      - name: Check navigation cleanup
+        run: |
+          if grep -R -nE "영문 아카이브|/english-archive/|자동 수집 후보|tools/ai_radar.py가 수집한 후보|앞으로 정리할 주제|트랜잭션과 격리 수준|메시지 큐와 재시도|캐시와 동시성|Docker와 배포|관측성, 로그, 트레이싱|백엔드에서 AI 도구를 붙일 때의 구조|NestJS, Docker, 데이터베이스" _site; then
+            exit 1
+          fi
 
       - name: Test site
         run: |

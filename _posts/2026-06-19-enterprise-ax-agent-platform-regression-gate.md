@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 9단계: CI Regression Gate"
-date: 2026-06-19 18:52:00 +0900
+date: 2026-06-19 20:38:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, evaluation, ci, regression-gate, backend]
 ---

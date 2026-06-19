@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 10단계: Audit Event Export"
-date: 2026-06-19 19:24:00 +0900
+date: 2026-06-19 20:58:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, audit, jsonl, csv, backend]
 ---

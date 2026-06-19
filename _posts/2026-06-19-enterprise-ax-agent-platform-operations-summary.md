@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 11단계: Operations Summary API"
-date: 2026-06-19 19:58:00 +0900
+date: 2026-06-19 21:18:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, operations, dashboard, read-model, backend]
 ---

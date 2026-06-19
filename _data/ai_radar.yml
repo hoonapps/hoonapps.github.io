@@ -1,4 +1,4 @@
-generated_at: "2026-06-18T01:45:12+00:00"
+generated_at: "2026-06-19T02:08:47+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,62 +11,24 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "DietrichGebert/ponytail"
-    source: "github"
-    url: "https://github.com/DietrichGebert/ponytail"
-    summary: "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
-    reason: "new repo, topic:llm, created within 7d, stars:31903"
-    category: "open-source/fresh"
-    tags:
-      - "agent-skills"
-      - "ai-agents"
-      - "claude"
-      - "claude-code"
-      - "claude-code-plugin"
-      - "cursor-rules"
-      - "developer-tools"
-      - "llm"
-    stars: 31903
-    score: 90
-    verdict: "Watch"
-    captured_at: "2026-06-18"
-  - name: "omnigent-ai/omnigent"
-    source: "github"
-    url: "https://github.com/omnigent-ai/omnigent"
-    summary: "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policie..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:3524"
-    category: "open-source/updated"
-    tags:
-      - "agent-framework"
-      - "agent-governance"
-      - "agent-orchestration"
-      - "agents"
-      - "ai"
-      - "ai-agent"
-      - "ai-agents"
-      - "claude-code"
-    stars: 3524
-    score: 90
-    verdict: "Watch"
-    captured_at: "2026-06-18"
   - name: "Launch HN: Adam (YC W25) – Open-Source AI CAD"
     source: "hacker-news"
     url: "https://github.com/Adam-CAD/CADAM"
     summary: "Launch HN: Adam (YC W25) – Open-Source AI CAD"
-    reason: "query:LLM agent, points:154, comments:80"
+    reason: "query:LLM agent, points:206, comments:97"
     category: "discussion"
     tags:
       - "llm"
       - "agent"
     stars: 0
-    score: 80
+    score: 85
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:196229"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:197030"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -77,15 +39,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 196229
+    stars: 197030
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:149802"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:149824"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -94,15 +56,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 149802
+    stars: 149824
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Production-ready platform for agentic workflow development."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:145638"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:145756"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -113,15 +75,34 @@ candidates:
       - "automation"
       - "gemini"
       - "genai"
-    stars: 145638
+    stars: 145756
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
+  - name: "firecrawl/firecrawl"
+    source: "github"
+    url: "https://github.com/firecrawl/firecrawl"
+    summary: "The API to search, scrape, and interact with the web at scale. 🔥"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:134795"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "ai-agents"
+      - "ai-crawler"
+      - "ai-scraping"
+      - "ai-search"
+      - "crawler"
+      - "data-extraction"
+      - "html-to-markdown"
+    stars: 134795
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-19"
   - name: "vllm-project/vllm"
     source: "github"
     url: "https://github.com/vllm-project/vllm"
     summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:83197"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:83283"
     category: "open-source/updated"
     tags:
       - "amd"
@@ -132,15 +113,15 @@ candidates:
       - "gpt"
       - "gpt-oss"
       - "inference"
-    stars: 83197
+    stars: 83283
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
   - name: "infiniflow/ragflow"
     source: "github"
     url: "https://github.com/infiniflow/ragflow"
     summary: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:83045"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:83138"
     category: "open-source/updated"
     tags:
       - "agentic-ai"
@@ -151,34 +132,34 @@ candidates:
       - "context-engine"
       - "context-management"
       - "llm-apps"
-    stars: 83045
+    stars: 83138
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
-  - name: "safishamsi/graphify"
+    captured_at: "2026-06-19"
+  - name: "lobehub/lobehub"
     source: "github"
-    url: "https://github.com/safishamsi/graphify"
-    summary: "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:68730"
+    url: "https://github.com/lobehub/lobehub"
+    summary: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:78824"
     category: "open-source/updated"
     tags:
-      - "antigravity"
-      - "claude-code"
-      - "codex"
-      - "gemini"
-      - "graphrag"
-      - "knowledge-graph"
-      - "leiden"
-      - "openclaw"
-    stars: 68730
+      - "agent"
+      - "agent-collaboration"
+      - "agent-harness"
+      - "ai"
+      - "cao"
+      - "chatgpt"
+      - "chief-agent-operator"
+      - "claude"
+    stars: 78824
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
   - name: "nexu-io/open-design"
     source: "github"
     url: "https://github.com/nexu-io/open-design"
     summary: "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · video..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:66753"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:67473"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -189,15 +170,15 @@ candidates:
       - "claude-design"
       - "codex-design"
       - "coding-agents"
-    stars: 66753
+    stars: 67473
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
   - name: "Mintplex-Labs/anything-llm"
     source: "github"
     url: "https://github.com/Mintplex-Labs/anything-llm"
     summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:61743"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:61787"
     category: "open-source/updated"
     tags:
       - "agent-harness"
@@ -208,15 +189,15 @@ candidates:
       - "local-ai"
       - "localai"
       - "multimodal"
-    stars: 61743
+    stars: 61787
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, Ver..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:50728"
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:50821"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -227,10 +208,29 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 50728
+    stars: 50821
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-18"
+    captured_at: "2026-06-19"
+  - name: "CherryHQ/cherry-studio"
+    source: "github"
+    url: "https://github.com/CherryHQ/cherry-studio"
+    summary: "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:47523"
+    category: "open-source/updated"
+    tags:
+      - "agent-skills"
+      - "ai-agent"
+      - "awesome-skills"
+      - "claude-code"
+      - "codex"
+      - "deepseek"
+      - "hermes-agent"
+      - "openclaw"
+    stars: 47523
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-19"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

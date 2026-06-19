@@ -110,22 +110,18 @@ code graph가 만능은 아니다.
 어떤 path와 symbol을 읽을 수 있는지 정책이 필요하다. 특히 회사 코드베이스에서는 "agent가 읽을 수
 있는 코드"와 "팀원이 볼 수 있는 코드"가 항상 같지 않다.
 
-## Agent Deck에 가져올 힌트
+## 도구로 볼 때의 평가 기준
 
-Agent Deck을 계속 만든다면 이 방향은 꽤 참고할 만하다.
+이런 도구를 볼 때는 "그래프가 예뻐 보이는가"보다 실제 작업에서 판단을 줄여주는지를 봐야 한다.
 
-지금까지는 session, review, provider preflight, model 선택 같은 실행 전후의 흐름을 다뤘다. 다음
-단계로는 agent가 repo를 어떻게 이해했는지 보여주는 화면이 필요할 수 있다.
+- 변경 영향 범위를 사람이 납득할 수 있게 보여주는가
+- 관계를 찾기 위해 읽는 파일 수가 실제로 줄어드는가
+- 틀린 연결과 확실한 연결을 구분해서 표시하는가
+- 오래된 index나 누락된 context를 경고하는가
+- MCP tool이 너무 많아져서 오히려 agent 선택을 흐리게 만들지는 않는가
 
-- agent가 읽은 파일 목록
-- agent가 근거로 삼은 symbol/call chain
-- 변경 영향이 있다고 판단한 route/topic/job
-- reviewer agent가 다시 확인한 graph query
-- stale context나 누락 가능성이 있는 경고
-
-이런 정보가 있으면 "agent가 뭘 보고 이런 결론을 냈는지"를 사람이 훨씬 빨리 판단할 수 있다.
-결국 좋은 agent cockpit은 실행 로그만 보여주는 화면이 아니라, agent의 context 선택을 검토하는
-화면이 되어야 한다.
+code graph가 유용하려면 agent에게 더 많은 정보를 던지는 도구가 아니라, 읽어야 할 정보를 좁혀주는
+도구여야 한다.
 
 ## 판단
 

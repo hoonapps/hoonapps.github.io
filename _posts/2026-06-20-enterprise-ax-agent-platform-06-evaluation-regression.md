@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 06: Evaluation과 회귀 게이트"
-date: 2026-06-20 00:54:00 +0900
+date: 2026-06-20 00:06:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, evaluation, regression-test, ci, backend]
 description: "Agent 답변 품질을 EvaluationRun으로 기록하고 expected facts 기반 회귀 평가를 CI gate로 연결했다."

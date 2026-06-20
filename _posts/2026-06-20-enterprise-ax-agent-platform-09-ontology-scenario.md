@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 09: Ontology Graph와 Scenario Runbook"
-date: 2026-06-20 00:51:00 +0900
+date: 2026-06-20 00:09:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, ontology, scenario, runbook, backend]
 description: "문서 metadata에서 ontology graph read model을 만들고 운영 시나리오를 실행 가능한 runbook으로 모델링했다."

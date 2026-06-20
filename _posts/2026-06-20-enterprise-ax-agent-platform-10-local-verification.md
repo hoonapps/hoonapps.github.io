@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 10: 로컬 운영 검증 흐름"
-date: 2026-06-20 00:50:00 +0900
+date: 2026-06-20 00:10:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, local-dev, testing, docker, backend]
 description: "서버 실행, demo flow, regression eval, Docker build, Postgres migration 검증까지 로컬에서 반복 가능한 흐름으로 묶었다."

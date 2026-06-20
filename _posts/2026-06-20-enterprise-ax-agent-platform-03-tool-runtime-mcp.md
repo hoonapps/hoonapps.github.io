@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 03: Tool Runtime과 MCP 경계"
-date: 2026-06-20 00:57:00 +0900
+date: 2026-06-20 00:03:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, tool-runtime, mcp, json-rpc, backend]
 description: "Agent 추론과 외부 tool 실행 사이에 registry, scope, policy, audit를 통과하는 runtime 경계를 만들었다."

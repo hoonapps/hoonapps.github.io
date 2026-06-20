@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 02: 문서 적재와 RAG 전략"
-date: 2026-06-20 00:58:00 +0900
+date: 2026-06-20 00:02:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, rag, retrieval, vector-db, backend]
 description: "문서 적재, chunking, query classification, retrieval strategy, citation을 하나의 실행 경로로 묶었다."

@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 04: 승인, 권한, 멱등성"
-date: 2026-06-20 00:56:00 +0900
+date: 2026-06-20 00:04:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, approval, security, idempotency, backend]
 description: "쓰기성 tool call을 승인 리소스로 승격하고 API key scope, tenant guard, Idempotency-Key를 연결했다."

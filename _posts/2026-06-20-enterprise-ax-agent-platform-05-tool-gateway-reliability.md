@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 05: Tool Gateway 신뢰성"
-date: 2026-06-20 00:55:00 +0900
+date: 2026-06-20 00:05:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, reliability, retry, circuit-breaker, backend]
 description: "외부 tool 호출에 timeout, retry, fallback, circuit breaker를 적용하고 gateway 상태를 운영 API로 노출했다."

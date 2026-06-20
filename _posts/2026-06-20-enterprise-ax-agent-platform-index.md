@@ -1,10 +1,9 @@
 ---
 title: "Enterprise AX Agent Platform: 운영 가능한 Agent 백엔드 설계 기록"
-date: 2026-06-20 01:00:00 +0900
+date: 2026-06-20 00:00:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, backend, architecture, rag, operations]
 description: "사내 지식 검색, 업무 자동화, 정책 감사, 실행 추적을 하나의 흐름으로 묶은 Agent 백엔드 구현 기록이다."
-pin: true
 ---
 
 LLM Agent를 제품으로 만들 때 가장 먼저 분리해야 하는 것은 모델 호출과 운영 책임이다.

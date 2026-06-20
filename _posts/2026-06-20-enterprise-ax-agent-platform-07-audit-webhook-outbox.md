@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 07: Audit Trail과 Webhook Outbox"
-date: 2026-06-20 00:53:00 +0900
+date: 2026-06-20 00:07:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, audit, webhook, outbox, backend]
 description: "Agent 실행, 승인, 평가, 정책 결과를 audit event로 남기고 webhook delivery outbox로 외부 연동을 분리했다."

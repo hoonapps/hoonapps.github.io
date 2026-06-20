@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 01: 아키텍처와 DB 경계"
-date: 2026-06-20 00:59:00 +0900
+date: 2026-06-20 00:01:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, backend, architecture, database, fastapi]
 description: "Agent 실행을 운영 리소스로 다루기 위해 FastAPI, use case, domain policy, repository adapter를 분리했다."

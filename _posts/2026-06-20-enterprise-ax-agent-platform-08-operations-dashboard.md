@@ -1,6 +1,6 @@
 ---
 title: "Enterprise AX Agent Platform 08: 운영 Read Model과 Dashboard"
-date: 2026-06-20 00:52:00 +0900
+date: 2026-06-20 00:08:00 +0900
 categories: [Projects, AI]
 tags: [ax, ai-agent, operations, dashboard, read-model, backend]
 description: "운영자가 봐야 하는 지표를 summary, usage, SLO, alerts, incident snapshot API와 dashboard로 묶었다."

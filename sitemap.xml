@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agentic-resource-discovery/</loc>
+      
+        <lastmod>2026-06-21T22:45:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-10-local-verification/</loc>
+      
+        <lastmod>2026-06-20T00:10:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-09-ontology-scenario/</loc>
+      
+        <lastmod>2026-06-20T00:09:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-08-operations-dashboard/</loc>
+      
+        <lastmod>2026-06-20T00:08:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-07-audit-webhook-outbox/</loc>
+      
+        <lastmod>2026-06-20T00:07:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-06-evaluation-regression/</loc>
+      
+        <lastmod>2026-06-20T00:06:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-05-tool-gateway-reliability/</loc>
+      
+        <lastmod>2026-06-20T00:05:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-04-approval-security/</loc>
+      
+        <lastmod>2026-06-20T00:04:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-03-tool-runtime-mcp/</loc>
+      
+        <lastmod>2026-06-20T00:03:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-02-rag-pipeline/</loc>
+      
+        <lastmod>2026-06-20T00:02:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-01-architecture-db/</loc>
+      
+        <lastmod>2026-06-20T00:01:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/enterprise-ax-agent-platform-index/</loc>
+      
+        <lastmod>2026-06-20T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/ai-code-graph-context-layer/</loc>
+      
+        <lastmod>2026-06-19T17:05:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/ai-chemist-agent-boundary/</loc>
+      
+        <lastmod>2026-06-18T11:15:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/ai-agent-authorization-runtime/</loc>
+      
+        <lastmod>2026-06-17T14:50:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-provider-preflight/</loc>
+      
+        <lastmod>2026-06-16T18:31:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-trend-snapshot-export/</loc>
+      
+        <lastmod>2026-06-16T18:08:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-trend-time-windows/</loc>
+      
+        <lastmod>2026-06-16T17:59:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-trend-filters/</loc>
+      
+        <lastmod>2026-06-16T17:47:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-review-trends/</loc>
+      
+        <lastmod>2026-06-16T17:38:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-review-inbox/</loc>
+      
+        <lastmod>2026-06-16T17:28:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-finding-status-markers/</loc>
+      
+        <lastmod>2026-06-16T17:22:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-session-status-markers/</loc>
+      
+        <lastmod>2026-06-16T17:12:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-structured-review-findings/</loc>
+      
+        <lastmod>2026-06-16T17:01:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-dashboard-filters-exports/</loc>
+      
+        <lastmod>2026-06-16T16:49:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-web-dashboard/</loc>
+      
+        <lastmod>2026-06-16T16:40:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-session-replay-findings/</loc>
+      
+        <lastmod>2026-06-16T16:29:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-transcript-blog-flow/</loc>
+      
+        <lastmod>2026-06-16T16:15:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-second-iteration/</loc>
+      
+        <lastmod>2026-06-16T15:55:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/agent-deck-project-note/</loc>
+      
+        <lastmod>2026-06-16T15:10:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/ai-agent-trends-12/</loc>
+      
+        <lastmod>2026-06-16T14:10:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/backend-core-roadmap/</loc>
+      
+        <lastmod>2026-06-16T13:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/open-source-lab-protocol/</loc>
+      
+        <lastmod>2026-06-16T12:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/transactional-outbox/</loc>
+      
+        <lastmod>2026-06-16T11:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/ai-radar-operating-system/</loc>
+      
+        <lastmod>2026-06-16T10:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/blog-reboot/</loc>
+      
+        <lastmod>2026-06-16T09:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/firebase-rtdb-esp32/</loc>
+      
+        <lastmod>2024-12-16T21:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/nginx-algorithms/</loc>
+      
+        <lastmod>2024-12-10T21:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/nestjs-monorepo/</loc>
+      
+        <lastmod>2024-12-05T21:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/generics/</loc>
+      
+        <lastmod>2024-12-01T00:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/docker-bridge/</loc>
+      
+        <lastmod>2024-11-29T11:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/nestjs-websoket/</loc>
+      
+        <lastmod>2024-11-26T10:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/kr-validators/</loc>
+      
+        <lastmod>2024-11-25T10:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/second/</loc>
+      
+        <lastmod>2024-11-24T10:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>https://hoonapps.github.io/posts/first-post/</loc>
+      
+        <lastmod>2024-11-24T10:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+</urlset>

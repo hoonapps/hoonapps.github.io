@@ -1,4 +1,4 @@
-generated_at: "2026-06-22T01:42:55+00:00"
+generated_at: "2026-06-23T01:25:31+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -23,62 +23,39 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-06-22"
+    captured_at: "2026-06-23"
   - name: "Building reliable agentic AI systems"
     source: "hacker-news"
     url: "https://martinfowler.com/articles/reliable-llm-bayer.html"
     summary: "Building reliable agentic AI systems"
-    reason: "query:LLM agent, points:180, comments:47"
+    reason: "query:LLM agent, points:194, comments:49"
     category: "discussion"
     tags:
       - "llm"
       - "agent"
     stars: 0
-    score: 80
+    score: 81
     verdict: "Watch"
-    captured_at: "2026-06-22"
-  - name: "rebel0789/codexpro"
-    source: "github"
-    url: "https://github.com/rebel0789/codexpro"
-    summary: "Use ChatGPT Developer Mode as a local coding agent for your repo through MCP."
-    reason: "new repo, topic:mcp, created within 7d, stars:624"
-    category: "open-source/fresh"
+    captured_at: "2026-06-23"
+  - name: "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps"
+    source: "hacker-news"
+    url: "https://tester.army"
+    summary: "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps"
+    reason: "query:AI coding tool, points:130, comments:68"
+    category: "discussion"
     tags:
-      - "apps-sdk"
-      - "chatgpt"
-      - "cloudflare-tunnel"
-      - "codex"
-      - "local-development"
-      - "mcp"
-      - "ngrok"
-    stars: 624
-    score: 79
+      - "ai"
+      - "coding"
+      - "tool"
+    stars: 0
+    score: 76
     verdict: "Watch"
-    captured_at: "2026-06-22"
-  - name: "affaan-m/ECC"
-    source: "github"
-    url: "https://github.com/affaan-m/ECC"
-    summary: "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:219353"
-    category: "open-source/updated"
-    tags:
-      - "ai-agents"
-      - "anthropic"
-      - "claude"
-      - "claude-code"
-      - "developer-tools"
-      - "llm"
-      - "mcp"
-      - "productivity"
-    stars: 219353
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-22"
+    captured_at: "2026-06-23"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:199035"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:199969"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -89,15 +66,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 199035
+    stars: 199969
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-22"
+    captured_at: "2026-06-23"
   - name: "n8n-io/n8n"
     source: "github"
     url: "https://github.com/n8n-io/n8n"
     summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:193525"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:193655"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -108,15 +85,15 @@ candidates:
       - "development"
       - "integration-framework"
       - "integrations"
-    stars: 193525
+    stars: 193655
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-22"
+    captured_at: "2026-06-23"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:149910"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:149953"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -125,15 +102,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 149910
+    stars: 149953
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-22"
+    captured_at: "2026-06-23"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Production-ready platform for agentic workflow development."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:146071"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:146176"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -144,34 +121,34 @@ candidates:
       - "automation"
       - "gemini"
       - "genai"
-    stars: 146071
+    stars: 146176
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-22"
-  - name: "microsoft/generative-ai-for-beginners"
+    captured_at: "2026-06-23"
+  - name: "langchain-ai/langchain"
     source: "github"
-    url: "https://github.com/microsoft/generative-ai-for-beginners"
-    summary: "21 Lessons, Get Started Building with Generative AI"
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:112190"
+    url: "https://github.com/langchain-ai/langchain"
+    summary: "The agent engineering platform."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:139905"
     category: "open-source/updated"
     tags:
+      - "agents"
       - "ai"
-      - "azure"
+      - "ai-agents"
+      - "anthropic"
       - "chatgpt"
-      - "dall-e"
-      - "generative-ai"
-      - "generativeai"
-      - "gpt"
-      - "language-model"
-    stars: 112190
+      - "deepagents"
+      - "enterprise"
+      - "framework"
+    stars: 139905
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-22"
+    captured_at: "2026-06-23"
   - name: "vllm-project/vllm"
     source: "github"
     url: "https://github.com/vllm-project/vllm"
     summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:83495"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:83583"
     category: "open-source/updated"
     tags:
       - "amd"
@@ -182,34 +159,15 @@ candidates:
       - "gpt"
       - "gpt-oss"
       - "inference"
-    stars: 83495
+    stars: 83583
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-22"
-  - name: "infiniflow/ragflow"
-    source: "github"
-    url: "https://github.com/infiniflow/ragflow"
-    summary: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:83295"
-    category: "open-source/updated"
-    tags:
-      - "agentic-ai"
-      - "agentic-retrieval"
-      - "agentic-search"
-      - "ai"
-      - "ai-agents"
-      - "context-engine"
-      - "context-management"
-      - "llm-apps"
-    stars: 83295
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-22"
+    captured_at: "2026-06-23"
   - name: "lobehub/lobehub"
     source: "github"
     url: "https://github.com/lobehub/lobehub"
     summary: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:78939"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:78967"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -220,10 +178,48 @@ candidates:
       - "chatgpt"
       - "chief-agent-operator"
       - "claude"
-    stars: 78939
+    stars: 78967
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-22"
+    captured_at: "2026-06-23"
+  - name: "nexu-io/open-design"
+    source: "github"
+    url: "https://github.com/nexu-io/open-design"
+    summary: "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · video..."
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:69249"
+    category: "open-source/updated"
+    tags:
+      - "agent-skills"
+      - "ai-agents"
+      - "ai-design"
+      - "byok"
+      - "claude-code-for-design"
+      - "claude-design"
+      - "codex-design"
+      - "coding-agents"
+    stars: 69249
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-23"
+  - name: "BerriAI/litellm"
+    source: "github"
+    url: "https://github.com/BerriAI/litellm"
+    summary: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, Ver..."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:51157"
+    category: "open-source/updated"
+    tags:
+      - "ai-gateway"
+      - "anthropic"
+      - "azure-openai"
+      - "bedrock"
+      - "gateway"
+      - "langchain"
+      - "litellm"
+      - "llm"
+    stars: 51157
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-23"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

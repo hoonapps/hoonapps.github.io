@@ -1,4 +1,4 @@
-generated_at: "2026-06-23T01:25:31+00:00"
+generated_at: "2026-06-24T00:13:30+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -23,12 +23,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
   - name: "Building reliable agentic AI systems"
     source: "hacker-news"
     url: "https://martinfowler.com/articles/reliable-llm-bayer.html"
     summary: "Building reliable agentic AI systems"
-    reason: "query:LLM agent, points:194, comments:49"
+    reason: "query:LLM agent, points:195, comments:49"
     category: "discussion"
     tags:
       - "llm"
@@ -36,7 +36,7 @@ candidates:
     stars: 0
     score: 81
     verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
   - name: "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps"
     source: "hacker-news"
     url: "https://tester.army"
@@ -50,12 +50,12 @@ candidates:
     stars: 0
     score: 76
     verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:199969"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:200919"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -66,34 +66,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 199969
+    stars: 200919
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-23"
-  - name: "n8n-io/n8n"
-    source: "github"
-    url: "https://github.com/n8n-io/n8n"
-    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:193655"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "apis"
-      - "automation"
-      - "cli"
-      - "data-flow"
-      - "development"
-      - "integration-framework"
-      - "integrations"
-    stars: 193655
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:149953"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:149988"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -102,15 +83,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 149953
+    stars: 149988
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Production-ready platform for agentic workflow development."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:146176"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:146321"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -121,34 +102,15 @@ candidates:
       - "automation"
       - "gemini"
       - "genai"
-    stars: 146176
+    stars: 146321
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-23"
-  - name: "langchain-ai/langchain"
-    source: "github"
-    url: "https://github.com/langchain-ai/langchain"
-    summary: "The agent engineering platform."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:139905"
-    category: "open-source/updated"
-    tags:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "deepagents"
-      - "enterprise"
-      - "framework"
-    stars: 139905
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
   - name: "vllm-project/vllm"
     source: "github"
     url: "https://github.com/vllm-project/vllm"
     summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:83583"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:83656"
     category: "open-source/updated"
     tags:
       - "amd"
@@ -159,34 +121,15 @@ candidates:
       - "gpt"
       - "gpt-oss"
       - "inference"
-    stars: 83583
+    stars: 83656
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-23"
-  - name: "lobehub/lobehub"
-    source: "github"
-    url: "https://github.com/lobehub/lobehub"
-    summary: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:78967"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "agent-collaboration"
-      - "agent-harness"
-      - "ai"
-      - "cao"
-      - "chatgpt"
-      - "chief-agent-operator"
-      - "claude"
-    stars: 78967
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
   - name: "nexu-io/open-design"
     source: "github"
     url: "https://github.com/nexu-io/open-design"
     summary: "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · video..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:69249"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:70037"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -197,15 +140,53 @@ candidates:
       - "claude-design"
       - "codex-design"
       - "coding-agents"
-    stars: 69249
+    stars: 70037
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
+  - name: "Mintplex-Labs/anything-llm"
+    source: "github"
+    url: "https://github.com/Mintplex-Labs/anything-llm"
+    summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:61984"
+    category: "open-source/updated"
+    tags:
+      - "agent-harness"
+      - "agentic-ai"
+      - "ai-agents"
+      - "hermes-agent"
+      - "llm"
+      - "local-ai"
+      - "localai"
+      - "multimodal"
+    stars: 61984
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-24"
+  - name: "DietrichGebert/ponytail"
+    source: "github"
+    url: "https://github.com/DietrichGebert/ponytail"
+    summary: "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:52418"
+    category: "open-source/updated"
+    tags:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "cursor-rules"
+      - "developer-tools"
+      - "llm"
+    stars: 52418
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-24"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, Ver..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:51157"
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:51297"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -216,10 +197,29 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 51157
+    stars: 51297
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-23"
+    captured_at: "2026-06-24"
+  - name: "siyuan-note/siyuan"
+    source: "github"
+    url: "https://github.com/siyuan-note/siyuan"
+    summary: "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:44577"
+    category: "open-source/updated"
+    tags:
+      - "ai-agent"
+      - "digital-garden"
+      - "electron"
+      - "knowledge-base"
+      - "knowledge-graph"
+      - "local-first"
+      - "markdown"
+      - "note-taking"
+    stars: 44577
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-24"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

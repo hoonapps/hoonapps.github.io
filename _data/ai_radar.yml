@@ -1,4 +1,4 @@
-generated_at: "2026-06-25T01:28:58+00:00"
+generated_at: "2026-06-26T01:32:26+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,24 +11,32 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "sums001/Windows-Copilot-API"
-    source: "github"
-    url: "https://github.com/sums001/Windows-Copilot-API"
-    summary: "Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing."
-    reason: "new repo, topic:llm, created within 7d, stars:663"
-    category: "open-source/fresh"
+  - name: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
+    source: "hacker-news"
+    url: "https://github.com/inkeep/open-knowledge"
+    summary: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
+    reason: "query:LLM agent, points:199, comments:90"
+    category: "discussion"
     tags:
-      - "ai"
-      - "ai-agents"
-      - "api"
-      - "copilot"
       - "llm"
-      - "microsoft-copilot"
-      - "openai"
-    stars: 663
-    score: 81
+      - "agent"
+    stars: 0
+    score: 85
     verdict: "Watch"
-    captured_at: "2026-06-25"
+    captured_at: "2026-06-26"
+  - name: "GLM-5.2 is a step change for open agents"
+    source: "hacker-news"
+    url: "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open"
+    summary: "GLM-5.2 is a step change for open agents"
+    reason: "query:LLM agent, points:350, comments:208"
+    category: "discussion"
+    tags:
+      - "llm"
+      - "agent"
+    stars: 0
+    score: 85
+    verdict: "Watch"
+    captured_at: "2026-06-26"
   - name: "Building reliable agentic AI systems"
     source: "hacker-news"
     url: "https://martinfowler.com/articles/reliable-llm-bayer.html"
@@ -41,26 +49,12 @@ candidates:
     stars: 0
     score: 81
     verdict: "Watch"
-    captured_at: "2026-06-25"
-  - name: "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps"
-    source: "hacker-news"
-    url: "https://tester.army"
-    summary: "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps"
-    reason: "query:AI coding tool, points:130, comments:68"
-    category: "discussion"
-    tags:
-      - "ai"
-      - "coding"
-      - "tool"
-    stars: 0
-    score: 76
-    verdict: "Watch"
-    captured_at: "2026-06-25"
+    captured_at: "2026-06-26"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:202076"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:203090"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -71,15 +65,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 202076
+    stars: 203090
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-25"
+    captured_at: "2026-06-26"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:150042"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:150093"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -88,15 +82,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 150042
+    stars: 150093
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-25"
+    captured_at: "2026-06-26"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Production-ready platform for agentic workflow development."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:146474"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:146579"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -107,72 +101,72 @@ candidates:
       - "automation"
       - "gemini"
       - "genai"
-    stars: 146474
+    stars: 146579
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-25"
-  - name: "langchain-ai/langchain"
+    captured_at: "2026-06-26"
+  - name: "farion1231/cc-switch"
     source: "github"
-    url: "https://github.com/langchain-ai/langchain"
-    summary: "The agent engineering platform."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:140113"
+    url: "https://github.com/farion1231/cc-switch"
+    summary: "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:108486"
     category: "open-source/updated"
     tags:
-      - "agents"
+      - "ai-tools"
+      - "claude-code"
+      - "codex"
+      - "desktop-app"
+      - "hermes"
+      - "hermes-agent"
+      - "mcp"
+      - "minimax"
+    stars: 108486
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-26"
+  - name: "infiniflow/ragflow"
+    source: "github"
+    url: "https://github.com/infiniflow/ragflow"
+    summary: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:83638"
+    category: "open-source/updated"
+    tags:
+      - "agentic-ai"
+      - "agentic-retrieval"
+      - "agentic-search"
       - "ai"
       - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "deepagents"
-      - "enterprise"
-      - "framework"
-    stars: 140113
+      - "context-engine"
+      - "context-management"
+      - "llm-apps"
+    stars: 83638
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-25"
-  - name: "vllm-project/vllm"
+    captured_at: "2026-06-26"
+  - name: "DietrichGebert/ponytail"
     source: "github"
-    url: "https://github.com/vllm-project/vllm"
-    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:84081"
+    url: "https://github.com/DietrichGebert/ponytail"
+    summary: "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:58130"
     category: "open-source/updated"
     tags:
-      - "amd"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "deepseek-v3"
-      - "gpt"
-      - "gpt-oss"
-      - "inference"
-    stars: 84081
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-25"
-  - name: "Mintplex-Labs/anything-llm"
-    source: "github"
-    url: "https://github.com/Mintplex-Labs/anything-llm"
-    summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:62044"
-    category: "open-source/updated"
-    tags:
-      - "agent-harness"
-      - "agentic-ai"
+      - "agent-skills"
       - "ai-agents"
-      - "hermes-agent"
+      - "claude"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "cursor-rules"
+      - "developer-tools"
       - "llm"
-      - "local-ai"
-      - "localai"
-      - "multimodal"
-    stars: 62044
+    stars: 58130
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-25"
+    captured_at: "2026-06-26"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, Ver..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:51424"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:51573"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -183,30 +177,34 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 51424
+    stars: 51573
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-25"
-  - name: "aaif-goose/goose"
+    captured_at: "2026-06-26"
+  - name: "CherryHQ/cherry-studio"
     source: "github"
-    url: "https://github.com/aaif-goose/goose"
-    summary: "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:50142"
+    url: "https://github.com/CherryHQ/cherry-studio"
+    summary: "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:47799"
     category: "open-source/updated"
     tags:
-      - "acp"
-      - "ai"
-      - "ai-agents"
-      - "mcp"
-    stars: 50142
+      - "agent-skills"
+      - "ai-agent"
+      - "awesome-skills"
+      - "claude-code"
+      - "codex"
+      - "deepseek"
+      - "hermes-agent"
+      - "openclaw"
+    stars: 47799
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-25"
+    captured_at: "2026-06-26"
   - name: "asgeirtj/system_prompts_leaks"
     source: "github"
     url: "https://github.com/asgeirtj/system_prompts_leaks"
     summary: "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash,..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:45744"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:46059"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -217,10 +215,10 @@ candidates:
       - "chatgpt"
       - "claude"
       - "claude-code"
-    stars: 45744
+    stars: 46059
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-25"
+    captured_at: "2026-06-26"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

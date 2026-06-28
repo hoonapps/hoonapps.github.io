@@ -1,4 +1,4 @@
-generated_at: "2026-06-27T01:24:48+00:00"
+generated_at: "2026-06-28T00:17:30+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,11 +11,24 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
+  - name: "Show HN: Smart model routing directly in Claude, Codex and Cursor"
+    source: "hacker-news"
+    url: "https://github.com/workweave/router"
+    summary: "Show HN: Smart model routing directly in Claude, Codex and Cursor"
+    reason: "query:LLM agent, points:201, comments:108"
+    category: "discussion"
+    tags:
+      - "llm"
+      - "agent"
+    stars: 0
+    score: 85
+    verdict: "Watch"
+    captured_at: "2026-06-28"
   - name: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
     source: "hacker-news"
     url: "https://github.com/inkeep/open-knowledge"
     summary: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
-    reason: "query:LLM agent, points:362, comments:168"
+    reason: "query:LLM agent, points:372, comments:170"
     category: "discussion"
     tags:
       - "llm"
@@ -23,12 +36,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-06-27"
+    captured_at: "2026-06-28"
   - name: "GLM-5.2 is a step change for open agents"
     source: "hacker-news"
     url: "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open"
     summary: "GLM-5.2 is a step change for open agents"
-    reason: "query:LLM agent, points:361, comments:217"
+    reason: "query:LLM agent, points:364, comments:220"
     category: "discussion"
     tags:
       - "llm"
@@ -36,7 +49,7 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-06-27"
+    captured_at: "2026-06-28"
   - name: "Building reliable agentic AI systems"
     source: "hacker-news"
     url: "https://martinfowler.com/articles/reliable-llm-bayer.html"
@@ -49,39 +62,64 @@ candidates:
     stars: 0
     score: 81
     verdict: "Watch"
-    captured_at: "2026-06-27"
+    captured_at: "2026-06-28"
   - name: "Show HN: Bible as RAG Database"
     source: "hacker-news"
     url: "https://www.crosscanon.com/"
     summary: "Show HN: Bible as RAG Database"
-    reason: "query:RAG vector database, points:152, comments:90"
+    reason: "query:RAG vector database, points:159, comments:91"
     category: "discussion"
     tags:
       - "rag"
       - "vector"
       - "database"
     stars: 0
+    score: 81
+    verdict: "Watch"
+    captured_at: "2026-06-28"
+  - name: "winsznx/theeleven"
+    source: "github"
+    url: "https://github.com/winsznx/theeleven"
+    summary: "Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking."
+    reason: "new repo, topic:mcp, created within 7d, stars:636"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "defi"
+      - "eip-3009"
+      - "erc-8257"
+      - "football"
+      - "foundry"
+      - "gasless"
+      - "mcp"
+    stars: 636
     score: 80
     verdict: "Watch"
-    captured_at: "2026-06-27"
-  - name: "Show HN: Smart model routing directly in Claude, Codex and Cursor"
-    source: "hacker-news"
-    url: "https://github.com/workweave/router"
-    summary: "Show HN: Smart model routing directly in Claude, Codex and Cursor"
-    reason: "query:LLM agent, points:141, comments:88"
-    category: "discussion"
+    captured_at: "2026-06-28"
+  - name: "benchflow-ai/awesome-evals"
+    source: "github"
+    url: "https://github.com/benchflow-ai/awesome-evals"
+    summary: "A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, benchmarks. Maintained by BenchFlow."
+    reason: "new repo, topic:llm, created within 7d, stars:531"
+    category: "open-source/fresh"
     tags:
+      - "agent-evaluation"
+      - "ai-agents"
+      - "awesome"
+      - "awesome-list"
+      - "benchmarks"
+      - "evals"
       - "llm"
-      - "agent"
-    stars: 0
-    score: 78
+      - "llm-evaluation"
+    stars: 531
+    score: 76
     verdict: "Watch"
-    captured_at: "2026-06-27"
+    captured_at: "2026-06-28"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:203795"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:204355"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -92,15 +130,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 203795
+    stars: 204355
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-27"
+    captured_at: "2026-06-28"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:150114"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:150136"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -109,72 +147,34 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 150114
+    stars: 150136
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-27"
-  - name: "langchain-ai/langchain"
+    captured_at: "2026-06-28"
+  - name: "safishamsi/graphify"
     source: "github"
-    url: "https://github.com/langchain-ai/langchain"
-    summary: "The agent engineering platform."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:140297"
+    url: "https://github.com/safishamsi/graphify"
+    summary: "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:72972"
     category: "open-source/updated"
     tags:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "deepagents"
-      - "enterprise"
-      - "framework"
-    stars: 140297
+      - "antigravity"
+      - "claude-code"
+      - "codex"
+      - "gemini"
+      - "graphrag"
+      - "knowledge-graph"
+      - "leiden"
+      - "openclaw"
+    stars: 72972
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-27"
-  - name: "vllm-project/vllm"
-    source: "github"
-    url: "https://github.com/vllm-project/vllm"
-    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:84469"
-    category: "open-source/updated"
-    tags:
-      - "amd"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "deepseek-v3"
-      - "gpt"
-      - "gpt-oss"
-      - "inference"
-    stars: 84469
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-27"
-  - name: "Mintplex-Labs/anything-llm"
-    source: "github"
-    url: "https://github.com/Mintplex-Labs/anything-llm"
-    summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:62153"
-    category: "open-source/updated"
-    tags:
-      - "agent-harness"
-      - "agentic-ai"
-      - "ai-agents"
-      - "hermes-agent"
-      - "llm"
-      - "local-ai"
-      - "localai"
-      - "multimodal"
-    stars: 62153
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-27"
+    captured_at: "2026-06-28"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:51993"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:52598"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -185,15 +185,15 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 51993
+    stars: 52598
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-27"
+    captured_at: "2026-06-28"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, Ver..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:51691"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:51784"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -204,10 +204,10 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 51691
+    stars: 51784
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-27"
+    captured_at: "2026-06-28"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

@@ -1,4 +1,4 @@
-generated_at: "2026-06-28T00:17:30+00:00"
+generated_at: "2026-06-29T01:33:39+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "hacker-news"
     url: "https://github.com/workweave/router"
     summary: "Show HN: Smart model routing directly in Claude, Codex and Cursor"
-    reason: "query:LLM agent, points:201, comments:108"
+    reason: "query:LLM agent, points:209, comments:111"
     category: "discussion"
     tags:
       - "llm"
@@ -23,12 +23,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-06-28"
+    captured_at: "2026-06-29"
   - name: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
     source: "hacker-news"
     url: "https://github.com/inkeep/open-knowledge"
     summary: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
-    reason: "query:LLM agent, points:372, comments:170"
+    reason: "query:LLM agent, points:374, comments:171"
     category: "discussion"
     tags:
       - "llm"
@@ -36,12 +36,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-06-28"
+    captured_at: "2026-06-29"
   - name: "GLM-5.2 is a step change for open agents"
     source: "hacker-news"
     url: "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open"
     summary: "GLM-5.2 is a step change for open agents"
-    reason: "query:LLM agent, points:364, comments:220"
+    reason: "query:LLM agent, points:365, comments:223"
     category: "discussion"
     tags:
       - "llm"
@@ -49,39 +49,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-06-28"
-  - name: "Building reliable agentic AI systems"
-    source: "hacker-news"
-    url: "https://martinfowler.com/articles/reliable-llm-bayer.html"
-    summary: "Building reliable agentic AI systems"
-    reason: "query:LLM agent, points:195, comments:50"
-    category: "discussion"
-    tags:
-      - "llm"
-      - "agent"
-    stars: 0
-    score: 81
-    verdict: "Watch"
-    captured_at: "2026-06-28"
-  - name: "Show HN: Bible as RAG Database"
-    source: "hacker-news"
-    url: "https://www.crosscanon.com/"
-    summary: "Show HN: Bible as RAG Database"
-    reason: "query:RAG vector database, points:159, comments:91"
-    category: "discussion"
-    tags:
-      - "rag"
-      - "vector"
-      - "database"
-    stars: 0
-    score: 81
-    verdict: "Watch"
-    captured_at: "2026-06-28"
+    captured_at: "2026-06-29"
   - name: "winsznx/theeleven"
     source: "github"
     url: "https://github.com/winsznx/theeleven"
     summary: "Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking."
-    reason: "new repo, topic:mcp, created within 7d, stars:636"
+    reason: "new repo, topic:mcp, created within 7d, stars:695"
     category: "open-source/fresh"
     tags:
       - "ai-agents"
@@ -92,15 +65,29 @@ candidates:
       - "foundry"
       - "gasless"
       - "mcp"
-    stars: 636
-    score: 80
+    stars: 695
+    score: 82
     verdict: "Watch"
-    captured_at: "2026-06-28"
+    captured_at: "2026-06-29"
+  - name: "Show HN: Bible as RAG Database"
+    source: "hacker-news"
+    url: "https://www.crosscanon.com/"
+    summary: "Show HN: Bible as RAG Database"
+    reason: "query:RAG vector database, points:161, comments:94"
+    category: "discussion"
+    tags:
+      - "rag"
+      - "vector"
+      - "database"
+    stars: 0
+    score: 82
+    verdict: "Watch"
+    captured_at: "2026-06-29"
   - name: "benchflow-ai/awesome-evals"
     source: "github"
     url: "https://github.com/benchflow-ai/awesome-evals"
     summary: "A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, benchmarks. Maintained by BenchFlow."
-    reason: "new repo, topic:llm, created within 7d, stars:531"
+    reason: "new repo, topic:llm, created within 7d, stars:563"
     category: "open-source/fresh"
     tags:
       - "agent-evaluation"
@@ -111,15 +98,15 @@ candidates:
       - "evals"
       - "llm"
       - "llm-evaluation"
-    stars: 531
-    score: 76
+    stars: 563
+    score: 77
     verdict: "Watch"
-    captured_at: "2026-06-28"
+    captured_at: "2026-06-29"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:204355"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:204986"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -130,15 +117,34 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 204355
+    stars: 204986
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-28"
+    captured_at: "2026-06-29"
+  - name: "n8n-io/n8n"
+    source: "github"
+    url: "https://github.com/n8n-io/n8n"
+    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:194395"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "apis"
+      - "automation"
+      - "cli"
+      - "data-flow"
+      - "development"
+      - "integration-framework"
+      - "integrations"
+    stars: 194395
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-29"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:150136"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:150166"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -147,67 +153,67 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 150136
+    stars: 150166
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-28"
-  - name: "safishamsi/graphify"
+    captured_at: "2026-06-29"
+  - name: "langgenius/dify"
     source: "github"
-    url: "https://github.com/safishamsi/graphify"
-    summary: "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:72972"
-    category: "open-source/updated"
-    tags:
-      - "antigravity"
-      - "claude-code"
-      - "codex"
-      - "gemini"
-      - "graphrag"
-      - "knowledge-graph"
-      - "leiden"
-      - "openclaw"
-    stars: 72972
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-06-28"
-  - name: "headroomlabs-ai/headroom"
-    source: "github"
-    url: "https://github.com/headroomlabs-ai/headroom"
-    summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:52598"
+    url: "https://github.com/langgenius/dify"
+    summary: "Production-ready platform for agentic workflow development."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:146875"
     category: "open-source/updated"
     tags:
       - "agent"
+      - "agentic-ai"
+      - "agentic-framework"
+      - "agentic-workflow"
       - "ai"
-      - "anthropic"
-      - "claude-code"
-      - "compression"
-      - "context-engineering"
-      - "context-window"
-      - "cursor"
-    stars: 52598
+      - "automation"
+      - "gemini"
+      - "genai"
+    stars: 146875
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-28"
-  - name: "BerriAI/litellm"
+    captured_at: "2026-06-29"
+  - name: "infiniflow/ragflow"
     source: "github"
-    url: "https://github.com/BerriAI/litellm"
-    summary: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, Ver..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:51784"
+    url: "https://github.com/infiniflow/ragflow"
+    summary: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:83790"
     category: "open-source/updated"
     tags:
-      - "ai-gateway"
-      - "anthropic"
-      - "azure-openai"
-      - "bedrock"
-      - "gateway"
-      - "langchain"
-      - "litellm"
-      - "llm"
-    stars: 51784
+      - "agentic-ai"
+      - "agentic-retrieval"
+      - "agentic-search"
+      - "ai"
+      - "ai-agents"
+      - "context-engine"
+      - "context-management"
+      - "llm-apps"
+    stars: 83790
     score: 75
     verdict: "Watch"
-    captured_at: "2026-06-28"
+    captured_at: "2026-06-29"
+  - name: "netdata/netdata"
+    source: "github"
+    url: "https://github.com/netdata/netdata"
+    summary: "The fastest path to AI-powered full stack observability, even for lean teams."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:79436"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "alerting"
+      - "cncf"
+      - "data-visualization"
+      - "database"
+      - "devops"
+      - "docker"
+      - "grafana"
+    stars: 79436
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-06-29"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

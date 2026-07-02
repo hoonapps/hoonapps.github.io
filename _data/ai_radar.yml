@@ -1,4 +1,4 @@
-generated_at: "2026-07-01T01:34:31+00:00"
+generated_at: "2026-07-02T01:26:48+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "hacker-news"
     url: "https://github.com/workweave/router"
     summary: "Show HN: Smart model routing directly in Claude, Codex and Cursor"
-    reason: "query:LLM agent, points:212, comments:112"
+    reason: "query:LLM agent, points:214, comments:113"
     category: "discussion"
     tags:
       - "llm"
@@ -23,12 +23,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-07-01"
+    captured_at: "2026-07-02"
   - name: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
     source: "hacker-news"
     url: "https://github.com/inkeep/open-knowledge"
     summary: "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion"
-    reason: "query:LLM agent, points:380, comments:173"
+    reason: "query:LLM agent, points:381, comments:173"
     category: "discussion"
     tags:
       - "llm"
@@ -36,31 +36,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-07-01"
-  - name: "winsznx/theeleven"
-    source: "github"
-    url: "https://github.com/winsznx/theeleven"
-    summary: "Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking."
-    reason: "new repo, topic:mcp, created within 7d, stars:691"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agents"
-      - "defi"
-      - "eip-3009"
-      - "erc-8257"
-      - "football"
-      - "foundry"
-      - "gasless"
-      - "mcp"
-    stars: 691
-    score: 82
-    verdict: "Watch"
-    captured_at: "2026-07-01"
+    captured_at: "2026-07-02"
   - name: "Show HN: Bible as RAG Database"
     source: "hacker-news"
     url: "https://www.crosscanon.com/"
     summary: "Show HN: Bible as RAG Database"
-    reason: "query:RAG vector database, points:163, comments:94"
+    reason: "query:RAG vector database, points:164, comments:94"
     category: "discussion"
     tags:
       - "rag"
@@ -69,12 +50,12 @@ candidates:
     stars: 0
     score: 82
     verdict: "Watch"
-    captured_at: "2026-07-01"
+    captured_at: "2026-07-02"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:206499"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:207300"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -85,15 +66,34 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 206499
+    stars: 207300
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-01"
+    captured_at: "2026-07-02"
+  - name: "n8n-io/n8n"
+    source: "github"
+    url: "https://github.com/n8n-io/n8n"
+    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:194825"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "apis"
+      - "automation"
+      - "cli"
+      - "data-flow"
+      - "development"
+      - "integration-framework"
+      - "integrations"
+    stars: 194825
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-02"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:150265"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:150335"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -102,15 +102,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 150265
+    stars: 150335
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-01"
+    captured_at: "2026-07-02"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Production-ready platform for agentic workflow development."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:147151"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:147288"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -121,53 +121,15 @@ candidates:
       - "automation"
       - "gemini"
       - "genai"
-    stars: 147151
+    stars: 147288
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-01"
-  - name: "open-webui/open-webui"
-    source: "github"
-    url: "https://github.com/open-webui/open-webui"
-    summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:143601"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "llm"
-      - "llm-ui"
-      - "llm-webui"
-      - "llms"
-      - "mcp"
-      - "ollama"
-      - "ollama-webui"
-    stars: 143601
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-01"
-  - name: "firecrawl/firecrawl"
-    source: "github"
-    url: "https://github.com/firecrawl/firecrawl"
-    summary: "The API to search, scrape, and interact with the web at scale. 🔥"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:142202"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agents"
-      - "ai-crawler"
-      - "ai-scraping"
-      - "ai-search"
-      - "crawler"
-      - "data-extraction"
-      - "html-to-markdown"
-    stars: 142202
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-01"
+    captured_at: "2026-07-02"
   - name: "infiniflow/ragflow"
     source: "github"
     url: "https://github.com/infiniflow/ragflow"
     summary: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:83976"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:84073"
     category: "open-source/updated"
     tags:
       - "agentic-ai"
@@ -178,15 +140,15 @@ candidates:
       - "context-engine"
       - "context-management"
       - "llm-apps"
-    stars: 83976
+    stars: 84073
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-01"
+    captured_at: "2026-07-02"
   - name: "lobehub/lobehub"
     source: "github"
     url: "https://github.com/lobehub/lobehub"
     summary: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:79284"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:79323"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -197,29 +159,67 @@ candidates:
       - "chatgpt"
       - "chief-agent-operator"
       - "claude"
-    stars: 79284
+    stars: 79323
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-01"
-  - name: "unslothai/unsloth"
+    captured_at: "2026-07-02"
+  - name: "headroomlabs-ai/headroom"
     source: "github"
-    url: "https://github.com/unslothai/unsloth"
-    summary: "Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:67673"
+    url: "https://github.com/headroomlabs-ai/headroom"
+    summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:55250"
     category: "open-source/updated"
     tags:
       - "agent"
-      - "deepseek"
-      - "fine-tuning"
-      - "gemma"
-      - "gemma3"
-      - "gpt-oss"
-      - "llama"
-      - "llama3"
-    stars: 67673
+      - "ai"
+      - "anthropic"
+      - "claude-code"
+      - "compression"
+      - "context-engineering"
+      - "context-window"
+      - "cursor"
+    stars: 55250
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-01"
+    captured_at: "2026-07-02"
+  - name: "BerriAI/litellm"
+    source: "github"
+    url: "https://github.com/BerriAI/litellm"
+    summary: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, Ver..."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:52299"
+    category: "open-source/updated"
+    tags:
+      - "ai-gateway"
+      - "anthropic"
+      - "azure-openai"
+      - "bedrock"
+      - "gateway"
+      - "langchain"
+      - "litellm"
+      - "llm"
+    stars: 52299
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-02"
+  - name: "asgeirtj/system_prompts_leaks"
+    source: "github"
+    url: "https://github.com/asgeirtj/system_prompts_leaks"
+    summary: "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash,..."
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:47669"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "ai-agents"
+      - "anthropic"
+      - "awesome"
+      - "chatbot"
+      - "chatgpt"
+      - "claude"
+      - "claude-code"
+    stars: 47669
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-02"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

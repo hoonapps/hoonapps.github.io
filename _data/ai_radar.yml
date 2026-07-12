@@ -1,4 +1,4 @@
-generated_at: "2026-07-11T00:12:41+00:00"
+generated_at: "2026-07-12T00:13:18+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "hacker-news"
     url: "https://microsoft.github.io/flint-chart/#/"
     summary: "Show HN: Microsoft releases Flint, a visualization language for AI agents"
-    reason: "query:MCP server, points:344, comments:135"
+    reason: "query:MCP server, points:345, comments:137"
     category: "discussion"
     tags:
       - "mcp"
@@ -23,86 +23,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-07-11"
-  - name: "simonlin1212/Vibe-Research"
-    source: "github"
-    url: "https://github.com/simonlin1212/Vibe-Research"
-    summary: "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。"
-    reason: "new repo, topic:llm, created within 7d, stars:668"
-    category: "open-source/fresh"
-    tags:
-      - "a-stock"
-      - "ai-agent"
-      - "dashboard"
-      - "fastapi"
-      - "fintech"
-      - "hk-stocks"
-      - "investment-research"
-      - "llm"
-    stars: 668
-    score: 81
-    verdict: "Watch"
-    captured_at: "2026-07-11"
-  - name: "NousResearch/hermes-agent"
-    source: "github"
-    url: "https://github.com/NousResearch/hermes-agent"
-    summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:212761"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agent"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "clawdbot"
-    stars: 212761
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-11"
-  - name: "langflow-ai/langflow"
-    source: "github"
-    url: "https://github.com/langflow-ai/langflow"
-    summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:151576"
-    category: "open-source/updated"
-    tags:
-      - "agents"
-      - "chatgpt"
-      - "generative-ai"
-      - "large-language-models"
-      - "multiagent"
-      - "react-flow"
-    stars: 151576
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-11"
-  - name: "open-webui/open-webui"
-    source: "github"
-    url: "https://github.com/open-webui/open-webui"
-    summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:144998"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "llm"
-      - "llm-ui"
-      - "llm-webui"
-      - "llms"
-      - "mcp"
-      - "ollama"
-      - "ollama-webui"
-    stars: 144998
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-11"
+    captured_at: "2026-07-12"
   - name: "langchain-ai/langchain"
     source: "github"
     url: "https://github.com/langchain-ai/langchain"
     summary: "The agent engineering platform."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:141482"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:141549"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -113,15 +39,53 @@ candidates:
       - "deepagents"
       - "enterprise"
       - "framework"
-    stars: 141482
+    stars: 141549
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-11"
+    captured_at: "2026-07-12"
+  - name: "rasbt/LLMs-from-scratch"
+    source: "github"
+    url: "https://github.com/rasbt/LLMs-from-scratch"
+    summary: "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:98933"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "artificial-intelligence"
+      - "attention-mechanism"
+      - "deep-learning"
+      - "finetuning"
+      - "from-scratch"
+      - "generative-ai"
+      - "gpt"
+    stars: 98933
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-12"
+  - name: "Graphify-Labs/graphify"
+    source: "github"
+    url: "https://github.com/Graphify-Labs/graphify"
+    summary: "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:82431"
+    category: "open-source/updated"
+    tags:
+      - "antigravity"
+      - "claude-code"
+      - "codex"
+      - "gemini"
+      - "graphrag"
+      - "knowledge-graph"
+      - "leiden"
+      - "openclaw"
+    stars: 82431
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-12"
   - name: "nexu-io/open-design"
     source: "github"
     url: "https://github.com/nexu-io/open-design"
     summary: "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images &..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:77134"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:77354"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -132,15 +96,34 @@ candidates:
       - "claude-design"
       - "codex-design"
       - "coding-agents"
-    stars: 77134
+    stars: 77354
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-11"
+    captured_at: "2026-07-12"
+  - name: "bytedance/deer-flow"
+    source: "github"
+    url: "https://github.com/bytedance/deer-flow"
+    summary: "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles..."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:76793"
+    category: "open-source/updated"
+    tags:
+      - "agent"
+      - "agentic"
+      - "agentic-framework"
+      - "agentic-workflow"
+      - "ai"
+      - "ai-agents"
+      - "deep-research"
+      - "harness"
+    stars: 76793
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-12"
   - name: "santifer/career-ops"
     source: "github"
     url: "https://github.com/santifer/career-ops"
     summary: "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:59556"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:59659"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -151,71 +134,15 @@ candidates:
       - "beginner-friendly"
       - "career"
       - "careerops"
-    stars: 59556
+    stars: 59659
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-11"
-  - name: "headroomlabs-ai/headroom"
-    source: "github"
-    url: "https://github.com/headroomlabs-ai/headroom"
-    summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:58402"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "ai"
-      - "anthropic"
-      - "claude-code"
-      - "compression"
-      - "context-engineering"
-      - "context-window"
-      - "cursor"
-    stars: 58402
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-11"
-  - name: "ZhuLinsen/daily_stock_analysis"
-    source: "github"
-    url: "https://github.com/ZhuLinsen/daily_stock_analysis"
-    summary: "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated not..."
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:56497"
-    category: "open-source/updated"
-    tags:
-      - "a-stock"
-      - "ai-agent"
-      - "aigc"
-      - "llm"
-      - "quant"
-      - "quantitative-finance"
-      - "quantitative-trading"
-    stars: 56497
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-11"
-  - name: "asgeirtj/system_prompts_leaks"
-    source: "github"
-    url: "https://github.com/asgeirtj/system_prompts_leaks"
-    summary: "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:55820"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agents"
-      - "anthropic"
-      - "awesome"
-      - "chatbot"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-    stars: 55820
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-11"
+    captured_at: "2026-07-12"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, Ver..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:53224"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:53288"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -226,10 +153,81 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 53224
+    stars: 53288
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-11"
+    captured_at: "2026-07-12"
+  - name: "hugohe3/ppt-master"
+    source: "github"
+    url: "https://github.com/hugohe3/ppt-master"
+    summary: "AI generates a real, editable PowerPoint from any document — native shapes & animations, editable charts & tables you can change the data on, speaker notes voiced as audio narra..."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:38400"
+    category: "open-source/updated"
+    tags:
+      - "ai-agent"
+      - "aippt"
+      - "office"
+      - "powerpoint"
+      - "powerpoint-generation"
+      - "ppt"
+      - "pptx"
+      - "presentation"
+    stars: 38400
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-12"
+  - name: "heygen-com/hyperframes"
+    source: "github"
+    url: "https://github.com/heygen-com/hyperframes"
+    summary: "Write HTML. Render video. Built for agents."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:34320"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "animation"
+      - "ffmpeg"
+      - "framework"
+      - "gsap"
+      - "html"
+      - "mcp"
+      - "puppeteer"
+    stars: 34320
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-12"
+  - name: "anthropics/claude-plugins-official"
+    source: "github"
+    url: "https://github.com/anthropics/claude-plugins-official"
+    summary: "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:31988"
+    category: "open-source/updated"
+    tags:
+      - "claude-code"
+      - "mcp"
+      - "skills"
+    stars: 31988
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-12"
+  - name: "onyx-dot-app/onyx"
+    source: "github"
+    url: "https://github.com/onyx-dot-app/onyx"
+    summary: "Open Source AI Platform - AI Chat with advanced features that works with every LLM"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:30821"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "ai-chat"
+      - "chatgpt"
+      - "chatui"
+      - "enterprise-search"
+      - "gen-ai"
+      - "information-retrieval"
+      - "llm"
+    stars: 30821
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-12"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

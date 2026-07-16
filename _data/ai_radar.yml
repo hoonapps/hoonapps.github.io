@@ -1,4 +1,4 @@
-generated_at: "2026-07-15T00:08:09+00:00"
+generated_at: "2026-07-16T00:12:39+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,24 +11,39 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "Show HN: Microsoft releases Flint, a visualization language for AI agents"
+  - name: "AlephAITech/WorkBuddyGuide"
+    source: "github"
+    url: "https://github.com/AlephAITech/WorkBuddyGuide"
+    summary: "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。"
+    reason: "new repo, topic:llm, created within 7d, stars:788"
+    category: "open-source/fresh"
+    tags:
+      - "codex"
+      - "guide"
+      - "llm"
+      - "workbuddy"
+    stars: 788
+    score: 86
+    verdict: "Watch"
+    captured_at: "2026-07-16"
+  - name: "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE"
     source: "hacker-news"
-    url: "https://microsoft.github.io/flint-chart/#/"
-    summary: "Show HN: Microsoft releases Flint, a visualization language for AI agents"
-    reason: "query:MCP server, points:348, comments:138"
+    url: "https://github.com/juggler-ai/juggler"
+    summary: "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE"
+    reason: "query:LLM agent, points:272, comments:117"
     category: "discussion"
     tags:
-      - "mcp"
-      - "server"
+      - "llm"
+      - "agent"
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-07-15"
+    captured_at: "2026-07-16"
   - name: "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k"
     source: "hacker-news"
     url: "https://systima.ai/blog/claude-code-vs-opencode-token-overhead"
     summary: "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k"
-    reason: "query:AI coding tool, points:694, comments:388"
+    reason: "query:AI coding tool, points:698, comments:390"
     category: "discussion"
     tags:
       - "ai"
@@ -37,40 +52,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-07-15"
-  - name: "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE"
-    source: "hacker-news"
-    url: "https://github.com/juggler-ai/juggler"
-    summary: "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE"
-    reason: "query:LLM agent, points:165, comments:78"
-    category: "discussion"
-    tags:
-      - "llm"
-      - "agent"
-    stars: 0
-    score: 83
-    verdict: "Watch"
-    captured_at: "2026-07-15"
-  - name: "AlephAITech/WorkBuddyGuide"
-    source: "github"
-    url: "https://github.com/AlephAITech/WorkBuddyGuide"
-    summary: "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。"
-    reason: "new repo, topic:llm, created within 7d, stars:681"
-    category: "open-source/fresh"
-    tags:
-      - "codex"
-      - "guide"
-      - "llm"
-      - "workbuddy"
-    stars: 681
-    score: 82
-    verdict: "Watch"
-    captured_at: "2026-07-15"
+    captured_at: "2026-07-16"
   - name: "William-Lu-stack/Flawless"
     source: "github"
     url: "https://github.com/William-Lu-stack/Flawless"
     summary: "AI SRE AgenticOps for Kubernetes and cloud infrastructure."
-    reason: "new repo, topic:llm, created within 7d, stars:616"
+    reason: "new repo, topic:llm, created within 7d, stars:635"
     category: "open-source/fresh"
     tags:
       - "agenticops"
@@ -81,15 +68,15 @@ candidates:
       - "cloud-native"
       - "devops"
       - "kubernetes"
-    stars: 616
-    score: 79
+    stars: 635
+    score: 80
     verdict: "Watch"
-    captured_at: "2026-07-15"
+    captured_at: "2026-07-16"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:214879"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:215455"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -100,15 +87,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 214879
+    stars: 215455
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-15"
+    captured_at: "2026-07-16"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:151878"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:151919"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -117,15 +104,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 151878
+    stars: 151919
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-15"
+    captured_at: "2026-07-16"
   - name: "firecrawl/firecrawl"
     source: "github"
     url: "https://github.com/firecrawl/firecrawl"
     summary: "The API to search, scrape, and interact with the web at scale. 🔥"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:151036"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:151538"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -136,15 +123,15 @@ candidates:
       - "crawler"
       - "data-extraction"
       - "html-to-markdown"
-    stars: 151036
+    stars: 151538
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-15"
+    captured_at: "2026-07-16"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Production-ready platform for agentic workflow development."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:148838"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:148961"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -155,15 +142,15 @@ candidates:
       - "automation"
       - "gemini"
       - "genai"
-    stars: 148838
+    stars: 148961
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-15"
+    captured_at: "2026-07-16"
   - name: "open-webui/open-webui"
     source: "github"
     url: "https://github.com/open-webui/open-webui"
     summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:145436"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:145555"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -174,48 +161,67 @@ candidates:
       - "mcp"
       - "ollama"
       - "ollama-webui"
-    stars: 145436
+    stars: 145555
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-15"
-  - name: "Graphify-Labs/graphify"
+    captured_at: "2026-07-16"
+  - name: "thedotmack/claude-mem"
     source: "github"
-    url: "https://github.com/Graphify-Labs/graphify"
-    summary: "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:86331"
+    url: "https://github.com/thedotmack/claude-mem"
+    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:87400"
     category: "open-source/updated"
     tags:
-      - "antigravity"
-      - "claude-code"
-      - "codex"
-      - "gemini"
-      - "graphrag"
-      - "knowledge-graph"
-      - "leiden"
-      - "openclaw"
-    stars: 86331
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-15"
-  - name: "nexu-io/open-design"
-    source: "github"
-    url: "https://github.com/nexu-io/open-design"
-    summary: "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images &..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:78174"
-    category: "open-source/updated"
-    tags:
-      - "agent-skills"
+      - "ai"
       - "ai-agents"
-      - "ai-design"
-      - "byok"
-      - "claude-code-for-design"
-      - "claude-design"
-      - "codex-design"
-      - "coding-agents"
-    stars: 78174
+      - "ai-memory"
+      - "anthropic"
+      - "artificial-intelligence"
+      - "chromadb"
+      - "claude"
+      - "claude-agent-sdk"
+    stars: 87400
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-15"
+    captured_at: "2026-07-16"
+  - name: "vllm-project/vllm"
+    source: "github"
+    url: "https://github.com/vllm-project/vllm"
+    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:86350"
+    category: "open-source/updated"
+    tags:
+      - "amd"
+      - "blackwell"
+      - "cuda"
+      - "deepseek"
+      - "deepseek-v3"
+      - "gpt"
+      - "gpt-oss"
+      - "inference"
+    stars: 86350
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-16"
+  - name: "microsoft/ai-agents-for-beginners"
+    source: "github"
+    url: "https://github.com/microsoft/ai-agents-for-beginners"
+    summary: "18 Lessons to Get Started Building AI Agents"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:69434"
+    category: "open-source/updated"
+    tags:
+      - "agentic-ai"
+      - "agentic-framework"
+      - "agentic-rag"
+      - "ai-agents"
+      - "ai-agents-framework"
+      - "autogen"
+      - "foundry"
+      - "foundry-local"
+    stars: 69434
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-16"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

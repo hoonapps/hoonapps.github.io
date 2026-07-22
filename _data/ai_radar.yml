@@ -1,4 +1,4 @@
-generated_at: "2026-07-21T00:13:30+00:00"
+generated_at: "2026-07-22T00:10:27+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,24 +11,11 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "LM Studio Bionic: the AI agent for open models"
-    source: "hacker-news"
-    url: "https://lmstudio.ai/blog/introducing-lm-studio-bionic"
-    summary: "LM Studio Bionic: the AI agent for open models"
-    reason: "query:LLM agent, points:330, comments:132"
-    category: "discussion"
-    tags:
-      - "llm"
-      - "agent"
-    stars: 0
-    score: 85
-    verdict: "Watch"
-    captured_at: "2026-07-21"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:217781"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:218390"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -39,15 +26,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 217781
+    stars: 218390
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-21"
+    captured_at: "2026-07-22"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:152109"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:152177"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -56,15 +43,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 152109
+    stars: 152177
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-21"
+    captured_at: "2026-07-22"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:149509"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:149666"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -75,72 +62,15 @@ candidates:
       - "automation"
       - "claude"
       - "genai"
-    stars: 149509
+    stars: 149666
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-21"
-  - name: "open-webui/open-webui"
-    source: "github"
-    url: "https://github.com/open-webui/open-webui"
-    summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:146114"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "llm"
-      - "llm-ui"
-      - "llm-webui"
-      - "llms"
-      - "mcp"
-      - "ollama"
-      - "ollama-webui"
-    stars: 146114
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-21"
-  - name: "vllm-project/vllm"
-    source: "github"
-    url: "https://github.com/vllm-project/vllm"
-    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:86738"
-    category: "open-source/updated"
-    tags:
-      - "amd"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "deepseek-v3"
-      - "gpt"
-      - "gpt-oss"
-      - "inference"
-    stars: 86738
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-21"
-  - name: "bytedance/deer-flow"
-    source: "github"
-    url: "https://github.com/bytedance/deer-flow"
-    summary: "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:77463"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "agentic"
-      - "agentic-framework"
-      - "agentic-workflow"
-      - "ai"
-      - "ai-agents"
-      - "deep-research"
-      - "harness"
-    stars: 77463
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-21"
+    captured_at: "2026-07-22"
   - name: "Mintplex-Labs/anything-llm"
     source: "github"
     url: "https://github.com/Mintplex-Labs/anything-llm"
     summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:63610"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:63652"
     category: "open-source/updated"
     tags:
       - "agent-computer"
@@ -151,15 +81,34 @@ candidates:
       - "computer-use"
       - "hermes-agent"
       - "llm"
-    stars: 63610
+    stars: 63652
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-21"
+    captured_at: "2026-07-22"
+  - name: "headroomlabs-ai/headroom"
+    source: "github"
+    url: "https://github.com/headroomlabs-ai/headroom"
+    summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:61010"
+    category: "open-source/updated"
+    tags:
+      - "agent"
+      - "ai"
+      - "anthropic"
+      - "claude-code"
+      - "compression"
+      - "context-engineering"
+      - "context-window"
+      - "cursor"
+    stars: 61010
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-22"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:54148"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:54269"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -170,30 +119,15 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 54148
+    stars: 54269
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-21"
-  - name: "aaif-goose/goose"
-    source: "github"
-    url: "https://github.com/aaif-goose/goose"
-    summary: "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:51351"
-    category: "open-source/updated"
-    tags:
-      - "acp"
-      - "ai"
-      - "ai-agents"
-      - "mcp"
-    stars: 51351
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-21"
+    captured_at: "2026-07-22"
   - name: "run-llama/llama_index"
     source: "github"
     url: "https://github.com/run-llama/llama_index"
     summary: "LlamaIndex is the leading document agent and OCR platform"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:50963"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:50987"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -204,29 +138,100 @@ candidates:
       - "llamaindex"
       - "llm"
       - "multi-agents"
-    stars: 50963
+    stars: 50987
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-21"
-  - name: "CherryHQ/cherry-studio"
+    captured_at: "2026-07-22"
+  - name: "siyuan-note/siyuan"
     source: "github"
-    url: "https://github.com/CherryHQ/cherry-studio"
-    summary: "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:48801"
+    url: "https://github.com/siyuan-note/siyuan"
+    summary: "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:45320"
     category: "open-source/updated"
     tags:
-      - "agent-skills"
+      - "agentic-ai"
       - "ai-agent"
-      - "awesome-skills"
-      - "claude-code"
-      - "codex"
-      - "deepseek"
-      - "hermes-agent"
-      - "openclaw"
-    stars: 48801
+      - "digital-garden"
+      - "electron"
+      - "knowledge-base"
+      - "knowledge-graph"
+      - "local-first"
+      - "markdown"
+    stars: 45320
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-21"
+    captured_at: "2026-07-22"
+  - name: "danny-avila/LibreChat"
+    source: "github"
+    url: "https://github.com/danny-avila/LibreChat"
+    summary: "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts,..."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:41077"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "anthropic"
+      - "artifacts"
+      - "aws"
+      - "azure"
+      - "chatgpt"
+      - "chatgpt-clone"
+      - "claude"
+    stars: 41077
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-22"
+  - name: "heygen-com/hyperframes"
+    source: "github"
+    url: "https://github.com/heygen-com/hyperframes"
+    summary: "Write HTML. Render video. Built for agents."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:36641"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "animation"
+      - "ffmpeg"
+      - "framework"
+      - "gsap"
+      - "html"
+      - "mcp"
+      - "puppeteer"
+    stars: 36641
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-22"
+  - name: "CopilotKit/CopilotKit"
+    source: "github"
+    url: "https://github.com/CopilotKit/CopilotKit"
+    summary: "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:36197"
+    category: "open-source/updated"
+    tags:
+      - "agent"
+      - "agent-native"
+      - "agentic-ai"
+      - "agents"
+      - "ai"
+      - "ai-agent"
+      - "ai-assistant"
+      - "assistant"
+    stars: 36197
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-22"
+  - name: "anthropics/claude-plugins-official"
+    source: "github"
+    url: "https://github.com/anthropics/claude-plugins-official"
+    summary: "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:32439"
+    category: "open-source/updated"
+    tags:
+      - "claude-code"
+      - "mcp"
+      - "skills"
+    stars: 32439
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-22"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

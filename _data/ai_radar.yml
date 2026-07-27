@@ -1,4 +1,4 @@
-generated_at: "2026-07-26T00:15:57+00:00"
+generated_at: "2026-07-27T00:15:03+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,42 +11,37 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "powerycy/goutoujunshi"
-    source: "github"
-    url: "https://github.com/powerycy/goutoujunshi"
-    summary: "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。"
-    reason: "new repo, topic:ai-agent, created within 7d, stars:873"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agent"
-      - "chinese"
-      - "codex"
-      - "codex-skill"
-      - "lgbtq"
-      - "psychology"
-      - "relationship-advice"
-    stars: 873
-    score: 89
-    verdict: "Watch"
-    captured_at: "2026-07-26"
-  - name: "Show HN: Palmier Pro – Open-source macOS video editor built for AI"
+  - name: "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models"
     source: "hacker-news"
-    url: "https://github.com/palmier-io/palmier-pro"
-    summary: "Show HN: Palmier Pro – Open-source macOS video editor built for AI"
-    reason: "query:LLM agent, points:187, comments:37"
+    url: "https://news.ycombinator.com/item?id=49026810"
+    summary: "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models"
+    reason: "query:LLM agent, points:474, comments:222"
     category: "discussion"
     tags:
       - "llm"
       - "agent"
     stars: 0
-    score: 77
+    score: 85
     verdict: "Watch"
-    captured_at: "2026-07-26"
+    captured_at: "2026-07-27"
+  - name: "Show HN: Palmier Pro – Open-source macOS video editor built for AI"
+    source: "hacker-news"
+    url: "https://github.com/palmier-io/palmier-pro"
+    summary: "Show HN: Palmier Pro – Open-source macOS video editor built for AI"
+    reason: "query:LLM agent, points:189, comments:39"
+    category: "discussion"
+    tags:
+      - "llm"
+      - "agent"
+    stars: 0
+    score: 78
+    verdict: "Watch"
+    captured_at: "2026-07-27"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:220449"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:220921"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -57,34 +52,34 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 220449
+    stars: 220921
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-26"
-  - name: "n8n-io/n8n"
+    captured_at: "2026-07-27"
+  - name: "ollama/ollama"
     source: "github"
-    url: "https://github.com/n8n-io/n8n"
-    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:197991"
+    url: "https://github.com/ollama/ollama"
+    summary: "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:176943"
     category: "open-source/updated"
     tags:
-      - "ai"
-      - "apis"
-      - "automation"
-      - "cli"
-      - "data-flow"
-      - "development"
-      - "integration-framework"
-      - "integrations"
-    stars: 197991
+      - "deepseek"
+      - "gemma"
+      - "gemma3"
+      - "glm"
+      - "go"
+      - "golang"
+      - "gpt-oss"
+      - "llama"
+    stars: 176943
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-26"
+    captured_at: "2026-07-27"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:152390"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:152445"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -93,15 +88,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 152390
+    stars: 152445
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-26"
+    captured_at: "2026-07-27"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:150242"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:150326"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -112,15 +107,53 @@ candidates:
       - "automation"
       - "claude"
       - "genai"
-    stars: 150242
+    stars: 150326
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-26"
+    captured_at: "2026-07-27"
+  - name: "open-webui/open-webui"
+    source: "github"
+    url: "https://github.com/open-webui/open-webui"
+    summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:146825"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "llm"
+      - "llm-ui"
+      - "llm-webui"
+      - "llms"
+      - "mcp"
+      - "ollama"
+      - "ollama-webui"
+    stars: 146825
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-27"
+  - name: "Graphify-Labs/graphify"
+    source: "github"
+    url: "https://github.com/Graphify-Labs/graphify"
+    summary: "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deter..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:96434"
+    category: "open-source/updated"
+    tags:
+      - "ai-agents"
+      - "antigravity"
+      - "ast"
+      - "claude-code"
+      - "code-analysis"
+      - "code-search"
+      - "codex"
+      - "cursor"
+    stars: 96434
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-07-27"
   - name: "nexu-io/open-design"
     source: "github"
     url: "https://github.com/nexu-io/open-design"
     summary: "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images &..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:81524"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:81729"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -131,34 +164,34 @@ candidates:
       - "claude-design"
       - "codex-design"
       - "coding-agents"
-    stars: 81524
+    stars: 81729
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-26"
-  - name: "bytedance/deer-flow"
+    captured_at: "2026-07-27"
+  - name: "unslothai/unsloth"
     source: "github"
-    url: "https://github.com/bytedance/deer-flow"
-    summary: "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:77855"
+    url: "https://github.com/unslothai/unsloth"
+    summary: "Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:68935"
     category: "open-source/updated"
     tags:
       - "agent"
-      - "agentic"
-      - "agentic-framework"
-      - "agentic-workflow"
-      - "ai"
-      - "ai-agents"
-      - "deep-research"
-      - "harness"
-    stars: 77855
+      - "deepseek"
+      - "fine-tuning"
+      - "gemma"
+      - "gemma3"
+      - "gpt-oss"
+      - "llama"
+      - "llama3"
+    stars: 68935
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-26"
+    captured_at: "2026-07-27"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:62410"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:62597"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -169,34 +202,15 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 62410
+    stars: 62597
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-26"
-  - name: "santifer/career-ops"
-    source: "github"
-    url: "https://github.com/santifer/career-ops"
-    summary: "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI co..."
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:61544"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agent"
-      - "anthropic"
-      - "ats"
-      - "automation"
-      - "beginner-friendly"
-      - "career"
-      - "careerops"
-    stars: 61544
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-26"
+    captured_at: "2026-07-27"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:54689"
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:54755"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -207,29 +221,10 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 54689
+    stars: 54755
     score: 75
     verdict: "Watch"
-    captured_at: "2026-07-26"
-  - name: "ChromeDevTools/chrome-devtools-mcp"
-    source: "github"
-    url: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
-    summary: "Chrome DevTools for coding agents"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:47594"
-    category: "open-source/updated"
-    tags:
-      - "browser"
-      - "chrome"
-      - "chrome-devtools"
-      - "debugging"
-      - "devtools"
-      - "mcp"
-      - "mcp-server"
-      - "puppeteer"
-    stars: 47594
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-07-26"
+    captured_at: "2026-07-27"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

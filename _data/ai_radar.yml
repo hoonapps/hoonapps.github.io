@@ -1,4 +1,4 @@
-generated_at: "2026-08-08T23:48:04+00:00"
+generated_at: "2026-08-09T23:50:33+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "hacker-news"
     url: "https://www.primeintellect.ai/blog/prime-agent"
     summary: "Prime Agent: A self-improving RLM agent"
-    reason: "query:LLM agent, points:252, comments:69"
+    reason: "query:LLM agent, points:253, comments:69"
     category: "discussion"
     tags:
       - "llm"
@@ -23,12 +23,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-08-08"
+    captured_at: "2026-08-09"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:227520"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:227921"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -39,70 +39,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 227520
+    stars: 227921
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-08"
-  - name: "huggingface/transformers"
-    source: "github"
-    url: "https://github.com/huggingface/transformers"
-    summary: "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:163477"
-    category: "open-source/updated"
-    tags:
-      - "audio"
-      - "deep-learning"
-      - "deepseek"
-      - "gemma"
-      - "glm"
-      - "hacktoberfest"
-      - "llm"
-      - "machine-learning"
-    stars: 163477
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-08"
-  - name: "langflow-ai/langflow"
-    source: "github"
-    url: "https://github.com/langflow-ai/langflow"
-    summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:152961"
-    category: "open-source/updated"
-    tags:
-      - "agents"
-      - "chatgpt"
-      - "generative-ai"
-      - "large-language-models"
-      - "multiagent"
-      - "react-flow"
-    stars: 152961
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-08"
-  - name: "open-webui/open-webui"
-    source: "github"
-    url: "https://github.com/open-webui/open-webui"
-    summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:148260"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "llm"
-      - "llm-ui"
-      - "llm-webui"
-      - "llms"
-      - "mcp"
-      - "ollama"
-      - "ollama-webui"
-    stars: 148260
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-08"
+    captured_at: "2026-08-09"
   - name: "Graphify-Labs/graphify"
     source: "github"
     url: "https://github.com/Graphify-Labs/graphify"
     summary: "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deter..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:104341"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:104608"
     category: "open-source/updated"
     tags:
       - "ai-agents"
@@ -113,15 +58,15 @@ candidates:
       - "code-search"
       - "codex"
       - "cursor"
-    stars: 104341
+    stars: 104608
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-08"
+    captured_at: "2026-08-09"
   - name: "thedotmack/claude-mem"
     source: "github"
     url: "https://github.com/thedotmack/claude-mem"
     summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:90103"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:90213"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -132,53 +77,15 @@ candidates:
       - "chromadb"
       - "claude"
       - "claude-agent-sdk"
-    stars: 90103
+    stars: 90213
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-08"
-  - name: "nexu-io/open-design"
-    source: "github"
-    url: "https://github.com/nexu-io/open-design"
-    summary: "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images &..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:84565"
-    category: "open-source/updated"
-    tags:
-      - "agent-skills"
-      - "ai-agents"
-      - "ai-design"
-      - "byok"
-      - "claude-code-for-design"
-      - "claude-design"
-      - "codex-design"
-      - "coding-agents"
-    stars: 84565
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-08"
-  - name: "lobehub/lobehub"
-    source: "github"
-    url: "https://github.com/lobehub/lobehub"
-    summary: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:81429"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "agent-collaboration"
-      - "agent-harness"
-      - "ai"
-      - "cao"
-      - "chatgpt"
-      - "chief-agent-operator"
-      - "claude"
-    stars: 81429
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-08"
+    captured_at: "2026-08-09"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:65533"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:65652"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -189,15 +96,15 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 65533
+    stars: 65652
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-08"
+    captured_at: "2026-08-09"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:55897"
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:55965"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -208,29 +115,124 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 55897
+    stars: 55965
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-08"
-  - name: "CherryHQ/cherry-studio"
+    captured_at: "2026-08-09"
+  - name: "run-llama/llama_index"
     source: "github"
-    url: "https://github.com/CherryHQ/cherry-studio"
-    summary: "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:50097"
+    url: "https://github.com/run-llama/llama_index"
+    summary: "LlamaIndex is the leading document agent and OCR platform"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:51506"
     category: "open-source/updated"
     tags:
-      - "agent-skills"
-      - "ai-agent"
-      - "awesome-skills"
-      - "claude-code"
-      - "codex"
-      - "deepseek"
-      - "hermes-agent"
-      - "openclaw"
-    stars: 50097
+      - "agents"
+      - "application"
+      - "data"
+      - "fine-tuning"
+      - "framework"
+      - "llamaindex"
+      - "llm"
+      - "multi-agents"
+    stars: 51506
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-08"
+    captured_at: "2026-08-09"
+  - name: "rohitg00/ai-engineering-from-scratch"
+    source: "github"
+    url: "https://github.com/rohitg00/ai-engineering-from-scratch"
+    summary: "Learn it. Build it. Ship it for others."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:46383"
+    category: "open-source/updated"
+    tags:
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "ai-engineering"
+      - "computer-vision"
+      - "course"
+      - "deep-learning"
+      - "from-scratch"
+    stars: 46383
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-09"
+  - name: "langfuse/langfuse"
+    source: "github"
+    url: "https://github.com/langfuse/langfuse"
+    summary: "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM,..."
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:32779"
+    category: "open-source/updated"
+    tags:
+      - "analytics"
+      - "autogen"
+      - "evaluation"
+      - "langchain"
+      - "large-language-models"
+      - "llama-index"
+      - "llm"
+      - "llm-evaluation"
+    stars: 32779
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-09"
+  - name: "sgl-project/sglang"
+    source: "github"
+    url: "https://github.com/sgl-project/sglang"
+    summary: "SGLang is a high-performance serving framework for large language models and multimodal models."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:31585"
+    category: "open-source/updated"
+    tags:
+      - "attention"
+      - "blackwell"
+      - "cuda"
+      - "deepseek"
+      - "diffusion"
+      - "glm"
+      - "gpt-oss"
+      - "inference"
+    stars: 31585
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-09"
+  - name: "mastra-ai/mastra"
+    source: "github"
+    url: "https://github.com/mastra-ai/mastra"
+    summary: "Mastra is the modern TypeScript framework for AI-powered applications and agents."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:27061"
+    category: "open-source/updated"
+    tags:
+      - "agents"
+      - "ai"
+      - "chatbots"
+      - "evals"
+      - "javascript"
+      - "llm"
+      - "mcp"
+      - "nextjs"
+    stars: 27061
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-09"
+  - name: "QwenLM/qwen-code"
+    source: "github"
+    url: "https://github.com/QwenLM/qwen-code"
+    summary: "An open-source AI coding agent that lives in your terminal."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:26884"
+    category: "open-source/updated"
+    tags:
+      - "agentic"
+      - "ai"
+      - "ai-agent"
+      - "ai-coding"
+      - "cli"
+      - "coding-agent"
+      - "developer-tools"
+      - "llm"
+    stars: 26884
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-09"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

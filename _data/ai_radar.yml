@@ -1,4 +1,4 @@
-generated_at: "2026-08-09T23:50:33+00:00"
+generated_at: "2026-08-10T23:53:04+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -23,12 +23,50 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-08-09"
+    captured_at: "2026-08-10"
+  - name: "sv-number/mcp-server"
+    source: "github"
+    url: "https://github.com/sv-number/mcp-server"
+    summary: "MCP server for AI agents that need a phone number: order a private number in 200+ countries, read the SMS verification code, hand it back. The widest country coverage in the cat..."
+    reason: "new repo, topic:mcp, created within 7d, stars:546"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "cline"
+      - "cursor"
+      - "mcp"
+      - "mcp-server"
+      - "model-context-protocol"
+    stars: 546
+    score: 76
+    verdict: "Watch"
+    captured_at: "2026-08-10"
+  - name: "affaan-m/ECC"
+    source: "github"
+    url: "https://github.com/affaan-m/ECC"
+    summary: "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:239238"
+    category: "open-source/updated"
+    tags:
+      - "ai-agents"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "developer-tools"
+      - "llm"
+      - "mcp"
+      - "productivity"
+    stars: 239238
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-10"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:227921"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:228443"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -39,34 +77,34 @@ candidates:
       - "claude"
       - "claude-code"
       - "clawdbot"
-    stars: 227921
+    stars: 228443
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
-  - name: "Graphify-Labs/graphify"
+    captured_at: "2026-08-10"
+  - name: "langchain-ai/langchain"
     source: "github"
-    url: "https://github.com/Graphify-Labs/graphify"
-    summary: "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deter..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:104608"
+    url: "https://github.com/langchain-ai/langchain"
+    summary: "The agent engineering platform."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:143911"
     category: "open-source/updated"
     tags:
+      - "agents"
+      - "ai"
       - "ai-agents"
-      - "antigravity"
-      - "ast"
-      - "claude-code"
-      - "code-analysis"
-      - "code-search"
-      - "codex"
-      - "cursor"
-    stars: 104608
+      - "anthropic"
+      - "chatgpt"
+      - "deepagents"
+      - "enterprise"
+      - "framework"
+    stars: 143911
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
+    captured_at: "2026-08-10"
   - name: "thedotmack/claude-mem"
     source: "github"
     url: "https://github.com/thedotmack/claude-mem"
     summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:90213"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:90333"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -77,15 +115,15 @@ candidates:
       - "chromadb"
       - "claude"
       - "claude-agent-sdk"
-    stars: 90213
+    stars: 90333
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
+    captured_at: "2026-08-10"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:65652"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:65816"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -96,15 +134,15 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 65652
+    stars: 65816
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
+    captured_at: "2026-08-10"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:55965"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:56052"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -115,53 +153,53 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 55965
+    stars: 56052
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
-  - name: "run-llama/llama_index"
+    captured_at: "2026-08-10"
+  - name: "milvus-io/milvus"
     source: "github"
-    url: "https://github.com/run-llama/llama_index"
-    summary: "LlamaIndex is the leading document agent and OCR platform"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:51506"
+    url: "https://github.com/milvus-io/milvus"
+    summary: "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:45595"
     category: "open-source/updated"
     tags:
-      - "agents"
-      - "application"
-      - "data"
-      - "fine-tuning"
-      - "framework"
-      - "llamaindex"
-      - "llm"
-      - "multi-agents"
-    stars: 51506
+      - "anns"
+      - "cloud-native"
+      - "diskann"
+      - "distributed"
+      - "embedding-database"
+      - "embedding-similarity"
+      - "embedding-store"
+      - "faiss"
+    stars: 45595
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
-  - name: "rohitg00/ai-engineering-from-scratch"
+    captured_at: "2026-08-10"
+  - name: "CopilotKit/CopilotKit"
     source: "github"
-    url: "https://github.com/rohitg00/ai-engineering-from-scratch"
-    summary: "Learn it. Build it. Ship it for others."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:46383"
+    url: "https://github.com/CopilotKit/CopilotKit"
+    summary: "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:36672"
     category: "open-source/updated"
     tags:
+      - "agent"
+      - "agent-native"
+      - "agentic-ai"
       - "agents"
       - "ai"
-      - "ai-agents"
-      - "ai-engineering"
-      - "computer-vision"
-      - "course"
-      - "deep-learning"
-      - "from-scratch"
-    stars: 46383
+      - "ai-agent"
+      - "ai-assistant"
+      - "assistant"
+    stars: 36672
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
+    captured_at: "2026-08-10"
   - name: "langfuse/langfuse"
     source: "github"
     url: "https://github.com/langfuse/langfuse"
     summary: "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:32779"
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:32841"
     category: "open-source/updated"
     tags:
       - "analytics"
@@ -172,15 +210,15 @@ candidates:
       - "llama-index"
       - "llm"
       - "llm-evaluation"
-    stars: 32779
+    stars: 32841
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
+    captured_at: "2026-08-10"
   - name: "sgl-project/sglang"
     source: "github"
     url: "https://github.com/sgl-project/sglang"
     summary: "SGLang is a high-performance serving framework for large language models and multimodal models."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:31585"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:31637"
     category: "open-source/updated"
     tags:
       - "attention"
@@ -191,48 +229,10 @@ candidates:
       - "glm"
       - "gpt-oss"
       - "inference"
-    stars: 31585
+    stars: 31637
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-09"
-  - name: "mastra-ai/mastra"
-    source: "github"
-    url: "https://github.com/mastra-ai/mastra"
-    summary: "Mastra is the modern TypeScript framework for AI-powered applications and agents."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:27061"
-    category: "open-source/updated"
-    tags:
-      - "agents"
-      - "ai"
-      - "chatbots"
-      - "evals"
-      - "javascript"
-      - "llm"
-      - "mcp"
-      - "nextjs"
-    stars: 27061
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-09"
-  - name: "QwenLM/qwen-code"
-    source: "github"
-    url: "https://github.com/QwenLM/qwen-code"
-    summary: "An open-source AI coding agent that lives in your terminal."
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:26884"
-    category: "open-source/updated"
-    tags:
-      - "agentic"
-      - "ai"
-      - "ai-agent"
-      - "ai-coding"
-      - "cli"
-      - "coding-agent"
-      - "developer-tools"
-      - "llm"
-    stars: 26884
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-09"
+    captured_at: "2026-08-10"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

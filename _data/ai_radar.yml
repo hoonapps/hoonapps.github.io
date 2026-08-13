@@ -1,4 +1,4 @@
-generated_at: "2026-08-12T00:02:21+00:00"
+generated_at: "2026-08-13T00:00:41+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,11 +11,30 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
+  - name: "SaladDay/pi-from-scratch"
+    source: "github"
+    url: "https://github.com/SaladDay/pi-from-scratch"
+    summary: "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent"
+    reason: "new repo, topic:llm, created within 7d, stars:750"
+    category: "open-source/fresh"
+    tags:
+      - "agent-loop"
+      - "ai-agent"
+      - "coding-agent"
+      - "llm"
+      - "llm-agent"
+      - "pi"
+      - "pi-agent"
+      - "tool-calling"
+    stars: 750
+    score: 85
+    verdict: "Watch"
+    captured_at: "2026-08-13"
   - name: "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots"
     source: "hacker-news"
     url: "https://cactuscompute.com/needle"
     summary: "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots"
-    reason: "query:LLM agent, points:506, comments:169"
+    reason: "query:LLM agent, points:525, comments:178"
     category: "discussion"
     tags:
       - "llm"
@@ -23,25 +42,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-08-12"
-  - name: "Prime Agent: A self-improving RLM agent"
-    source: "hacker-news"
-    url: "https://www.primeintellect.ai/blog/prime-agent"
-    summary: "Prime Agent: A self-improving RLM agent"
-    reason: "query:LLM agent, points:253, comments:69"
-    category: "discussion"
-    tags:
-      - "llm"
-      - "agent"
-    stars: 0
-    score: 85
-    verdict: "Watch"
-    captured_at: "2026-08-12"
+    captured_at: "2026-08-13"
   - name: "sv-number/mcp-server"
     source: "github"
     url: "https://github.com/sv-number/mcp-server"
     summary: "MCP server for AI agents that need a phone number: order a private number in 200+ countries, read the SMS verification code, hand it back. The widest country coverage in the cat..."
-    reason: "new repo, topic:mcp, created within 7d, stars:615"
+    reason: "new repo, topic:mcp, created within 7d, stars:593"
     category: "open-source/fresh"
     tags:
       - "ai-agents"
@@ -52,34 +58,34 @@ candidates:
       - "mcp"
       - "mcp-server"
       - "model-context-protocol"
-    stars: 615
-    score: 79
+    stars: 593
+    score: 78
     verdict: "Watch"
-    captured_at: "2026-08-12"
-  - name: "affaan-m/ECC"
+    captured_at: "2026-08-13"
+  - name: "NousResearch/hermes-agent"
     source: "github"
-    url: "https://github.com/affaan-m/ECC"
-    summary: "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:239480"
+    url: "https://github.com/NousResearch/hermes-agent"
+    summary: "The agent that grows with you"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:229561"
     category: "open-source/updated"
     tags:
+      - "ai"
+      - "ai-agent"
       - "ai-agents"
       - "anthropic"
+      - "chatgpt"
       - "claude"
       - "claude-code"
-      - "developer-tools"
-      - "llm"
-      - "mcp"
-      - "productivity"
-    stars: 239480
+      - "codex"
+    stars: 229561
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-12"
+    captured_at: "2026-08-13"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:153068"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:153118"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -88,53 +94,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 153068
+    stars: 153118
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-12"
-  - name: "langchain-ai/langchain"
-    source: "github"
-    url: "https://github.com/langchain-ai/langchain"
-    summary: "The agent engineering platform."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:144001"
-    category: "open-source/updated"
-    tags:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "deepagents"
-      - "enterprise"
-      - "framework"
-    stars: 144001
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-12"
-  - name: "thedotmack/claude-mem"
-    source: "github"
-    url: "https://github.com/thedotmack/claude-mem"
-    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:90445"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agents"
-      - "ai-memory"
-      - "anthropic"
-      - "artificial-intelligence"
-      - "chromadb"
-      - "claude"
-      - "claude-agent-sdk"
-    stars: 90445
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-12"
+    captured_at: "2026-08-13"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:65974"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:66092"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -145,34 +113,34 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 65974
+    stars: 66092
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-12"
-  - name: "Mintplex-Labs/anything-llm"
+    captured_at: "2026-08-13"
+  - name: "santifer/career-ops"
     source: "github"
-    url: "https://github.com/Mintplex-Labs/anything-llm"
-    summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:64619"
+    url: "https://github.com/santifer/career-ops"
+    summary: "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI co..."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:63637"
     category: "open-source/updated"
     tags:
-      - "agent-computer"
-      - "agent-harness"
-      - "agent-orchestration"
-      - "agentic-ai"
-      - "ai-agents"
-      - "computer-use"
-      - "hermes-agent"
-      - "llm"
-    stars: 64619
+      - "ai"
+      - "ai-agent"
+      - "anthropic"
+      - "ats"
+      - "automation"
+      - "beginner-friendly"
+      - "career"
+      - "careerops"
+    stars: 63637
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-12"
+    captured_at: "2026-08-13"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:56128"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:56203"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -183,43 +151,86 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 56128
+    stars: 56203
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-12"
-  - name: "CopilotKit/CopilotKit"
+    captured_at: "2026-08-13"
+  - name: "diegosouzapw/OmniRoute"
     source: "github"
-    url: "https://github.com/CopilotKit/CopilotKit"
-    summary: "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:36695"
+    url: "https://github.com/diegosouzapw/OmniRoute"
+    summary: "Never stop coding. Free MIT AI gateway: one endpoint, 330+ providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex,..."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:46596"
     category: "open-source/updated"
     tags:
-      - "agent"
-      - "agent-native"
+      - "a2a"
+      - "ai-agents"
+      - "ai-gateway"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "cline"
+      - "codex"
+    stars: 46596
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-13"
+  - name: "heygen-com/hyperframes"
+    source: "github"
+    url: "https://github.com/heygen-com/hyperframes"
+    summary: "Write HTML. Render video. Built for agents."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:40734"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "animation"
+      - "ffmpeg"
+      - "framework"
+      - "gsap"
+      - "html"
+      - "mcp"
+      - "puppeteer"
+    stars: 40734
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-13"
+  - name: "HKUDS/LightRAG"
+    source: "github"
+    url: "https://github.com/HKUDS/LightRAG"
+    summary: "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
+    reason: "major repo update, topic:rag, pushed within 7d, stars:38808"
+    category: "open-source/updated"
+    tags:
+      - "genai"
+      - "gpt"
+      - "gpt-4"
+      - "graphrag"
+      - "knowledge-graph"
+      - "large-language-models"
+      - "llm"
+      - "rag"
+    stars: 38808
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-13"
+  - name: "VectifyAI/PageIndex"
+    source: "github"
+    url: "https://github.com/VectifyAI/PageIndex"
+    summary: "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:35156"
+    category: "open-source/updated"
+    tags:
       - "agentic-ai"
       - "agents"
       - "ai"
-      - "ai-agent"
-      - "ai-assistant"
-      - "assistant"
-    stars: 36695
+      - "ai-agents"
+      - "context-engineering"
+      - "information-retrieval"
+      - "llm"
+      - "rag"
+    stars: 35156
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-12"
-  - name: "anthropics/claude-plugins-official"
-    source: "github"
-    url: "https://github.com/anthropics/claude-plugins-official"
-    summary: "Official, Anthropic-managed directory of high quality Claude Code Plugins."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:33418"
-    category: "open-source/updated"
-    tags:
-      - "claude-code"
-      - "mcp"
-      - "skills"
-    stars: 33418
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-12"
+    captured_at: "2026-08-13"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

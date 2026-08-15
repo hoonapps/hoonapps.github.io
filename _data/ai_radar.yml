@@ -1,4 +1,4 @@
-generated_at: "2026-08-14T23:40:49+00:00"
+generated_at: "2026-08-15T23:37:35+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "github"
     url: "https://github.com/SaladDay/pi-from-scratch"
     summary: "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent"
-    reason: "new repo, topic:llm, created within 7d, stars:978"
+    reason: "new repo, topic:llm, created within 7d, stars:1007"
     category: "open-source/fresh"
     tags:
       - "agent-loop"
@@ -26,10 +26,10 @@ candidates:
       - "pi"
       - "pi-agent"
       - "tool-calling"
-    stars: 978
+    stars: 1007
     score: 90
     verdict: "Watch"
-    captured_at: "2026-08-14"
+    captured_at: "2026-08-15"
   - name: "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots"
     source: "hacker-news"
     url: "https://cactuscompute.com/needle"
@@ -42,12 +42,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-08-14"
+    captured_at: "2026-08-15"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:230653"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:231067"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -58,34 +58,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "codex"
-    stars: 230653
+    stars: 231067
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-14"
-  - name: "Significant-Gravitas/AutoGPT"
-    source: "github"
-    url: "https://github.com/Significant-Gravitas/AutoGPT"
-    summary: "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:186623"
-    category: "open-source/updated"
-    tags:
-      - "agentic-ai"
-      - "agents"
-      - "ai"
-      - "artificial-intelligence"
-      - "autonomous-agents"
-      - "claude"
-      - "gpt"
-      - "llama-api"
-    stars: 186623
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-14"
+    captured_at: "2026-08-15"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:153251"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:153276"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -94,15 +75,34 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 153251
+    stars: 153276
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-14"
+    captured_at: "2026-08-15"
+  - name: "Graphify-Labs/graphify"
+    source: "github"
+    url: "https://github.com/Graphify-Labs/graphify"
+    summary: "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deter..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:106716"
+    category: "open-source/updated"
+    tags:
+      - "ai-agents"
+      - "antigravity"
+      - "ast"
+      - "claude-code"
+      - "code-analysis"
+      - "code-search"
+      - "codex"
+      - "cursor"
+    stars: 106716
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-15"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:66371"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:66447"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -113,34 +113,15 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 66371
+    stars: 66447
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-14"
-  - name: "santifer/career-ops"
-    source: "github"
-    url: "https://github.com/santifer/career-ops"
-    summary: "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI co..."
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:63854"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agent"
-      - "anthropic"
-      - "ats"
-      - "automation"
-      - "beginner-friendly"
-      - "career"
-      - "careerops"
-    stars: 63854
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-14"
+    captured_at: "2026-08-15"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:56354"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:56423"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -151,34 +132,34 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 56354
+    stars: 56423
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-14"
-  - name: "siyuan-note/siyuan"
+    captured_at: "2026-08-15"
+  - name: "diegosouzapw/OmniRoute"
     source: "github"
-    url: "https://github.com/siyuan-note/siyuan"
-    summary: "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:45801"
+    url: "https://github.com/diegosouzapw/OmniRoute"
+    summary: "Never stop coding. Free MIT AI gateway: one endpoint, 339 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex,..."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:48573"
     category: "open-source/updated"
     tags:
-      - "agentic-ai"
-      - "ai-agent"
-      - "digital-garden"
-      - "electron"
-      - "knowledge-base"
-      - "knowledge-graph"
-      - "local-first"
-      - "markdown"
-    stars: 45801
+      - "a2a"
+      - "ai-agents"
+      - "ai-gateway"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "cline"
+      - "codex"
+    stars: 48573
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-14"
+    captured_at: "2026-08-15"
   - name: "milvus-io/milvus"
     source: "github"
     url: "https://github.com/milvus-io/milvus"
     summary: "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:45637"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:45646"
     category: "open-source/updated"
     tags:
       - "anns"
@@ -189,43 +170,67 @@ candidates:
       - "embedding-similarity"
       - "embedding-store"
       - "faiss"
-    stars: 45637
+    stars: 45646
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-14"
-  - name: "CopilotKit/CopilotKit"
+    captured_at: "2026-08-15"
+  - name: "bojieli/ai-agent-book"
     source: "github"
-    url: "https://github.com/CopilotKit/CopilotKit"
-    summary: "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:36766"
+    url: "https://github.com/bojieli/ai-agent-book"
+    summary: "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:37614"
     category: "open-source/updated"
     tags:
       - "agent"
-      - "agent-native"
-      - "agentic-ai"
-      - "agents"
-      - "ai"
+      - "agent-memory"
       - "ai-agent"
-      - "ai-assistant"
-      - "assistant"
-    stars: 36766
+      - "book"
+      - "coding-agent"
+      - "context-engineering"
+      - "large-language-models"
+      - "llm"
+    stars: 37614
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-14"
-  - name: "anthropics/claude-plugins-official"
+    captured_at: "2026-08-15"
+  - name: "langfuse/langfuse"
     source: "github"
-    url: "https://github.com/anthropics/claude-plugins-official"
-    summary: "Official, Anthropic-managed directory of high quality Claude Code Plugins."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:33530"
+    url: "https://github.com/langfuse/langfuse"
+    summary: "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM,..."
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:33155"
     category: "open-source/updated"
     tags:
-      - "claude-code"
-      - "mcp"
-      - "skills"
-    stars: 33530
+      - "analytics"
+      - "autogen"
+      - "evaluation"
+      - "langchain"
+      - "large-language-models"
+      - "llama-index"
+      - "llm"
+      - "llm-evaluation"
+    stars: 33155
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-14"
+    captured_at: "2026-08-15"
+  - name: "sgl-project/sglang"
+    source: "github"
+    url: "https://github.com/sgl-project/sglang"
+    summary: "SGLang is a high-performance serving framework for large language models and multimodal models."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:31871"
+    category: "open-source/updated"
+    tags:
+      - "attention"
+      - "blackwell"
+      - "cuda"
+      - "deepseek"
+      - "diffusion"
+      - "glm"
+      - "gpt-oss"
+      - "inference"
+    stars: 31871
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-15"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

@@ -1,4 +1,4 @@
-generated_at: "2026-08-16T23:37:01+00:00"
+generated_at: "2026-08-17T23:40:56+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,60 +11,11 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots"
-    source: "hacker-news"
-    url: "https://cactuscompute.com/needle"
-    summary: "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots"
-    reason: "query:LLM agent, points:532, comments:183"
-    category: "discussion"
-    tags:
-      - "llm"
-      - "agent"
-    stars: 0
-    score: 85
-    verdict: "Watch"
-    captured_at: "2026-08-16"
-  - name: "0xsline/awesome-deepseek-harness"
-    source: "github"
-    url: "https://github.com/0xsline/awesome-deepseek-harness"
-    summary: "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic."
-    reason: "new repo, topic:llm, created within 7d, stars:602"
-    category: "open-source/fresh"
-    tags:
-      - "agent"
-      - "ai"
-      - "ai-agents"
-      - "ai-tools"
-      - "awesome"
-      - "awesome-list"
-      - "coding-assistant"
-      - "curated-list"
-    stars: 602
-    score: 79
-    verdict: "Watch"
-    captured_at: "2026-08-16"
-  - name: "zouyuxuan122/Deepseek-Harness-EAC"
-    source: "github"
-    url: "https://github.com/zouyuxuan122/Deepseek-Harness-EAC"
-    summary: "DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象"
-    reason: "new repo, topic:ai-agent, created within 7d, stars:540"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agent"
-      - "deepseek"
-      - "desktop-app"
-      - "dsh"
-      - "electron"
-      - "windows"
-    stars: 540
-    score: 76
-    verdict: "Watch"
-    captured_at: "2026-08-16"
   - name: "elie222/rakazo"
     source: "github"
     url: "https://github.com/elie222/rakazo"
     summary: "Open-source Grok Bot alternative. Choose your own model and sandbox."
-    reason: "new repo, topic:llm, created within 7d, stars:535"
+    reason: "new repo, topic:llm, created within 7d, stars:772"
     category: "open-source/fresh"
     tags:
       - "ai-agents"
@@ -75,15 +26,51 @@ candidates:
       - "grok"
       - "llm"
       - "self-hosted"
-    stars: 535
-    score: 76
+    stars: 772
+    score: 85
     verdict: "Watch"
-    captured_at: "2026-08-16"
+    captured_at: "2026-08-17"
+  - name: "zouyuxuan122/Deepseek-Harness-EAC"
+    source: "github"
+    url: "https://github.com/zouyuxuan122/Deepseek-Harness-EAC"
+    summary: "DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象"
+    reason: "new repo, topic:ai-agent, created within 7d, stars:739"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agent"
+      - "deepseek"
+      - "desktop-app"
+      - "dsh"
+      - "electron"
+      - "windows"
+    stars: 739
+    score: 84
+    verdict: "Watch"
+    captured_at: "2026-08-17"
+  - name: "0xsline/awesome-deepseek-harness"
+    source: "github"
+    url: "https://github.com/0xsline/awesome-deepseek-harness"
+    summary: "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic."
+    reason: "new repo, topic:llm, created within 7d, stars:688"
+    category: "open-source/fresh"
+    tags:
+      - "agent"
+      - "ai"
+      - "ai-agents"
+      - "ai-tools"
+      - "awesome"
+      - "awesome-list"
+      - "coding-assistant"
+      - "curated-list"
+    stars: 688
+    score: 82
+    verdict: "Watch"
+    captured_at: "2026-08-17"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:231487"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:232009"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -94,15 +81,34 @@ candidates:
       - "claude"
       - "claude-code"
       - "codex"
-    stars: 231487
+    stars: 232009
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-16"
+    captured_at: "2026-08-17"
+  - name: "n8n-io/n8n"
+    source: "github"
+    url: "https://github.com/n8n-io/n8n"
+    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:201000"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "apis"
+      - "automation"
+      - "cli"
+      - "data-flow"
+      - "development"
+      - "integration-framework"
+      - "integrations"
+    stars: 201000
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-17"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:153333"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:153367"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -111,53 +117,53 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 153333
+    stars: 153367
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-16"
-  - name: "Graphify-Labs/graphify"
+    captured_at: "2026-08-17"
+  - name: "langchain-ai/langchain"
     source: "github"
-    url: "https://github.com/Graphify-Labs/graphify"
-    summary: "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deter..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:107094"
+    url: "https://github.com/langchain-ai/langchain"
+    summary: "The agent engineering platform."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:144414"
     category: "open-source/updated"
     tags:
-      - "ai-agents"
-      - "antigravity"
-      - "ast"
-      - "claude-code"
-      - "code-analysis"
-      - "code-search"
-      - "codex"
-      - "cursor"
-    stars: 107094
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-16"
-  - name: "thedotmack/claude-mem"
-    source: "github"
-    url: "https://github.com/thedotmack/claude-mem"
-    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:90910"
-    category: "open-source/updated"
-    tags:
+      - "agents"
       - "ai"
       - "ai-agents"
-      - "ai-memory"
       - "anthropic"
-      - "artificial-intelligence"
-      - "chromadb"
-      - "claude"
-      - "claude-agent-sdk"
-    stars: 90910
+      - "chatgpt"
+      - "deepagents"
+      - "enterprise"
+      - "framework"
+    stars: 144414
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-16"
+    captured_at: "2026-08-17"
+  - name: "vllm-project/vllm"
+    source: "github"
+    url: "https://github.com/vllm-project/vllm"
+    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:89277"
+    category: "open-source/updated"
+    tags:
+      - "amd"
+      - "blackwell"
+      - "cuda"
+      - "deepseek"
+      - "deepseek-v3"
+      - "gpt"
+      - "gpt-oss"
+      - "inference"
+    stars: 89277
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-17"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:66533"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:66672"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -168,15 +174,15 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 66533
+    stars: 66672
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-16"
+    captured_at: "2026-08-17"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:56480"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:56559"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -187,48 +193,48 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 56480
+    stars: 56559
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-16"
-  - name: "CherryHQ/cherry-studio"
+    captured_at: "2026-08-17"
+  - name: "CopilotKit/CopilotKit"
     source: "github"
-    url: "https://github.com/CherryHQ/cherry-studio"
-    summary: "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:50558"
+    url: "https://github.com/CopilotKit/CopilotKit"
+    summary: "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:36803"
     category: "open-source/updated"
     tags:
-      - "agent-skills"
-      - "ai-agent"
-      - "claude-code"
-      - "codex"
-      - "deepseek"
-      - "deepseek-harness"
-      - "hermes-agent"
-      - "skills"
-    stars: 50558
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-16"
-  - name: "danny-avila/LibreChat"
-    source: "github"
-    url: "https://github.com/danny-avila/LibreChat"
-    summary: "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts,..."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:42105"
-    category: "open-source/updated"
-    tags:
+      - "agent"
+      - "agent-native"
+      - "agentic-ai"
+      - "agents"
       - "ai"
-      - "anthropic"
-      - "artifacts"
-      - "aws"
-      - "azure"
-      - "chatgpt"
-      - "chatgpt-clone"
-      - "claude"
-    stars: 42105
+      - "ai-agent"
+      - "ai-assistant"
+      - "assistant"
+    stars: 36803
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-16"
+    captured_at: "2026-08-17"
+  - name: "esengine/DeepSeek-Reasonix"
+    source: "github"
+    url: "https://github.com/esengine/DeepSeek-Reasonix"
+    summary: "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:34683"
+    category: "open-source/updated"
+    tags:
+      - "agent"
+      - "agent-framework"
+      - "ai-agent"
+      - "ai-coding"
+      - "cli"
+      - "coding-agent"
+      - "deepseek"
+      - "developer-tools"
+    stars: 34683
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-17"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://hoonapps.github.io/sitemap.xml
+

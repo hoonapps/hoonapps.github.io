@@ -1,4 +1,4 @@
-generated_at: "2026-08-29T04:10:59+00:00"
+generated_at: "2026-08-30T01:18:01+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,6 +11,23 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
+  - name: "XiaoDuoYa/codex-with-chatgpt"
+    source: "github"
+    url: "https://github.com/XiaoDuoYa/codex-with-chatgpt"
+    summary: "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness."
+    reason: "new repo, topic:mcp, created within 7d, stars:936"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "chatgpt"
+      - "codex"
+      - "mcp"
+      - "model-context-protocol"
+      - "oauth"
+    stars: 936
+    score: 90
+    verdict: "Watch"
+    captured_at: "2026-08-30"
   - name: "My agent.md to improve LLM-assisted code quality"
     source: "hacker-news"
     url: "https://fabiensanglard.net/agent.md/index.html"
@@ -23,12 +40,31 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-08-29"
+    captured_at: "2026-08-30"
+  - name: "Nanako0129/sepia"
+    source: "github"
+    url: "https://github.com/Nanako0129/sepia"
+    summary: "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StorySc..."
+    reason: "new repo, topic:llm, created within 7d, stars:661"
+    category: "open-source/fresh"
+    tags:
+      - "agent-skills"
+      - "ai-writing"
+      - "antigravity"
+      - "claude-code"
+      - "codex"
+      - "developer-tools"
+      - "fiction"
+      - "grok"
+    stars: 661
+    score: 81
+    verdict: "Watch"
+    captured_at: "2026-08-30"
   - name: "Show HN: We built open OpenRouter that turns usage into a better model"
     source: "hacker-news"
     url: "https://github.com/experientiallabs/experiential"
     summary: "Show HN: We built open OpenRouter that turns usage into a better model"
-    reason: "query:LLM agent, points:208, comments:46"
+    reason: "query:LLM agent, points:215, comments:46"
     category: "discussion"
     tags:
       - "llm"
@@ -36,31 +72,12 @@ candidates:
     stars: 0
     score: 80
     verdict: "Watch"
-    captured_at: "2026-08-29"
-  - name: "affaan-m/ECC"
-    source: "github"
-    url: "https://github.com/affaan-m/ECC"
-    summary: "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:243993"
-    category: "open-source/updated"
-    tags:
-      - "ai-agents"
-      - "anthropic"
-      - "claude"
-      - "claude-code"
-      - "developer-tools"
-      - "llm"
-      - "mcp"
-      - "productivity"
-    stars: 243993
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-29"
+    captured_at: "2026-08-30"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:237796"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:238145"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -71,15 +88,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "codex"
-    stars: 237796
+    stars: 238145
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-29"
+    captured_at: "2026-08-30"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:153828"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:153869"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -88,53 +105,91 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 153828
+    stars: 153869
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-29"
-  - name: "vllm-project/vllm"
+    captured_at: "2026-08-30"
+  - name: "langgenius/dify"
     source: "github"
-    url: "https://github.com/vllm-project/vllm"
-    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:90355"
-    category: "open-source/updated"
-    tags:
-      - "amd"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "deepseek-v3"
-      - "gpt"
-      - "gpt-oss"
-      - "inference"
-    stars: 90355
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-29"
-  - name: "lobehub/lobehub"
-    source: "github"
-    url: "https://github.com/lobehub/lobehub"
-    summary: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:82078"
+    url: "https://github.com/langgenius/dify"
+    summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:153843"
     category: "open-source/updated"
     tags:
       - "agent"
-      - "agent-collaboration"
-      - "agent-harness"
+      - "agentic-ai"
+      - "agentic-framework"
+      - "agentic-workflow"
       - "ai"
-      - "cao"
-      - "chatgpt"
-      - "chief-agent-operator"
+      - "automation"
       - "claude"
-    stars: 82078
+      - "deepseek"
+    stars: 153843
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-29"
+    captured_at: "2026-08-30"
+  - name: "rasbt/LLMs-from-scratch"
+    source: "github"
+    url: "https://github.com/rasbt/LLMs-from-scratch"
+    summary: "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:104015"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "artificial-intelligence"
+      - "attention-mechanism"
+      - "deep-learning"
+      - "finetuning"
+      - "from-scratch"
+      - "generative-ai"
+      - "gpt"
+    stars: 104015
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-30"
+  - name: "thedotmack/claude-mem"
+    source: "github"
+    url: "https://github.com/thedotmack/claude-mem"
+    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:92589"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "ai-agents"
+      - "ai-memory"
+      - "anthropic"
+      - "artificial-intelligence"
+      - "chromadb"
+      - "claude"
+      - "claude-agent-sdk"
+    stars: 92589
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-30"
+  - name: "rtk-ai/rtk"
+    source: "github"
+    url: "https://github.com/rtk-ai/rtk"
+    summary: "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:77831"
+    category: "open-source/updated"
+    tags:
+      - "agentic-coding"
+      - "ai-coding"
+      - "anthropic"
+      - "claude-code"
+      - "cli"
+      - "command-line-tool"
+      - "cost-reduction"
+      - "developer-tools"
+    stars: 77831
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-08-30"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:67936"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:68019"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -145,33 +200,15 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 67936
+    stars: 68019
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-29"
-  - name: "ZhuLinsen/daily_stock_analysis"
-    source: "github"
-    url: "https://github.com/ZhuLinsen/daily_stock_analysis"
-    summary: "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated not..."
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:64220"
-    category: "open-source/updated"
-    tags:
-      - "a-stock"
-      - "ai-agent"
-      - "aigc"
-      - "llm"
-      - "quant"
-      - "quantitative-finance"
-      - "quantitative-trading"
-    stars: 64220
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-29"
+    captured_at: "2026-08-30"
   - name: "asgeirtj/system_prompts_leaks"
     source: "github"
     url: "https://github.com/asgeirtj/system_prompts_leaks"
     summary: "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravit..."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:63766"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:63802"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -182,48 +219,10 @@ candidates:
       - "chatgpt"
       - "claude"
       - "claude-code"
-    stars: 63766
+    stars: 63802
     score: 75
     verdict: "Watch"
-    captured_at: "2026-08-29"
-  - name: "BerriAI/litellm"
-    source: "github"
-    url: "https://github.com/BerriAI/litellm"
-    summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:57506"
-    category: "open-source/updated"
-    tags:
-      - "ai-gateway"
-      - "anthropic"
-      - "azure-openai"
-      - "bedrock"
-      - "gateway"
-      - "langchain"
-      - "litellm"
-      - "llm"
-    stars: 57506
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-29"
-  - name: "bojieli/ai-agent-book"
-    source: "github"
-    url: "https://github.com/bojieli/ai-agent-book"
-    summary: "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:43032"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "agent-memory"
-      - "ai-agent"
-      - "book"
-      - "coding-agent"
-      - "context-engineering"
-      - "large-language-models"
-      - "llm"
-    stars: 43032
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-08-29"
+    captured_at: "2026-08-30"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

@@ -1,4 +1,4 @@
-generated_at: "2026-09-02T01:04:08+00:00"
+generated_at: "2026-09-03T01:10:02+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "github"
     url: "https://github.com/XiaoDuoYa/codex-with-chatgpt"
     summary: "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness."
-    reason: "new repo, topic:mcp, created within 7d, stars:2130"
+    reason: "new repo, topic:mcp, created within 7d, stars:2275"
     category: "open-source/fresh"
     tags:
       - "ai-agents"
@@ -24,15 +24,15 @@ candidates:
       - "mcp"
       - "model-context-protocol"
       - "oauth"
-    stars: 2130
+    stars: 2275
     score: 90
     verdict: "Watch"
-    captured_at: "2026-09-02"
+    captured_at: "2026-09-03"
   - name: "Nanako0129/sepia"
     source: "github"
     url: "https://github.com/Nanako0129/sepia"
     summary: "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architectu..."
-    reason: "new repo, topic:llm, created within 7d, stars:1356"
+    reason: "new repo, topic:llm, created within 7d, stars:1581"
     category: "open-source/fresh"
     tags:
       - "agent-skills"
@@ -43,15 +43,15 @@ candidates:
       - "developer-tools"
       - "fiction"
       - "grok"
-    stars: 1356
+    stars: 1581
     score: 90
     verdict: "Watch"
-    captured_at: "2026-09-02"
+    captured_at: "2026-09-03"
   - name: "cbrock84/headcount"
     source: "github"
     url: "https://github.com/cbrock84/headcount"
     summary: "An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable."
-    reason: "new repo, topic:mcp, created within 7d, stars:951"
+    reason: "new repo, topic:mcp, created within 7d, stars:1117"
     category: "open-source/fresh"
     tags:
       - "agent-marketplace"
@@ -60,10 +60,10 @@ candidates:
       - "claude-plugin"
       - "claude-skills"
       - "mcp"
-    stars: 951
+    stars: 1117
     score: 90
     verdict: "Watch"
-    captured_at: "2026-09-02"
+    captured_at: "2026-09-03"
   - name: "Show HN: We built open OpenRouter that turns usage into a better model"
     source: "hacker-news"
     url: "https://github.com/experientiallabs/experiential"
@@ -76,50 +76,69 @@ candidates:
     stars: 0
     score: 80
     verdict: "Watch"
-    captured_at: "2026-09-02"
-  - name: "NousResearch/hermes-agent"
+    captured_at: "2026-09-03"
+  - name: "2akouwu/reverify"
     source: "github"
-    url: "https://github.com/NousResearch/hermes-agent"
-    summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:239519"
-    category: "open-source/updated"
+    url: "https://github.com/2akouwu/reverify"
+    summary: "Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated."
+    reason: "new repo, topic:mcp, created within 7d, stars:583"
+    category: "open-source/fresh"
     tags:
-      - "ai"
-      - "ai-agent"
+      - "agentic-workflow"
       - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
+      - "automation"
+      - "binary-analysis"
       - "codex"
-    stars: 239519
-    score: 75
+      - "codex-cli"
+      - "ctf"
+      - "developer-tools"
+    stars: 583
+    score: 78
     verdict: "Watch"
-    captured_at: "2026-09-02"
-  - name: "firecrawl/firecrawl"
+    captured_at: "2026-09-03"
+  - name: "n8n-io/n8n"
     source: "github"
-    url: "https://github.com/firecrawl/firecrawl"
-    summary: "The context API to search, scrape, and interact with the web at scale. 🔥"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:175309"
+    url: "https://github.com/n8n-io/n8n"
+    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:203175"
     category: "open-source/updated"
     tags:
       - "ai"
-      - "ai-agents"
-      - "ai-crawler"
-      - "ai-scraping"
-      - "ai-search"
-      - "crawler"
-      - "data-extraction"
-      - "html-to-markdown"
-    stars: 175309
+      - "apis"
+      - "automation"
+      - "cli"
+      - "data-flow"
+      - "development"
+      - "integration-framework"
+      - "integrations"
+    stars: 203175
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-02"
+    captured_at: "2026-09-03"
+  - name: "huggingface/transformers"
+    source: "github"
+    url: "https://github.com/huggingface/transformers"
+    summary: "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:164729"
+    category: "open-source/updated"
+    tags:
+      - "audio"
+      - "deep-learning"
+      - "deepseek"
+      - "gemma"
+      - "glm"
+      - "hacktoberfest"
+      - "llm"
+      - "machine-learning"
+    stars: 164729
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-09-03"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:154050"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:154133"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -128,34 +147,68 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 154050
+    stars: 154133
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-02"
-  - name: "open-webui/open-webui"
+    captured_at: "2026-09-03"
+  - name: "Shubhamsaboo/awesome-llm-apps"
     source: "github"
-    url: "https://github.com/open-webui/open-webui"
-    summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:150635"
+    url: "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    summary: "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:135778"
+    category: "open-source/updated"
+    tags:
+      - "agents"
+      - "llms"
+      - "python"
+      - "rag"
+    stars: 135778
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-09-03"
+  - name: "career-ops-hq/career-ops"
+    source: "github"
+    url: "https://github.com/career-ops-hq/career-ops"
+    summary: "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI..."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:69929"
     category: "open-source/updated"
     tags:
       - "ai"
-      - "llm"
-      - "llm-ui"
-      - "llm-webui"
-      - "llms"
-      - "mcp"
-      - "ollama"
-      - "ollama-webui"
-    stars: 150635
+      - "ai-agent"
+      - "anthropic"
+      - "ats"
+      - "automation"
+      - "beginner-friendly"
+      - "career"
+      - "careerops"
+    stars: 69929
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-02"
+    captured_at: "2026-09-03"
+  - name: "Mintplex-Labs/anything-llm"
+    source: "github"
+    url: "https://github.com/Mintplex-Labs/anything-llm"
+    summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:65527"
+    category: "open-source/updated"
+    tags:
+      - "agent-computer"
+      - "agent-harness"
+      - "agent-orchestration"
+      - "agentic-ai"
+      - "ai-agents"
+      - "computer-use"
+      - "hermes-agent"
+      - "llm"
+    stars: 65527
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-09-03"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:57773"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:57856"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -166,66 +219,10 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 57773
+    stars: 57856
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-02"
-  - name: "Hmbown/CodeWhale"
-    source: "github"
-    url: "https://github.com/Hmbown/CodeWhale"
-    summary: "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome."
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:40888"
-    category: "open-source/updated"
-    tags:
-      - "agent-orchestration"
-      - "ai-agent"
-      - "cli"
-      - "coding-agent"
-      - "local-first"
-      - "mcp"
-      - "multi-agent"
-      - "multi-model"
-    stars: 40888
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-09-02"
-  - name: "tinyhumansai/openhuman"
-    source: "github"
-    url: "https://github.com/tinyhumansai/openhuman"
-    summary: "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:39299"
-    category: "open-source/updated"
-    tags:
-      - "agent-framework"
-      - "ai-agents"
-      - "artificial-intelligence"
-      - "developer-tools"
-      - "llm"
-      - "local-first"
-      - "multi-agent"
-      - "open-source"
-    stars: 39299
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-09-02"
-  - name: "microsoft/graphrag"
-    source: "github"
-    url: "https://github.com/microsoft/graphrag"
-    summary: "A modular graph-based Retrieval-Augmented Generation (RAG) system"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:35776"
-    category: "open-source/updated"
-    tags:
-      - "gpt"
-      - "gpt-4"
-      - "gpt4"
-      - "graphrag"
-      - "llm"
-      - "llms"
-      - "rag"
-    stars: 35776
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-09-02"
+    captured_at: "2026-09-03"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

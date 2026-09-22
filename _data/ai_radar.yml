@@ -1,4 +1,4 @@
-generated_at: "2026-09-21T01:11:38+00:00"
+generated_at: "2026-09-22T01:37:44+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,26 +11,43 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
+  - name: "jev-chat/jev-chat-jarvis"
+    source: "github"
+    url: "https://github.com/jev-chat/jev-chat-jarvis"
+    summary: "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。"
+    reason: "new repo, topic:llm, created within 7d, stars:1149"
+    category: "open-source/fresh"
+    tags:
+      - "accessibility-service"
+      - "android"
+      - "chat-assistant"
+      - "llm"
+      - "qq"
+      - "wechat"
+    stars: 1149
+    score: 90
+    verdict: "Watch"
+    captured_at: "2026-09-22"
   - name: "yibie/awesome-jev"
     source: "github"
     url: "https://github.com/yibie/awesome-jev"
     summary: "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions."
-    reason: "new repo, topic:llm, created within 7d, stars:619"
+    reason: "new repo, topic:llm, created within 7d, stars:987"
     category: "open-source/fresh"
     tags:
       - "awesome"
       - "awesome-list"
       - "jev"
       - "llm"
-    stars: 619
-    score: 79
+    stars: 987
+    score: 90
     verdict: "Watch"
-    captured_at: "2026-09-21"
+    captured_at: "2026-09-22"
   - name: "v-modal/awesome-jev-tools"
     source: "github"
     url: "https://github.com/v-modal/awesome-jev-tools"
     summary: "A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions."
-    reason: "new repo, topic:llm, created within 7d, stars:551"
+    reason: "new repo, topic:llm, created within 7d, stars:627"
     category: "open-source/fresh"
     tags:
       - "awesome"
@@ -41,15 +58,15 @@ candidates:
       - "robotics"
       - "robotics-algorithms"
       - "robotics-control"
-    stars: 551
-    score: 77
+    stars: 627
+    score: 80
     verdict: "Watch"
-    captured_at: "2026-09-21"
+    captured_at: "2026-09-22"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:247483"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:247790"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -60,15 +77,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "codex"
-    stars: 247483
+    stars: 247790
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-21"
+    captured_at: "2026-09-22"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:156636"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:156775"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -79,15 +96,15 @@ candidates:
       - "automation"
       - "claude"
       - "deepseek"
-    stars: 156636
+    stars: 156775
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-21"
+    captured_at: "2026-09-22"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155057"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155107"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -96,47 +113,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 155057
+    stars: 155107
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-21"
-  - name: "punkpeye/awesome-mcp-servers"
-    source: "github"
-    url: "https://github.com/punkpeye/awesome-mcp-servers"
-    summary: "A collection of MCP servers."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:95343"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "mcp"
-    stars: 95343
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-09-21"
-  - name: "thedotmack/claude-mem"
-    source: "github"
-    url: "https://github.com/thedotmack/claude-mem"
-    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:94343"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agents"
-      - "ai-memory"
-      - "anthropic"
-      - "artificial-intelligence"
-      - "chromadb"
-      - "claude"
-      - "claude-agent-sdk"
-    stars: 94343
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-09-21"
+    captured_at: "2026-09-22"
   - name: "vllm-project/vllm"
     source: "github"
     url: "https://github.com/vllm-project/vllm"
     summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:92261"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:92368"
     category: "open-source/updated"
     tags:
       - "amd"
@@ -147,34 +132,53 @@ candidates:
       - "gpt"
       - "gpt-oss"
       - "inference"
-    stars: 92261
+    stars: 92368
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-21"
-  - name: "unslothai/unsloth"
+    captured_at: "2026-09-22"
+  - name: "headroomlabs-ai/headroom"
     source: "github"
-    url: "https://github.com/unslothai/unsloth"
-    summary: "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:76502"
+    url: "https://github.com/headroomlabs-ai/headroom"
+    summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:73418"
     category: "open-source/updated"
     tags:
       - "agent"
       - "ai"
-      - "chatgpt"
-      - "deepseek"
-      - "fine-tuning"
-      - "gemma"
-      - "image-generation"
-      - "llama"
-    stars: 76502
+      - "anthropic"
+      - "claude-code"
+      - "compression"
+      - "context-engineering"
+      - "context-window"
+      - "cursor"
+    stars: 73418
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-21"
+    captured_at: "2026-09-22"
+  - name: "diegosouzapw/OmniRoute"
+    source: "github"
+    url: "https://github.com/diegosouzapw/OmniRoute"
+    summary: "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, C..."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:68977"
+    category: "open-source/updated"
+    tags:
+      - "a2a"
+      - "ai-agents"
+      - "ai-gateway"
+      - "anthropic"
+      - "claude"
+      - "claude-code"
+      - "cline"
+      - "codex"
+    stars: 68977
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-09-22"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:59250"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:59348"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -185,15 +189,15 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 59250
+    stars: 59348
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-21"
+    captured_at: "2026-09-22"
   - name: "heygen-com/hyperframes"
     source: "github"
     url: "https://github.com/heygen-com/hyperframes"
     summary: "Write HTML. Render video. Built for agents."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:51960"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:52174"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -204,29 +208,29 @@ candidates:
       - "html"
       - "mcp"
       - "puppeteer"
-    stars: 51960
+    stars: 52174
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-21"
-  - name: "milvus-io/milvus"
+    captured_at: "2026-09-22"
+  - name: "CherryHQ/cherry-studio"
     source: "github"
-    url: "https://github.com/milvus-io/milvus"
-    summary: "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:46179"
+    url: "https://github.com/CherryHQ/cherry-studio"
+    summary: "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:52055"
     category: "open-source/updated"
     tags:
-      - "anns"
-      - "cloud-native"
-      - "diskann"
-      - "distributed"
-      - "embedding-database"
-      - "embedding-similarity"
-      - "embedding-store"
-      - "faiss"
-    stars: 46179
+      - "agent-skills"
+      - "ai-agent"
+      - "claude-code"
+      - "codex"
+      - "deepseek"
+      - "hermes-agent"
+      - "open-code-review"
+      - "skills"
+    stars: 52055
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-21"
+    captured_at: "2026-09-22"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

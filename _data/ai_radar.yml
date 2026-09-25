@@ -1,4 +1,4 @@
-generated_at: "2026-09-24T01:28:34+00:00"
+generated_at: "2026-09-25T01:36:07+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -14,8 +14,8 @@ candidates:
   - name: "jev-chat/jev-chat-jarvis"
     source: "github"
     url: "https://github.com/jev-chat/jev-chat-jarvis"
-    summary: "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。"
-    reason: "new repo, topic:llm, created within 7d, stars:5271"
+    summary: "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。"
+    reason: "new repo, topic:llm, created within 7d, stars:6102"
     category: "open-source/fresh"
     tags:
       - "accessibility-service"
@@ -23,16 +23,15 @@ candidates:
       - "chat-assistant"
       - "llm"
       - "qq"
-      - "wechat"
-    stars: 5271
+    stars: 6102
     score: 90
     verdict: "Watch"
-    captured_at: "2026-09-24"
+    captured_at: "2026-09-25"
   - name: "v-modal/awesome-jev-tools"
     source: "github"
     url: "https://github.com/v-modal/awesome-jev-tools"
     summary: "A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions."
-    reason: "new repo, topic:llm, created within 7d, stars:697"
+    reason: "new repo, topic:llm, created within 7d, stars:713"
     category: "open-source/fresh"
     tags:
       - "awesome"
@@ -43,15 +42,15 @@ candidates:
       - "robotics"
       - "robotics-algorithms"
       - "robotics-control"
-    stars: 697
-    score: 82
+    stars: 713
+    score: 83
     verdict: "Watch"
-    captured_at: "2026-09-24"
+    captured_at: "2026-09-25"
   - name: "freestylefly/WeChatBridge"
     source: "github"
     url: "https://github.com/freestylefly/WeChatBridge"
     summary: "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具"
-    reason: "new repo, topic:ai-agent, created within 7d, stars:556"
+    reason: "new repo, topic:ai-agent, created within 7d, stars:660"
     category: "open-source/fresh"
     tags:
       - "ai-agent"
@@ -61,15 +60,51 @@ candidates:
       - "share-extension"
       - "swift"
       - "wechat"
-    stars: 556
-    score: 77
+    stars: 660
+    score: 81
     verdict: "Watch"
-    captured_at: "2026-09-24"
+    captured_at: "2026-09-25"
+  - name: "yetone/magpie"
+    source: "github"
+    url: "https://github.com/yetone/magpie"
+    summary: "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
+    reason: "new repo, topic:llm, created within 7d, stars:637"
+    category: "open-source/fresh"
+    tags:
+      - "claude-code"
+      - "codex"
+      - "deepseek"
+      - "gemini-cli"
+      - "llm"
+      - "macos"
+    stars: 637
+    score: 80
+    verdict: "Watch"
+    captured_at: "2026-09-25"
+  - name: "jev-chat/jev-chat-windows"
+    source: "github"
+    url: "https://github.com/jev-chat/jev-chat-windows"
+    summary: "JevChat-Windows：聊天窗口旁挂的回复辅助。窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动"
+    reason: "new repo, topic:llm, created within 7d, stars:533"
+    category: "open-source/fresh"
+    tags:
+      - "chat-assistant"
+      - "jev"
+      - "llm"
+      - "local-first"
+      - "ocr"
+      - "privacy"
+      - "pyqt"
+      - "python"
+    stars: 533
+    score: 76
+    verdict: "Watch"
+    captured_at: "2026-09-25"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:248417"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:248732"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -80,34 +115,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "codex"
-    stars: 248417
+    stars: 248732
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-24"
-  - name: "langgenius/dify"
-    source: "github"
-    url: "https://github.com/langgenius/dify"
-    summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:157007"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "agentic-ai"
-      - "agentic-framework"
-      - "agentic-workflow"
-      - "ai"
-      - "automation"
-      - "claude"
-      - "deepseek"
-    stars: 157007
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-09-24"
+    captured_at: "2026-09-25"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155187"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155222"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -116,15 +132,34 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 155187
+    stars: 155222
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-24"
+    captured_at: "2026-09-25"
+  - name: "langchain-ai/langchain"
+    source: "github"
+    url: "https://github.com/langchain-ai/langchain"
+    summary: "The agent engineering platform."
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:147017"
+    category: "open-source/updated"
+    tags:
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "anthropic"
+      - "chatgpt"
+      - "deepagents"
+      - "enterprise"
+      - "framework"
+    stars: 147017
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-09-25"
   - name: "thedotmack/claude-mem"
     source: "github"
     url: "https://github.com/thedotmack/claude-mem"
     summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:94564"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:94632"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -135,15 +170,15 @@ candidates:
       - "chromadb"
       - "claude"
       - "claude-agent-sdk"
-    stars: 94564
+    stars: 94632
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-24"
+    captured_at: "2026-09-25"
   - name: "vllm-project/vllm"
     source: "github"
     url: "https://github.com/vllm-project/vllm"
     summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:92550"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:92643"
     category: "open-source/updated"
     tags:
       - "amd"
@@ -154,34 +189,34 @@ candidates:
       - "gpt"
       - "gpt-oss"
       - "inference"
-    stars: 92550
+    stars: 92643
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-24"
-  - name: "diegosouzapw/OmniRoute"
+    captured_at: "2026-09-25"
+  - name: "headroomlabs-ai/headroom"
     source: "github"
-    url: "https://github.com/diegosouzapw/OmniRoute"
-    summary: "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, C..."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:69625"
+    url: "https://github.com/headroomlabs-ai/headroom"
+    summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:73732"
     category: "open-source/updated"
     tags:
-      - "a2a"
-      - "ai-agents"
-      - "ai-gateway"
+      - "agent"
+      - "ai"
       - "anthropic"
-      - "claude"
       - "claude-code"
-      - "cline"
-      - "codex"
-    stars: 69625
+      - "compression"
+      - "context-engineering"
+      - "context-window"
+      - "cursor"
+    stars: 73732
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-24"
+    captured_at: "2026-09-25"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:59504"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:59570"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -192,48 +227,10 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 59504
+    stars: 59570
     score: 75
     verdict: "Watch"
-    captured_at: "2026-09-24"
-  - name: "heygen-com/hyperframes"
-    source: "github"
-    url: "https://github.com/heygen-com/hyperframes"
-    summary: "Write HTML. Render video. Built for agents."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:52675"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "animation"
-      - "ffmpeg"
-      - "framework"
-      - "gsap"
-      - "html"
-      - "mcp"
-      - "puppeteer"
-    stars: 52675
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-09-24"
-  - name: "siyuan-note/siyuan"
-    source: "github"
-    url: "https://github.com/siyuan-note/siyuan"
-    summary: "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:46482"
-    category: "open-source/updated"
-    tags:
-      - "agentic-ai"
-      - "ai-agent"
-      - "knowledge-base"
-      - "local-first"
-      - "markdown"
-      - "mcp"
-      - "note-taking"
-      - "self-hosted"
-    stars: 46482
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-09-24"
+    captured_at: "2026-09-25"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

@@ -1,4 +1,4 @@
-generated_at: "2026-10-05T02:04:00+00:00"
+generated_at: "2026-10-06T03:05:23+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "github"
     url: "https://github.com/rehan-remade/universal-modder"
     summary: "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game test..."
-    reason: "new repo, topic:mcp, created within 7d, stars:3229"
+    reason: "new repo, topic:mcp, created within 7d, stars:3879"
     category: "open-source/fresh"
     tags:
       - "age-of-empires"
@@ -26,34 +26,15 @@ candidates:
       - "game-modding"
       - "mcp"
       - "modding"
-    stars: 3229
+    stars: 3879
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-05"
-  - name: "feder-cr/dots"
-    source: "github"
-    url: "https://github.com/feder-cr/dots"
-    summary: "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked."
-    reason: "new repo, topic:ai-agent, created within 7d, stars:2603"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agent"
-      - "ai-agents"
-      - "ai-browser"
-      - "anti-detect-browser"
-      - "browser-agent"
-      - "browser-automation"
-      - "chatgpt"
-      - "dotfiles"
-    stars: 2603
-    score: 90
-    verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
   - name: "nanaism/yomiyasu"
     source: "github"
     url: "https://github.com/nanaism/yomiyasu"
     summary: "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese"
-    reason: "new repo, topic:llm, created within 7d, stars:1400"
+    reason: "new repo, topic:llm, created within 7d, stars:1525"
     category: "open-source/fresh"
     tags:
       - "agent-skills"
@@ -64,15 +45,15 @@ candidates:
       - "cursor"
       - "gemini"
       - "japanese"
-    stars: 1400
+    stars: 1525
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
   - name: "QingYunA/answer-me-with-html"
     source: "github"
     url: "https://github.com/QingYunA/answer-me-with-html"
     summary: "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。"
-    reason: "new repo, topic:llm, created within 7d, stars:1085"
+    reason: "new repo, topic:llm, created within 7d, stars:1504"
     category: "open-source/fresh"
     tags:
       - "agent-skill"
@@ -83,15 +64,15 @@ candidates:
       - "explainer"
       - "html"
       - "llm"
-    stars: 1085
+    stars: 1504
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
   - name: "Edwardxlai/easyread"
     source: "github"
     url: "https://github.com/Edwardxlai/easyread"
     summary: "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese."
-    reason: "new repo, topic:llm, created within 7d, stars:782"
+    reason: "new repo, topic:llm, created within 7d, stars:806"
     category: "open-source/fresh"
     tags:
       - "academic"
@@ -102,10 +83,10 @@ candidates:
       - "electron"
       - "llm"
       - "paper-reading"
-    stars: 782
-    score: 86
+    stars: 806
+    score: 87
     verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
   - name: "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents"
     source: "hacker-news"
     url: "https://github.com/magnitudedev/magnitude"
@@ -118,48 +99,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-10-05"
-  - name: "NousResearch/hermes-agent"
-    source: "github"
-    url: "https://github.com/NousResearch/hermes-agent"
-    summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:251247"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agent"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "codex"
-    stars: 251247
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-05"
-  - name: "langflow-ai/langflow"
-    source: "github"
-    url: "https://github.com/langflow-ai/langflow"
-    summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155504"
-    category: "open-source/updated"
-    tags:
-      - "agents"
-      - "chatgpt"
-      - "generative-ai"
-      - "large-language-models"
-      - "multiagent"
-      - "react-flow"
-    stars: 155504
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
   - name: "langchain-ai/langchain"
     source: "github"
     url: "https://github.com/langchain-ai/langchain"
     summary: "The agent engineering platform."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:147445"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:147478"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -170,15 +115,34 @@ candidates:
       - "deepagents"
       - "enterprise"
       - "framework"
-    stars: 147445
+    stars: 147478
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
+  - name: "thedotmack/claude-mem"
+    source: "github"
+    url: "https://github.com/thedotmack/claude-mem"
+    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:96676"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "ai-agents"
+      - "ai-memory"
+      - "anthropic"
+      - "artificial-intelligence"
+      - "chromadb"
+      - "claude"
+      - "claude-agent-sdk"
+    stars: 96676
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-06"
   - name: "vllm-project/vllm"
     source: "github"
     url: "https://github.com/vllm-project/vllm"
     summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:93182"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:93231"
     category: "open-source/updated"
     tags:
       - "amd"
@@ -189,15 +153,15 @@ candidates:
       - "gpt"
       - "gpt-oss"
       - "inference"
-    stars: 93182
+    stars: 93231
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
   - name: "koala73/worldmonitor"
     source: "github"
     url: "https://github.com/koala73/worldmonitor"
     summary: "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:87783"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:87842"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -208,15 +172,34 @@ candidates:
       - "mcp-server"
       - "monitoring"
       - "news"
-    stars: 87783
+    stars: 87842
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
+  - name: "lobehub/lobehub"
+    source: "github"
+    url: "https://github.com/lobehub/lobehub"
+    summary: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:83000"
+    category: "open-source/updated"
+    tags:
+      - "agent"
+      - "agent-collaboration"
+      - "agent-harness"
+      - "ai"
+      - "cao"
+      - "chatgpt"
+      - "chief-agent-operator"
+      - "claude"
+    stars: 83000
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-06"
   - name: "headroomlabs-ai/headroom"
     source: "github"
     url: "https://github.com/headroomlabs-ai/headroom"
     summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:74424"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:74462"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -227,10 +210,29 @@ candidates:
       - "context-engineering"
       - "context-window"
       - "cursor"
-    stars: 74424
+    stars: 74462
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-05"
+    captured_at: "2026-10-06"
+  - name: "asgeirtj/system_prompts_leaks"
+    source: "github"
+    url: "https://github.com/asgeirtj/system_prompts_leaks"
+    summary: "Documented system prompts from Anthropic - Claude Fable 5.1, Opus 5.5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antig..."
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:68975"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "ai-agents"
+      - "ai-prompts"
+      - "anthropic"
+      - "chatbot"
+      - "chatgpt"
+      - "claude"
+      - "claude-code"
+    stars: 68975
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-06"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

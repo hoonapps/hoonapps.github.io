@@ -1,4 +1,4 @@
-generated_at: "2026-10-13T03:37:09+00:00"
+generated_at: "2026-10-14T01:58:03+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,8 +15,8 @@ candidates:
     source: "github"
     url: "https://github.com/bherbruck/solidcraft"
     summary: "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP."
-    reason: "new repo, topic:mcp, created within 7d, stars:1127"
-    category: "open-source/fresh"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:1838"
+    category: "open-source/updated"
     tags:
       - "3d-modeling"
       - "brep"
@@ -26,34 +26,15 @@ candidates:
       - "parametric-cad"
       - "rust"
       - "step"
-    stars: 1127
+    stars: 1838
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-13"
-  - name: "rociiu/talorys"
-    source: "github"
-    url: "https://github.com/rociiu/talorys"
-    summary: "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friend..."
-    reason: "new repo, topic:ai-agent, created within 7d, stars:908"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agent"
-      - "cloudflare"
-      - "cloudflare-workers"
-      - "durable-objects"
-      - "personal-assistant"
-      - "react"
-      - "self-hosted"
-      - "typescript"
-    stars: 908
-    score: 90
-    verdict: "Watch"
-    captured_at: "2026-10-13"
+    captured_at: "2026-10-14"
   - name: "onehumanbeing/esp32-iphone-agent"
     source: "github"
     url: "https://github.com/onehumanbeing/esp32-iphone-agent"
     summary: "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
-    reason: "new repo, topic:llm, created within 7d, stars:800"
+    reason: "new repo, topic:llm, created within 7d, stars:1558"
     category: "open-source/fresh"
     tags:
       - "ai-agent"
@@ -64,34 +45,67 @@ candidates:
       - "esp32-s3"
       - "iphone"
       - "llm"
-    stars: 800
-    score: 87
+    stars: 1558
+    score: 90
     verdict: "Watch"
-    captured_at: "2026-10-13"
-  - name: "NousResearch/hermes-agent"
+    captured_at: "2026-10-14"
+  - name: "rociiu/talorys"
     source: "github"
-    url: "https://github.com/NousResearch/hermes-agent"
-    summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:253185"
-    category: "open-source/updated"
+    url: "https://github.com/rociiu/talorys"
+    summary: "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friend..."
+    reason: "new repo, topic:ai-agent, created within 7d, stars:961"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agent"
+      - "cloudflare"
+      - "cloudflare-workers"
+      - "durable-objects"
+      - "personal-assistant"
+      - "react"
+      - "self-hosted"
+      - "typescript"
+    stars: 961
+    score: 90
+    verdict: "Watch"
+    captured_at: "2026-10-14"
+  - name: "zhuyansen/new-term-radar"
+    source: "github"
+    url: "https://github.com/zhuyansen/new-term-radar"
+    summary: "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them."
+    reason: "new repo, topic:mcp, created within 7d, stars:868"
+    category: "open-source/fresh"
+    tags:
+      - "agent-skills"
+      - "ai"
+      - "aisa"
+      - "claude-code"
+      - "claude-skills"
+      - "google-trends"
+      - "keyword-research"
+      - "mcp"
+    stars: 868
+    score: 89
+    verdict: "Watch"
+    captured_at: "2026-10-14"
+  - name: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
+    source: "hacker-news"
+    url: "https://news.ycombinator.com/item?id=50059096"
+    summary: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
+    reason: "query:AI coding tool, points:157, comments:116"
+    category: "discussion"
     tags:
       - "ai"
-      - "ai-agent"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "codex"
-    stars: 253185
-    score: 75
+      - "coding"
+      - "tool"
+    stars: 0
+    score: 81
     verdict: "Watch"
-    captured_at: "2026-10-13"
+    captured_at: "2026-10-14"
   - name: "morluto/rea"
     source: "github"
     url: "https://github.com/morluto/rea"
     summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:165668"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:209566"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -102,15 +116,15 @@ candidates:
       - "codex"
       - "cordis"
       - "ctf"
-    stars: 165668
+    stars: 209566
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-13"
+    captured_at: "2026-10-14"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155573"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155632"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -119,15 +133,34 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 155573
+    stars: 155632
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-13"
+    captured_at: "2026-10-14"
+  - name: "farion1231/cc-switch"
+    source: "github"
+    url: "https://github.com/farion1231/cc-switch"
+    summary: "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:143822"
+    category: "open-source/updated"
+    tags:
+      - "ai-tools"
+      - "claude-code"
+      - "codex"
+      - "desktop-app"
+      - "grok"
+      - "grokbuild"
+      - "hermes"
+      - "hermes-agent"
+    stars: 143822
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-14"
   - name: "paperclipai/paperclip"
     source: "github"
     url: "https://github.com/paperclipai/paperclip"
     summary: "The open-source app everyone uses to manage agents at work"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:101041"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:101593"
     category: "open-source/updated"
     tags:
       - "acpx"
@@ -138,15 +171,15 @@ candidates:
       - "ai-engineering"
       - "ai-governance"
       - "ai-tools"
-    stars: 101041
+    stars: 101593
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-13"
+    captured_at: "2026-10-14"
   - name: "infiniflow/ragflow"
     source: "github"
     url: "https://github.com/infiniflow/ragflow"
     summary: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:92087"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:92159"
     category: "open-source/updated"
     tags:
       - "agent-harness"
@@ -157,15 +190,15 @@ candidates:
       - "ai"
       - "ai-agents"
       - "context-engine"
-    stars: 92087
+    stars: 92159
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-13"
+    captured_at: "2026-10-14"
   - name: "unslothai/unsloth"
     source: "github"
     url: "https://github.com/unslothai/unsloth"
     summary: "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:77902"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:77957"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -176,15 +209,15 @@ candidates:
       - "gemma"
       - "image-generation"
       - "llama"
-    stars: 77902
+    stars: 77957
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-13"
+    captured_at: "2026-10-14"
   - name: "heygen-com/hyperframes"
     source: "github"
     url: "https://github.com/heygen-com/hyperframes"
     summary: "Write HTML. Render video. Built for agents."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:61922"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:62855"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -195,48 +228,10 @@ candidates:
       - "html"
       - "mcp"
       - "puppeteer"
-    stars: 61922
+    stars: 62855
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-13"
-  - name: "BerriAI/litellm"
-    source: "github"
-    url: "https://github.com/BerriAI/litellm"
-    summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:61103"
-    category: "open-source/updated"
-    tags:
-      - "ai-gateway"
-      - "anthropic"
-      - "azure-openai"
-      - "bedrock"
-      - "gateway"
-      - "langchain"
-      - "litellm"
-      - "llm"
-    stars: 61103
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-13"
-  - name: "siyuan-note/siyuan"
-    source: "github"
-    url: "https://github.com/siyuan-note/siyuan"
-    summary: "An open-source, privacy-first, self-hosted knowledge workspace where humans and AI agents work together 开源、隐私优先、自托管的知识工作空间，让人与智能体在此协作"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:46739"
-    category: "open-source/updated"
-    tags:
-      - "agentic-ai"
-      - "ai-agent"
-      - "knowledge-base"
-      - "local-first"
-      - "markdown"
-      - "mcp"
-      - "note-taking"
-      - "self-hosted"
-    stars: 46739
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-13"
+    captured_at: "2026-10-14"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

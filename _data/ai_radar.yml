@@ -1,4 +1,4 @@
-generated_at: "2026-10-15T01:32:34+00:00"
+generated_at: "2026-10-16T01:27:40+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "github"
     url: "https://github.com/onehumanbeing/esp32-iphone-agent"
     summary: "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
-    reason: "new repo, topic:llm, created within 7d, stars:2093"
+    reason: "new repo, topic:llm, created within 7d, stars:2470"
     category: "open-source/fresh"
     tags:
       - "ai-agent"
@@ -26,15 +26,15 @@ candidates:
       - "esp32-s3"
       - "iphone"
       - "llm"
-    stars: 2093
+    stars: 2470
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-15"
+    captured_at: "2026-10-16"
   - name: "rociiu/talorys"
     source: "github"
     url: "https://github.com/rociiu/talorys"
     summary: "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friend..."
-    reason: "new repo, topic:ai-agent, created within 7d, stars:1001"
+    reason: "new repo, topic:ai-agent, created within 7d, stars:1156"
     category: "open-source/fresh"
     tags:
       - "ai-agent"
@@ -45,15 +45,34 @@ candidates:
       - "react"
       - "self-hosted"
       - "typescript"
-    stars: 1001
+    stars: 1156
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-15"
+    captured_at: "2026-10-16"
+  - name: "marclou/mailcheap"
+    source: "github"
+    url: "https://github.com/marclou/mailcheap"
+    summary: "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai."
+    reason: "new repo, topic:mcp, created within 7d, stars:1055"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "amazon-ses"
+      - "beehiiv-alternative"
+      - "email"
+      - "email-marketing"
+      - "mailchimp-alternative"
+      - "mcp"
+      - "mcp-server"
+    stars: 1055
+    score: 90
+    verdict: "Watch"
+    captured_at: "2026-10-16"
   - name: "zhuyansen/new-term-radar"
     source: "github"
     url: "https://github.com/zhuyansen/new-term-radar"
     summary: "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them."
-    reason: "new repo, topic:mcp, created within 7d, stars:961"
+    reason: "new repo, topic:mcp, created within 7d, stars:1026"
     category: "open-source/fresh"
     tags:
       - "agent-skills"
@@ -64,64 +83,15 @@ candidates:
       - "google-trends"
       - "keyword-research"
       - "mcp"
-    stars: 961
+    stars: 1026
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-15"
-  - name: "marclou/mailcheap"
-    source: "github"
-    url: "https://github.com/marclou/mailcheap"
-    summary: "The affordable newsletter for the agentic era. Open source: self-host it, or use mailcheap.ai."
-    reason: "new repo, topic:mcp, created within 7d, stars:933"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agents"
-      - "email"
-      - "mcp"
-      - "newsletter"
-      - "nextjs"
-      - "self-hosted"
-    stars: 933
-    score: 90
-    verdict: "Watch"
-    captured_at: "2026-10-15"
-  - name: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
-    source: "hacker-news"
-    url: "https://news.ycombinator.com/item?id=50059096"
-    summary: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
-    reason: "query:AI coding tool, points:160, comments:120"
-    category: "discussion"
-    tags:
-      - "ai"
-      - "coding"
-      - "tool"
-    stars: 0
-    score: 82
-    verdict: "Watch"
-    captured_at: "2026-10-15"
-  - name: "outcrawlai/scout"
-    source: "github"
-    url: "https://github.com/outcrawlai/scout"
-    summary: "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository."
-    reason: "new repo, topic:llm, created within 7d, stars:656"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agent"
-      - "browser-agent"
-      - "browser-automation"
-      - "cdp"
-      - "llm"
-      - "typescript"
-      - "web-automation"
-    stars: 656
-    score: 81
-    verdict: "Watch"
-    captured_at: "2026-10-15"
+    captured_at: "2026-10-16"
   - name: "deeplethe/solid-glass"
     source: "github"
     url: "https://github.com/deeplethe/solid-glass"
     summary: "A design system for AI applications. Material, physical, tactile, technical."
-    reason: "new repo, topic:llm, created within 7d, stars:603"
+    reason: "new repo, topic:llm, created within 7d, stars:1006"
     category: "open-source/fresh"
     tags:
       - "agent-ui"
@@ -132,53 +102,47 @@ candidates:
       - "llm"
       - "react"
       - "shadcn"
-    stars: 603
-    score: 79
+    stars: 1006
+    score: 90
     verdict: "Watch"
-    captured_at: "2026-10-15"
-  - name: "NousResearch/hermes-agent"
+    captured_at: "2026-10-16"
+  - name: "outcrawlai/scout"
     source: "github"
-    url: "https://github.com/NousResearch/hermes-agent"
-    summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:253810"
-    category: "open-source/updated"
+    url: "https://github.com/outcrawlai/scout"
+    summary: "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository."
+    reason: "new repo, topic:llm, created within 7d, stars:831"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agent"
+      - "browser-agent"
+      - "browser-automation"
+      - "cdp"
+      - "llm"
+      - "typescript"
+      - "web-automation"
+    stars: 831
+    score: 88
+    verdict: "Watch"
+    captured_at: "2026-10-16"
+  - name: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
+    source: "hacker-news"
+    url: "https://news.ycombinator.com/item?id=50059096"
+    summary: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
+    reason: "query:AI coding tool, points:160, comments:124"
+    category: "discussion"
     tags:
       - "ai"
-      - "ai-agent"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "codex"
-    stars: 253810
-    score: 75
+      - "coding"
+      - "tool"
+    stars: 0
+    score: 82
     verdict: "Watch"
-    captured_at: "2026-10-15"
-  - name: "morluto/rea"
-    source: "github"
-    url: "https://github.com/morluto/rea"
-    summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:243208"
-    category: "open-source/updated"
-    tags:
-      - "agent-skills"
-      - "ai-agents"
-      - "binary-analysis"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "cordis"
-      - "decompiler"
-    stars: 243208
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-15"
+    captured_at: "2026-10-16"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:158495"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:158592"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -189,15 +153,15 @@ candidates:
       - "automation"
       - "claude"
       - "deepseek"
-    stars: 158495
+    stars: 158592
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-15"
+    captured_at: "2026-10-16"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155675"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155719"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -206,29 +170,67 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 155675
+    stars: 155719
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-15"
-  - name: "paperclipai/paperclip"
+    captured_at: "2026-10-16"
+  - name: "thedotmack/claude-mem"
     source: "github"
-    url: "https://github.com/paperclipai/paperclip"
-    summary: "The open-source app everyone uses to manage agents at work"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:102177"
+    url: "https://github.com/thedotmack/claude-mem"
+    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:101065"
     category: "open-source/updated"
     tags:
-      - "acpx"
-      - "agent-orchestration"
-      - "agent-skills"
-      - "agentic-ai"
+      - "ai"
       - "ai-agents"
-      - "ai-engineering"
-      - "ai-governance"
-      - "ai-tools"
-    stars: 102177
+      - "ai-memory"
+      - "anthropic"
+      - "artificial-intelligence"
+      - "chromadb"
+      - "claude"
+      - "claude-agent-sdk"
+    stars: 101065
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-15"
+    captured_at: "2026-10-16"
+  - name: "headroomlabs-ai/headroom"
+    source: "github"
+    url: "https://github.com/headroomlabs-ai/headroom"
+    summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:75455"
+    category: "open-source/updated"
+    tags:
+      - "agent"
+      - "ai"
+      - "anthropic"
+      - "claude-code"
+      - "compression"
+      - "context-engineering"
+      - "context-window"
+      - "cursor"
+    stars: 75455
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-16"
+  - name: "Mintplex-Labs/anything-llm"
+    source: "github"
+    url: "https://github.com/Mintplex-Labs/anything-llm"
+    summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:67167"
+    category: "open-source/updated"
+    tags:
+      - "agent-computer"
+      - "agent-harness"
+      - "agent-orchestration"
+      - "agentic-ai"
+      - "agentic-workflow"
+      - "ai-agents"
+      - "computer-use"
+      - "hermes-agent"
+    stars: 67167
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-16"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

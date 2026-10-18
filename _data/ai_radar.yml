@@ -1,4 +1,4 @@
-generated_at: "2026-10-17T01:21:01+00:00"
+generated_at: "2026-10-18T01:09:50+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,30 +11,11 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "onehumanbeing/esp32-iphone-agent"
-    source: "github"
-    url: "https://github.com/onehumanbeing/esp32-iphone-agent"
-    summary: "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
-    reason: "new repo, topic:llm, created within 7d, stars:2862"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agent"
-      - "airplay"
-      - "automation"
-      - "computer-use"
-      - "esp32"
-      - "esp32-s3"
-      - "iphone"
-      - "llm"
-    stars: 2862
-    score: 90
-    verdict: "Watch"
-    captured_at: "2026-10-17"
   - name: "deeplethe/solid-glass"
     source: "github"
     url: "https://github.com/deeplethe/solid-glass"
     summary: "A design system for AI applications. Material, physical, tactile, technical."
-    reason: "new repo, topic:llm, created within 7d, stars:1391"
+    reason: "new repo, topic:llm, created within 7d, stars:1720"
     category: "open-source/fresh"
     tags:
       - "agent-ui"
@@ -45,15 +26,15 @@ candidates:
       - "llm"
       - "react"
       - "shadcn"
-    stars: 1391
+    stars: 1720
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-17"
+    captured_at: "2026-10-18"
   - name: "zhuyansen/new-term-radar"
     source: "github"
     url: "https://github.com/zhuyansen/new-term-radar"
     summary: "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them."
-    reason: "new repo, topic:mcp, created within 7d, stars:1066"
+    reason: "new repo, topic:mcp, created within 7d, stars:1082"
     category: "open-source/fresh"
     tags:
       - "agent-skills"
@@ -64,15 +45,15 @@ candidates:
       - "google-trends"
       - "keyword-research"
       - "mcp"
-    stars: 1066
+    stars: 1082
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-17"
+    captured_at: "2026-10-18"
   - name: "outcrawlai/scout"
     source: "github"
     url: "https://github.com/outcrawlai/scout"
     summary: "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository."
-    reason: "new repo, topic:llm, created within 7d, stars:895"
+    reason: "new repo, topic:llm, created within 7d, stars:939"
     category: "open-source/fresh"
     tags:
       - "ai-agent"
@@ -82,15 +63,31 @@ candidates:
       - "llm"
       - "typescript"
       - "web-automation"
-    stars: 895
+    stars: 939
     score: 90
     verdict: "Watch"
-    captured_at: "2026-10-17"
+    captured_at: "2026-10-18"
+  - name: "Leonxlnx/earshot"
+    source: "github"
+    url: "https://github.com/Leonxlnx/earshot"
+    summary: "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
+    reason: "new repo, topic:mcp, created within 7d, stars:685"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "audio"
+      - "claude-code"
+      - "mcp"
+      - "sound-design"
+    stars: 685
+    score: 82
+    verdict: "Watch"
+    captured_at: "2026-10-18"
   - name: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
     source: "hacker-news"
     url: "https://news.ycombinator.com/item?id=50059096"
     summary: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
-    reason: "query:AI coding tool, points:162, comments:127"
+    reason: "query:AI coding tool, points:162, comments:128"
     category: "discussion"
     tags:
       - "ai"
@@ -99,12 +96,31 @@ candidates:
     stars: 0
     score: 82
     verdict: "Watch"
-    captured_at: "2026-10-17"
+    captured_at: "2026-10-18"
+  - name: "anujasid/blender-ai-mcp-addon"
+    source: "github"
+    url: "https://github.com/anujasid/blender-ai-mcp-addon"
+    summary: "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plug..."
+    reason: "new repo, topic:llm, created within 7d, stars:618"
+    category: "open-source/fresh"
+    tags:
+      - "ai-assistant"
+      - "blender"
+      - "blender-addon"
+      - "blender-ai"
+      - "blender-automation"
+      - "blender-extension"
+      - "blender-mcp"
+      - "blender-plugin"
+    stars: 618
+    score: 79
+    verdict: "Watch"
+    captured_at: "2026-10-18"
   - name: "morluto/rea"
     source: "github"
     url: "https://github.com/morluto/rea"
     summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:291430"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:307961"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -115,15 +131,34 @@ candidates:
       - "codex"
       - "cordis"
       - "decompiler"
-    stars: 291430
+    stars: 307961
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-17"
+    captured_at: "2026-10-18"
+  - name: "DietrichGebert/ponytail"
+    source: "github"
+    url: "https://github.com/DietrichGebert/ponytail"
+    summary: "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:166257"
+    category: "open-source/updated"
+    tags:
+      - "agent-skills"
+      - "ai-agents"
+      - "claude"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "cursor-rules"
+      - "developer-tools"
+      - "llm"
+    stars: 166257
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-18"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155759"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155780"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -132,34 +167,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 155759
+    stars: 155780
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-17"
-  - name: "microsoft/generative-ai-for-beginners"
-    source: "github"
-    url: "https://github.com/microsoft/generative-ai-for-beginners"
-    summary: "21 Lessons, Get Started Building with Generative AI"
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:121488"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "azure"
-      - "chatgpt"
-      - "dall-e"
-      - "generative-ai"
-      - "generativeai"
-      - "gpt"
-      - "language-model"
-    stars: 121488
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-17"
+    captured_at: "2026-10-18"
   - name: "paperclipai/paperclip"
     source: "github"
     url: "https://github.com/paperclipai/paperclip"
     summary: "The open-source app everyone uses to manage agents at work"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:103194"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:103656"
     category: "open-source/updated"
     tags:
       - "acpx"
@@ -170,15 +186,15 @@ candidates:
       - "ai-engineering"
       - "ai-governance"
       - "ai-tools"
-    stars: 103194
+    stars: 103656
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-17"
+    captured_at: "2026-10-18"
   - name: "thedotmack/claude-mem"
     source: "github"
     url: "https://github.com/thedotmack/claude-mem"
     summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:101244"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:101422"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -189,48 +205,23 @@ candidates:
       - "chromadb"
       - "claude"
       - "claude-agent-sdk"
-    stars: 101244
+    stars: 101422
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-17"
-  - name: "infiniflow/ragflow"
+    captured_at: "2026-10-18"
+  - name: "punkpeye/awesome-mcp-servers"
     source: "github"
-    url: "https://github.com/infiniflow/ragflow"
-    summary: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:92339"
+    url: "https://github.com/punkpeye/awesome-mcp-servers"
+    summary: "A collection of MCP servers."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:96530"
     category: "open-source/updated"
     tags:
-      - "agent-harness"
-      - "agentic-ai"
-      - "agentic-nagive"
-      - "agentic-retrieval"
-      - "agentic-search"
       - "ai"
-      - "ai-agents"
-      - "context-engine"
-    stars: 92339
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-17"
-  - name: "koala73/worldmonitor"
-    source: "github"
-    url: "https://github.com/koala73/worldmonitor"
-    summary: "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:88568"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "ai"
-      - "dashboard"
-      - "geopolitics"
       - "mcp"
-      - "mcp-server"
-      - "monitoring"
-      - "news"
-    stars: 88568
+    stars: 96530
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-17"
+    captured_at: "2026-10-18"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

@@ -1,4 +1,4 @@
-generated_at: "2026-10-19T01:20:59+00:00"
+generated_at: "2026-10-20T01:53:43+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,29 +11,11 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "outcrawlai/scout"
-    source: "github"
-    url: "https://github.com/outcrawlai/scout"
-    summary: "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository."
-    reason: "new repo, topic:llm, created within 7d, stars:945"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agent"
-      - "browser-agent"
-      - "browser-automation"
-      - "cdp"
-      - "llm"
-      - "typescript"
-      - "web-automation"
-    stars: 945
-    score: 90
-    verdict: "Watch"
-    captured_at: "2026-10-19"
   - name: "Leonxlnx/earshot"
     source: "github"
     url: "https://github.com/Leonxlnx/earshot"
     summary: "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
-    reason: "new repo, topic:mcp, created within 7d, stars:816"
+    reason: "new repo, topic:mcp, created within 7d, stars:1552"
     category: "open-source/fresh"
     tags:
       - "ai-agents"
@@ -41,15 +23,15 @@ candidates:
       - "claude-code"
       - "mcp"
       - "sound-design"
-    stars: 816
-    score: 87
+    stars: 1552
+    score: 90
     verdict: "Watch"
-    captured_at: "2026-10-19"
+    captured_at: "2026-10-20"
   - name: "LiCinCan/blender-ai-mcp-addon"
     source: "github"
     url: "https://github.com/LiCinCan/blender-ai-mcp-addon"
     summary: "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plug..."
-    reason: "new repo, topic:llm, created within 7d, stars:787"
+    reason: "new repo, topic:llm, created within 7d, stars:920"
     category: "open-source/fresh"
     tags:
       - "ai-assistant"
@@ -60,15 +42,15 @@ candidates:
       - "blender-extension"
       - "blender-mcp"
       - "blender-plugin"
-    stars: 787
-    score: 86
+    stars: 920
+    score: 90
     verdict: "Watch"
-    captured_at: "2026-10-19"
+    captured_at: "2026-10-20"
   - name: "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
     source: "hacker-news"
     url: "https://arxiv.org/abs/2610.18861"
     summary: "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
-    reason: "query:LLM agent, points:199, comments:115"
+    reason: "query:LLM agent, points:502, comments:236"
     category: "discussion"
     tags:
       - "llm"
@@ -76,83 +58,44 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-10-19"
-  - name: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
+    captured_at: "2026-10-20"
+  - name: "Show HN: WhatsApp MCP running free on Cloudflare"
     source: "hacker-news"
-    url: "https://news.ycombinator.com/item?id=50059096"
-    summary: "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
-    reason: "query:AI coding tool, points:162, comments:128"
+    url: "https://github.com/finereli/whatsapp-mcp"
+    summary: "Show HN: WhatsApp MCP running free on Cloudflare"
+    reason: "query:MCP server, points:146, comments:78"
     category: "discussion"
     tags:
-      - "ai"
-      - "coding"
-      - "tool"
+      - "mcp"
+      - "server"
     stars: 0
-    score: 82
+    score: 79
     verdict: "Watch"
-    captured_at: "2026-10-19"
-  - name: "morluto/rea"
+    captured_at: "2026-10-20"
+  - name: "ollama/ollama"
     source: "github"
-    url: "https://github.com/morluto/rea"
-    summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:322579"
+    url: "https://github.com/ollama/ollama"
+    summary: "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:183875"
     category: "open-source/updated"
     tags:
-      - "agent-skills"
-      - "ai-agents"
-      - "binary-analysis"
-      - "claude-code"
-      - "cli"
-      - "codex"
-      - "cordis"
-      - "decompiler"
-    stars: 322579
+      - "deepseek"
+      - "gemma"
+      - "gemma3"
+      - "glm"
+      - "go"
+      - "golang"
+      - "gpt-oss"
+      - "llama"
+    stars: 183875
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-19"
-  - name: "NousResearch/hermes-agent"
-    source: "github"
-    url: "https://github.com/NousResearch/hermes-agent"
-    summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:254956"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agent"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "codex"
-    stars: 254956
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-19"
-  - name: "firecrawl/firecrawl"
-    source: "github"
-    url: "https://github.com/firecrawl/firecrawl"
-    summary: "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:192787"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agents"
-      - "ai-crawler"
-      - "ai-scraping"
-      - "ai-search"
-      - "crawler"
-      - "data-extraction"
-      - "html-to-markdown"
-    stars: 192787
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-19"
+    captured_at: "2026-10-20"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:158819"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:158943"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -163,15 +106,15 @@ candidates:
       - "automation"
       - "claude"
       - "deepseek"
-    stars: 158819
+    stars: 158943
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-19"
+    captured_at: "2026-10-20"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155809"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155852"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -180,15 +123,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 155809
+    stars: 155852
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-19"
+    captured_at: "2026-10-20"
   - name: "langchain-ai/langchain"
     source: "github"
     url: "https://github.com/langchain-ai/langchain"
     summary: "The agent engineering platform."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:148043"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:148098"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -199,29 +142,86 @@ candidates:
       - "deepagents"
       - "enterprise"
       - "framework"
-    stars: 148043
+    stars: 148098
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-19"
-  - name: "vllm-project/vllm"
+    captured_at: "2026-10-20"
+  - name: "thedotmack/claude-mem"
     source: "github"
-    url: "https://github.com/vllm-project/vllm"
-    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:94079"
+    url: "https://github.com/thedotmack/claude-mem"
+    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:101817"
     category: "open-source/updated"
     tags:
-      - "amd"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "deepseek-v3"
-      - "gpt"
-      - "gpt-oss"
-      - "inference"
-    stars: 94079
+      - "ai"
+      - "ai-agents"
+      - "ai-memory"
+      - "anthropic"
+      - "artificial-intelligence"
+      - "chromadb"
+      - "claude"
+      - "claude-agent-sdk"
+    stars: 101817
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-19"
+    captured_at: "2026-10-20"
+  - name: "infiniflow/ragflow"
+    source: "github"
+    url: "https://github.com/infiniflow/ragflow"
+    summary: "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:92494"
+    category: "open-source/updated"
+    tags:
+      - "agent-harness"
+      - "agentic-ai"
+      - "agentic-nagive"
+      - "agentic-retrieval"
+      - "agentic-search"
+      - "ai"
+      - "ai-agents"
+      - "context-engine"
+    stars: 92494
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-20"
+  - name: "heygen-com/hyperframes"
+    source: "github"
+    url: "https://github.com/heygen-com/hyperframes"
+    summary: "Write HTML. Render video. Built for agents."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:67706"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "animation"
+      - "ffmpeg"
+      - "framework"
+      - "gsap"
+      - "html"
+      - "mcp"
+      - "puppeteer"
+    stars: 67706
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-20"
+  - name: "mem0ai/mem0"
+    source: "github"
+    url: "https://github.com/mem0ai/mem0"
+    summary: "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:67475"
+    category: "open-source/updated"
+    tags:
+      - "agentic-memory"
+      - "agentic-memory-system"
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "chatgpt"
+      - "genai"
+      - "llm"
+    stars: 67475
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-20"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

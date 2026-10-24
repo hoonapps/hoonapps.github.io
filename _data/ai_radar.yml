@@ -1,4 +1,4 @@
-generated_at: "2026-10-23T01:36:23+00:00"
+generated_at: "2026-10-24T01:39:47+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "hacker-news"
     url: "https://arxiv.org/abs/2610.18861"
     summary: "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
-    reason: "query:LLM agent, points:519, comments:239"
+    reason: "query:LLM agent, points:520, comments:239"
     category: "discussion"
     tags:
       - "llm"
@@ -23,7 +23,7 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-10-23"
+    captured_at: "2026-10-24"
   - name: "Show HN: WhatsApp MCP running free on Cloudflare"
     source: "hacker-news"
     url: "https://github.com/finereli/whatsapp-mcp"
@@ -36,12 +36,12 @@ candidates:
     stars: 0
     score: 81
     verdict: "Watch"
-    captured_at: "2026-10-23"
+    captured_at: "2026-10-24"
   - name: "morluto/rea"
     source: "github"
     url: "https://github.com/morluto/rea"
     summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:366480"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:373364"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -52,53 +52,15 @@ candidates:
       - "codex"
       - "cordis"
       - "decompiler"
-    stars: 366480
+    stars: 373364
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-23"
-  - name: "NousResearch/hermes-agent"
-    source: "github"
-    url: "https://github.com/NousResearch/hermes-agent"
-    summary: "The agent that grows with you"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:256259"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agent"
-      - "ai-agents"
-      - "anthropic"
-      - "chatgpt"
-      - "claude"
-      - "claude-code"
-      - "codex"
-    stars: 256259
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-23"
-  - name: "Significant-Gravitas/AutoGPT"
-    source: "github"
-    url: "https://github.com/Significant-Gravitas/AutoGPT"
-    summary: "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:187716"
-    category: "open-source/updated"
-    tags:
-      - "agentic-ai"
-      - "agents"
-      - "ai"
-      - "artificial-intelligence"
-      - "autonomous-agents"
-      - "claude"
-      - "gpt"
-      - "llama-api"
-    stars: 187716
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-23"
+    captured_at: "2026-10-24"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155933"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155969"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -107,15 +69,34 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 155933
+    stars: 155969
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-23"
+    captured_at: "2026-10-24"
+  - name: "langchain-ai/langchain"
+    source: "github"
+    url: "https://github.com/langchain-ai/langchain"
+    summary: "The agent engineering platform."
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:148335"
+    category: "open-source/updated"
+    tags:
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "anthropic"
+      - "chatgpt"
+      - "deepagents"
+      - "enterprise"
+      - "framework"
+    stars: 148335
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-24"
   - name: "paperclipai/paperclip"
     source: "github"
     url: "https://github.com/paperclipai/paperclip"
     summary: "The open-source app everyone uses to manage agents at work"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:106177"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:106606"
     category: "open-source/updated"
     tags:
       - "acpx"
@@ -126,53 +107,15 @@ candidates:
       - "ai-engineering"
       - "ai-governance"
       - "ai-tools"
-    stars: 106177
+    stars: 106606
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-23"
-  - name: "thedotmack/claude-mem"
-    source: "github"
-    url: "https://github.com/thedotmack/claude-mem"
-    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:102340"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agents"
-      - "ai-memory"
-      - "anthropic"
-      - "artificial-intelligence"
-      - "chromadb"
-      - "claude"
-      - "claude-agent-sdk"
-    stars: 102340
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-23"
-  - name: "lobehub/lobehub"
-    source: "github"
-    url: "https://github.com/lobehub/lobehub"
-    summary: "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:83427"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "agent-collaboration"
-      - "agent-harness"
-      - "ai"
-      - "cao"
-      - "chatgpt"
-      - "chief-agent-operator"
-      - "claude"
-    stars: 83427
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-23"
+    captured_at: "2026-10-24"
   - name: "unslothai/unsloth"
     source: "github"
     url: "https://github.com/unslothai/unsloth"
     summary: "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:78435"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:78487"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -183,15 +126,15 @@ candidates:
       - "gemma"
       - "image-generation"
       - "llama"
-    stars: 78435
+    stars: 78487
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-23"
+    captured_at: "2026-10-24"
   - name: "heygen-com/hyperframes"
     source: "github"
     url: "https://github.com/heygen-com/hyperframes"
     summary: "Write HTML. Render video. Built for agents."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:70032"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:70828"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -202,29 +145,86 @@ candidates:
       - "framework"
       - "gsap"
       - "html"
-    stars: 70032
+    stars: 70828
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-23"
-  - name: "Mintplex-Labs/anything-llm"
+    captured_at: "2026-10-24"
+  - name: "BerriAI/litellm"
     source: "github"
-    url: "https://github.com/Mintplex-Labs/anything-llm"
-    summary: "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
-    reason: "major repo update, topic:rag, pushed within 7d, stars:67459"
+    url: "https://github.com/BerriAI/litellm"
+    summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:61924"
     category: "open-source/updated"
     tags:
-      - "agent-computer"
-      - "agent-harness"
-      - "agent-orchestration"
-      - "agentic-ai"
-      - "agentic-workflow"
-      - "ai-agents"
-      - "computer-use"
-      - "hermes-agent"
-    stars: 67459
+      - "ai-gateway"
+      - "anthropic"
+      - "azure-openai"
+      - "bedrock"
+      - "gateway"
+      - "langchain"
+      - "litellm"
+      - "llm"
+    stars: 61924
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-23"
+    captured_at: "2026-10-24"
+  - name: "CherryHQ/cherry-studio"
+    source: "github"
+    url: "https://github.com/CherryHQ/cherry-studio"
+    summary: "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:52924"
+    category: "open-source/updated"
+    tags:
+      - "agent-skills"
+      - "ai-agent"
+      - "claude-code"
+      - "codex"
+      - "deepseek"
+      - "hermes-agent"
+      - "open-code-review"
+      - "skills"
+    stars: 52924
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-24"
+  - name: "langchain-ai/langgraph"
+    source: "github"
+    url: "https://github.com/langchain-ai/langgraph"
+    summary: "Build resilient agents."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:43794"
+    category: "open-source/updated"
+    tags:
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "chatgpt"
+      - "deepagents"
+      - "enterprise"
+      - "framework"
+      - "gemini"
+    stars: 43794
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-24"
+  - name: "sgl-project/sglang"
+    source: "github"
+    url: "https://github.com/sgl-project/sglang"
+    summary: "SGLang is a high-performance serving framework for large language models and multimodal models."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:37677"
+    category: "open-source/updated"
+    tags:
+      - "attention"
+      - "blackwell"
+      - "cuda"
+      - "deepseek"
+      - "diffusion"
+      - "glm"
+      - "gpt-oss"
+      - "inference"
+    stars: 37677
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-24"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

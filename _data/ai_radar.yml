@@ -1,4 +1,4 @@
-generated_at: "2026-10-24T01:39:47+00:00"
+generated_at: "2026-10-25T01:15:53+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -23,7 +23,7 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-10-24"
+    captured_at: "2026-10-25"
   - name: "Show HN: WhatsApp MCP running free on Cloudflare"
     source: "hacker-news"
     url: "https://github.com/finereli/whatsapp-mcp"
@@ -36,12 +36,12 @@ candidates:
     stars: 0
     score: 81
     verdict: "Watch"
-    captured_at: "2026-10-24"
+    captured_at: "2026-10-25"
   - name: "morluto/rea"
     source: "github"
     url: "https://github.com/morluto/rea"
     summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:373364"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:378848"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -52,15 +52,110 @@ candidates:
       - "codex"
       - "cordis"
       - "decompiler"
-    stars: 373364
+    stars: 378848
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-24"
+    captured_at: "2026-10-25"
+  - name: "NousResearch/hermes-agent"
+    source: "github"
+    url: "https://github.com/NousResearch/hermes-agent"
+    summary: "The agent that grows with you"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:256822"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "ai-agent"
+      - "ai-agents"
+      - "anthropic"
+      - "chatgpt"
+      - "claude"
+      - "claude-code"
+      - "codex"
+    stars: 256822
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-25"
+  - name: "Significant-Gravitas/AutoGPT"
+    source: "github"
+    url: "https://github.com/Significant-Gravitas/AutoGPT"
+    summary: "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:187729"
+    category: "open-source/updated"
+    tags:
+      - "agentic-ai"
+      - "agents"
+      - "ai"
+      - "artificial-intelligence"
+      - "autonomous-agents"
+      - "claude"
+      - "gpt"
+      - "llama-api"
+    stars: 187729
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-25"
+  - name: "f/prompts.chat"
+    source: "github"
+    url: "https://github.com/f/prompts.chat"
+    summary: "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:174408"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "artificial-intelligence"
+      - "awesome-list"
+      - "chatgpt"
+      - "chatgpt-prompts"
+      - "claude"
+      - "gemini"
+      - "gpt"
+    stars: 174408
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-25"
+  - name: "langgenius/dify"
+    source: "github"
+    url: "https://github.com/langgenius/dify"
+    summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:159439"
+    category: "open-source/updated"
+    tags:
+      - "agent"
+      - "agentic-ai"
+      - "agentic-framework"
+      - "agentic-workflow"
+      - "ai"
+      - "automation"
+      - "claude"
+      - "deepseek"
+    stars: 159439
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-25"
+  - name: "open-webui/open-webui"
+    source: "github"
+    url: "https://github.com/open-webui/open-webui"
+    summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:156656"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "llm"
+      - "llm-ui"
+      - "llm-webui"
+      - "llms"
+      - "mcp"
+      - "ollama"
+      - "ollama-webui"
+    stars: 156656
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-25"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155969"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:155989"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -69,15 +164,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 155969
+    stars: 155989
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-24"
+    captured_at: "2026-10-25"
   - name: "langchain-ai/langchain"
     source: "github"
     url: "https://github.com/langchain-ai/langchain"
     summary: "The agent engineering platform."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:148335"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:148392"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -88,15 +183,34 @@ candidates:
       - "deepagents"
       - "enterprise"
       - "framework"
-    stars: 148335
+    stars: 148392
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-24"
+    captured_at: "2026-10-25"
+  - name: "farion1231/cc-switch"
+    source: "github"
+    url: "https://github.com/farion1231/cc-switch"
+    summary: "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:148331"
+    category: "open-source/updated"
+    tags:
+      - "ai-tools"
+      - "claude-code"
+      - "codex"
+      - "desktop-app"
+      - "grok"
+      - "grokbuild"
+      - "hermes"
+      - "hermes-agent"
+    stars: 148331
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-10-25"
   - name: "paperclipai/paperclip"
     source: "github"
     url: "https://github.com/paperclipai/paperclip"
     summary: "The open-source app everyone uses to manage agents at work"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:106606"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:106980"
     category: "open-source/updated"
     tags:
       - "acpx"
@@ -107,124 +221,10 @@ candidates:
       - "ai-engineering"
       - "ai-governance"
       - "ai-tools"
-    stars: 106606
+    stars: 106980
     score: 75
     verdict: "Watch"
-    captured_at: "2026-10-24"
-  - name: "unslothai/unsloth"
-    source: "github"
-    url: "https://github.com/unslothai/unsloth"
-    summary: "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:78487"
-    category: "open-source/updated"
-    tags:
-      - "agent"
-      - "ai"
-      - "chatgpt"
-      - "deepseek"
-      - "fine-tuning"
-      - "gemma"
-      - "image-generation"
-      - "llama"
-    stars: 78487
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-24"
-  - name: "heygen-com/hyperframes"
-    source: "github"
-    url: "https://github.com/heygen-com/hyperframes"
-    summary: "Write HTML. Render video. Built for agents."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:70828"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agents"
-      - "animation"
-      - "claude-code"
-      - "ffmpeg"
-      - "framework"
-      - "gsap"
-      - "html"
-    stars: 70828
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-24"
-  - name: "BerriAI/litellm"
-    source: "github"
-    url: "https://github.com/BerriAI/litellm"
-    summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llmops, pushed within 7d, stars:61924"
-    category: "open-source/updated"
-    tags:
-      - "ai-gateway"
-      - "anthropic"
-      - "azure-openai"
-      - "bedrock"
-      - "gateway"
-      - "langchain"
-      - "litellm"
-      - "llm"
-    stars: 61924
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-24"
-  - name: "CherryHQ/cherry-studio"
-    source: "github"
-    url: "https://github.com/CherryHQ/cherry-studio"
-    summary: "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
-    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:52924"
-    category: "open-source/updated"
-    tags:
-      - "agent-skills"
-      - "ai-agent"
-      - "claude-code"
-      - "codex"
-      - "deepseek"
-      - "hermes-agent"
-      - "open-code-review"
-      - "skills"
-    stars: 52924
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-24"
-  - name: "langchain-ai/langgraph"
-    source: "github"
-    url: "https://github.com/langchain-ai/langgraph"
-    summary: "Build resilient agents."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:43794"
-    category: "open-source/updated"
-    tags:
-      - "agents"
-      - "ai"
-      - "ai-agents"
-      - "chatgpt"
-      - "deepagents"
-      - "enterprise"
-      - "framework"
-      - "gemini"
-    stars: 43794
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-24"
-  - name: "sgl-project/sglang"
-    source: "github"
-    url: "https://github.com/sgl-project/sglang"
-    summary: "SGLang is a high-performance serving framework for large language models and multimodal models."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:37677"
-    category: "open-source/updated"
-    tags:
-      - "attention"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "diffusion"
-      - "glm"
-      - "gpt-oss"
-      - "inference"
-    stars: 37677
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-10-24"
+    captured_at: "2026-10-25"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

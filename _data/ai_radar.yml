@@ -1,4 +1,4 @@
-generated_at: "2026-11-07T02:53:13+00:00"
+generated_at: "2026-11-08T02:32:32+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "github"
     url: "https://github.com/KKKKhazix/agent-autoloop"
     summary: "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
-    reason: "new repo, topic:mcp, created within 7d, stars:3711"
+    reason: "new repo, topic:mcp, created within 7d, stars:3969"
     category: "open-source/fresh"
     tags:
       - "ai-agents"
@@ -26,15 +26,15 @@ candidates:
       - "event-driven"
       - "mcp"
       - "nodejs"
-    stars: 3711
+    stars: 3969
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-07"
+    captured_at: "2026-11-08"
   - name: "Sandflow-ai/sand3d"
     source: "github"
     url: "https://github.com/Sandflow-ai/sand3d"
     summary: "3D modeling in Python, built for LLMs."
-    reason: "new repo, topic:llm, created within 7d, stars:811"
+    reason: "new repo, topic:llm, created within 7d, stars:1069"
     category: "open-source/fresh"
     tags:
       - "3d"
@@ -44,15 +44,15 @@ candidates:
       - "procedural-modeling"
       - "python"
       - "usd"
-    stars: 811
-    score: 87
+    stars: 1069
+    score: 90
     verdict: "Watch"
-    captured_at: "2026-11-07"
+    captured_at: "2026-11-08"
   - name: "Ask HN: What's your current AI agentic setup?"
     source: "hacker-news"
     url: "https://news.ycombinator.com/item?id=50366117"
     summary: "Ask HN: What's your current AI agentic setup?"
-    reason: "query:AI coding tool, points:541, comments:675"
+    reason: "query:AI coding tool, points:554, comments:683"
     category: "discussion"
     tags:
       - "ai"
@@ -61,12 +61,12 @@ candidates:
     stars: 0
     score: 85
     verdict: "Watch"
-    captured_at: "2026-11-07"
+    captured_at: "2026-11-08"
   - name: "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app"
     source: "hacker-news"
     url: "https://momentic.ai/"
     summary: "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app"
-    reason: "query:LLM agent, points:166, comments:133"
+    reason: "query:LLM agent, points:167, comments:133"
     category: "discussion"
     tags:
       - "llm"
@@ -74,12 +74,12 @@ candidates:
     stars: 0
     score: 83
     verdict: "Watch"
-    captured_at: "2026-11-07"
+    captured_at: "2026-11-08"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:261229"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:261528"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -90,34 +90,15 @@ candidates:
       - "claude"
       - "claude-code"
       - "codex"
-    stars: 261229
+    stars: 261528
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-07"
-  - name: "ollama/ollama"
-    source: "github"
-    url: "https://github.com/ollama/ollama"
-    summary: "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:186156"
-    category: "open-source/updated"
-    tags:
-      - "deepseek"
-      - "gemma"
-      - "glm"
-      - "go"
-      - "golang"
-      - "gpt-oss"
-      - "llama"
-      - "llm"
-    stars: 186156
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-11-07"
+    captured_at: "2026-11-08"
   - name: "open-webui/open-webui"
     source: "github"
     url: "https://github.com/open-webui/open-webui"
     summary: "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:157957"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:158050"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -128,34 +109,70 @@ candidates:
       - "mcp"
       - "ollama"
       - "ollama-webui"
-    stars: 157957
+    stars: 158050
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-07"
-  - name: "farion1231/cc-switch"
+    captured_at: "2026-11-08"
+  - name: "langflow-ai/langflow"
     source: "github"
-    url: "https://github.com/farion1231/cc-switch"
-    summary: "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:152389"
+    url: "https://github.com/langflow-ai/langflow"
+    summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:156428"
     category: "open-source/updated"
     tags:
-      - "ai-tools"
-      - "claude-code"
-      - "codex"
-      - "deepseek-harness"
-      - "desktop-app"
-      - "grok"
-      - "grokbuild"
-      - "hermes"
-    stars: 152389
+      - "agents"
+      - "chatgpt"
+      - "generative-ai"
+      - "large-language-models"
+      - "multiagent"
+      - "react-flow"
+    stars: 156428
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-07"
+    captured_at: "2026-11-08"
+  - name: "langchain-ai/langchain"
+    source: "github"
+    url: "https://github.com/langchain-ai/langchain"
+    summary: "The agent engineering platform."
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:149179"
+    category: "open-source/updated"
+    tags:
+      - "agents"
+      - "ai"
+      - "ai-agents"
+      - "anthropic"
+      - "chatgpt"
+      - "deepagents"
+      - "enterprise"
+      - "framework"
+    stars: 149179
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-11-08"
+  - name: "thedotmack/claude-mem"
+    source: "github"
+    url: "https://github.com/thedotmack/claude-mem"
+    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:114523"
+    category: "open-source/updated"
+    tags:
+      - "ai"
+      - "ai-agents"
+      - "ai-memory"
+      - "anthropic"
+      - "artificial-intelligence"
+      - "chromadb"
+      - "claude"
+      - "claude-agent-sdk"
+    stars: 114523
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-11-08"
   - name: "paperclipai/paperclip"
     source: "github"
     url: "https://github.com/paperclipai/paperclip"
     summary: "The open-source app everyone uses to manage agents at work"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:111767"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:112042"
     category: "open-source/updated"
     tags:
       - "acpx"
@@ -166,67 +183,48 @@ candidates:
       - "ai-engineering"
       - "ai-governance"
       - "ai-tools"
-    stars: 111767
+    stars: 112042
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-07"
-  - name: "vllm-project/vllm"
+    captured_at: "2026-11-08"
+  - name: "Panniantong/Agent-Reach"
     source: "github"
-    url: "https://github.com/vllm-project/vllm"
-    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:96481"
+    url: "https://github.com/Panniantong/Agent-Reach"
+    summary: "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:110025"
     category: "open-source/updated"
     tags:
-      - "amd"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "deepseek-v3"
-      - "gpt"
-      - "gpt-oss"
-      - "inference"
-    stars: 96481
+      - "agent-infrastructure"
+      - "ai-agent"
+      - "ai-search"
+      - "automation"
+      - "bilibili"
+      - "claude-code"
+      - "cli"
+      - "cursor"
+    stars: 110025
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-07"
-  - name: "lobehub/lobehub"
+    captured_at: "2026-11-08"
+  - name: "bytedance/deer-flow"
     source: "github"
-    url: "https://github.com/lobehub/lobehub"
-    summary: "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:84251"
+    url: "https://github.com/bytedance/deer-flow"
+    summary: "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles..."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:85119"
     category: "open-source/updated"
     tags:
       - "agent"
-      - "agent-collaboration"
-      - "agent-harness"
-      - "loop-engineering"
-      - "mcp"
-      - "personal-assistant"
-      - "proactive-agent"
-      - "skills"
-    stars: 84251
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-11-07"
-  - name: "microsoft/ai-agents-for-beginners"
-    source: "github"
-    url: "https://github.com/microsoft/ai-agents-for-beginners"
-    summary: "18 Lessons to Get Started Building AI Agents"
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:79064"
-    category: "open-source/updated"
-    tags:
-      - "agentic-ai"
+      - "agentic"
       - "agentic-framework"
-      - "agentic-rag"
+      - "agentic-workflow"
+      - "ai"
       - "ai-agents"
-      - "ai-agents-framework"
-      - "autogen"
-      - "foundry"
-      - "foundry-local"
-    stars: 79064
+      - "deep-research"
+      - "harness"
+    stars: 85119
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-07"
+    captured_at: "2026-11-08"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

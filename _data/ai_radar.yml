@@ -1,4 +1,4 @@
-generated_at: "2026-11-19T04:14:50+00:00"
+generated_at: "2026-11-20T04:01:33+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "github"
     url: "https://github.com/erkamyaman/rust-anything"
     summary: "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, G..."
-    reason: "new repo, topic:mcp, created within 7d, stars:3576"
+    reason: "new repo, topic:mcp, created within 7d, stars:5383"
     category: "open-source/fresh"
     tags:
       - "agent-skills"
@@ -26,15 +26,15 @@ candidates:
       - "ffi"
       - "golang"
       - "java"
-    stars: 3576
+    stars: 5383
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-19"
+    captured_at: "2026-11-20"
   - name: "sybil-solutions/inference-optimisation-skill"
     source: "github"
     url: "https://github.com/sybil-solutions/inference-optimisation-skill"
     summary: "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization"
-    reason: "new repo, topic:llm, created within 7d, stars:1138"
+    reason: "new repo, topic:llm, created within 7d, stars:1271"
     category: "open-source/fresh"
     tags:
       - "agent-skill"
@@ -43,15 +43,34 @@ candidates:
       - "inference"
       - "llm"
       - "speculative-decoding"
-    stars: 1138
+    stars: 1271
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-19"
+    captured_at: "2026-11-20"
+  - name: "bookwjitchieni1986/blender-ai-mcp-addon"
+    source: "github"
+    url: "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"
+    summary: "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for..."
+    reason: "new repo, topic:llm, created within 7d, stars:724"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "ai-assistant"
+      - "blender"
+      - "blender-addon"
+      - "blender-ai"
+      - "blender-automation"
+      - "blender-mcp"
+      - "blender-plugin"
+    stars: 724
+    score: 83
+    verdict: "Watch"
+    captured_at: "2026-11-20"
   - name: "morluto/rea"
     source: "github"
     url: "https://github.com/morluto/rea"
     summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:468543"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:470235"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -62,34 +81,34 @@ candidates:
       - "cpp"
       - "dsh-plugin"
       - "html"
-    stars: 468543
+    stars: 470235
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-19"
-  - name: "n8n-io/n8n"
+    captured_at: "2026-11-20"
+  - name: "NousResearch/hermes-agent"
     source: "github"
-    url: "https://github.com/n8n-io/n8n"
-    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:211174"
+    url: "https://github.com/NousResearch/hermes-agent"
+    summary: "The agent that grows with you"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:264789"
     category: "open-source/updated"
     tags:
       - "ai"
-      - "apis"
-      - "automation"
-      - "cli"
-      - "data-flow"
-      - "development"
-      - "integration-framework"
-      - "integrations"
-    stars: 211174
+      - "ai-agent"
+      - "ai-agents"
+      - "anthropic"
+      - "chatgpt"
+      - "claude"
+      - "claude-code"
+      - "codex"
+    stars: 264789
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-19"
+    captured_at: "2026-11-20"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:156766"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:156786"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -98,15 +117,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 156766
+    stars: 156786
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-19"
+    captured_at: "2026-11-20"
   - name: "langchain-ai/langchain"
     source: "github"
     url: "https://github.com/langchain-ai/langchain"
     summary: "The agent engineering platform."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:149860"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:149936"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -117,34 +136,34 @@ candidates:
       - "deepagents"
       - "enterprise"
       - "framework"
-    stars: 149860
+    stars: 149936
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-19"
-  - name: "microsoft/generative-ai-for-beginners"
+    captured_at: "2026-11-20"
+  - name: "browser-use/browser-use"
     source: "github"
-    url: "https://github.com/microsoft/generative-ai-for-beginners"
-    summary: "21 Lessons, Get Started Building with Generative AI"
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:123827"
+    url: "https://github.com/browser-use/browser-use"
+    summary: "Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:121536"
     category: "open-source/updated"
     tags:
-      - "ai"
-      - "azure"
-      - "chatgpt"
-      - "dall-e"
-      - "generative-ai"
-      - "generativeai"
-      - "gpt"
-      - "language-model"
-    stars: 123827
+      - "ai-agents"
+      - "ai-tools"
+      - "browser-agent"
+      - "browser-automation"
+      - "browser-use"
+      - "cdp"
+      - "cloud-browser"
+      - "computer-use"
+    stars: 121536
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-19"
+    captured_at: "2026-11-20"
   - name: "paperclipai/paperclip"
     source: "github"
     url: "https://github.com/paperclipai/paperclip"
     summary: "The open-source app everyone uses to manage agents at work"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:114846"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:115253"
     category: "open-source/updated"
     tags:
       - "acpx"
@@ -155,34 +174,15 @@ candidates:
       - "ai-engineering"
       - "ai-governance"
       - "ai-tools"
-    stars: 114846
+    stars: 115253
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-19"
-  - name: "vllm-project/vllm"
-    source: "github"
-    url: "https://github.com/vllm-project/vllm"
-    summary: "A high-throughput and memory-efficient inference and serving engine for LLMs"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:97192"
-    category: "open-source/updated"
-    tags:
-      - "amd"
-      - "blackwell"
-      - "cuda"
-      - "deepseek"
-      - "deepseek-v3"
-      - "gpt"
-      - "gpt-oss"
-      - "inference"
-    stars: 97192
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-11-19"
+    captured_at: "2026-11-20"
   - name: "infiniflow/ragflow"
     source: "github"
     url: "https://github.com/infiniflow/ragflow"
     summary: "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:94407"
+    reason: "major repo update, topic:rag, pushed within 7d, stars:94456"
     category: "open-source/updated"
     tags:
       - "agent-harness"
@@ -193,48 +193,48 @@ candidates:
       - "ai"
       - "ai-agents"
       - "context-engine"
-    stars: 94407
+    stars: 94456
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-19"
-  - name: "cheaper-inference/OmniRoute"
+    captured_at: "2026-11-20"
+  - name: "headroomlabs-ai/headroom"
     source: "github"
-    url: "https://github.com/cheaper-inference/OmniRoute"
-    summary: "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex,..."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:88722"
+    url: "https://github.com/headroomlabs-ai/headroom"
+    summary: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP..."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:80178"
     category: "open-source/updated"
     tags:
-      - "a2a"
-      - "ai-agents"
+      - "agent"
+      - "ai"
+      - "anthropic"
+      - "claude-code"
+      - "compression"
+      - "context-engineering"
+      - "context-window"
+      - "cursor"
+    stars: 80178
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-11-20"
+  - name: "BerriAI/litellm"
+    source: "github"
+    url: "https://github.com/BerriAI/litellm"
+    summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
+    reason: "major repo update, topic:llm, pushed within 7d, stars:63573"
+    category: "open-source/updated"
+    tags:
       - "ai-gateway"
       - "anthropic"
-      - "claude"
-      - "claude-code"
-      - "cline"
-      - "codex"
-    stars: 88722
+      - "azure-openai"
+      - "bedrock"
+      - "gateway"
+      - "langchain"
+      - "litellm"
+      - "llm"
+    stars: 63573
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-19"
-  - name: "heygen-com/hyperframes"
-    source: "github"
-    url: "https://github.com/heygen-com/hyperframes"
-    summary: "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:86607"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "ai-agents"
-      - "animation"
-      - "claude-code"
-      - "ffmpeg"
-      - "framework"
-      - "gsap"
-      - "html"
-    stars: 86607
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-11-19"
+    captured_at: "2026-11-20"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

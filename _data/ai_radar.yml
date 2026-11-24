@@ -1,4 +1,4 @@
-generated_at: "2026-11-23T03:45:34+00:00"
+generated_at: "2026-11-24T06:58:32+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -11,30 +11,11 @@ sources:
     url: ""
     signal: "Threads, X, Discord, newsletters, private notes"
 candidates:
-  - name: "bookwjitchieni1986/blender-ai-mcp-addon"
-    source: "github"
-    url: "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"
-    summary: "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for..."
-    reason: "new repo, topic:llm, created within 7d, stars:2753"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agents"
-      - "ai-assistant"
-      - "blender"
-      - "blender-addon"
-      - "blender-ai"
-      - "blender-automation"
-      - "blender-mcp"
-      - "blender-plugin"
-    stars: 2753
-    score: 90
-    verdict: "Watch"
-    captured_at: "2026-11-23"
   - name: "EL4CTEO/fast-anything"
     source: "github"
     url: "https://github.com/EL4CTEO/fast-anything"
     summary: "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
-    reason: "new repo, topic:mcp, created within 7d, stars:2061"
+    reason: "new repo, topic:mcp, created within 7d, stars:3297"
     category: "open-source/fresh"
     tags:
       - "agent-skills"
@@ -45,15 +26,15 @@ candidates:
       - "developer-tools"
       - "ffi"
       - "mcp"
-    stars: 2061
+    stars: 3297
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-23"
+    captured_at: "2026-11-24"
   - name: "INK-Q/agy-fast"
     source: "github"
     url: "https://github.com/INK-Q/agy-fast"
     summary: "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or..."
-    reason: "new repo, topic:ai-agent, created within 7d, stars:583"
+    reason: "new repo, topic:ai-agent, created within 7d, stars:830"
     category: "open-source/fresh"
     tags:
       - "ai-agent"
@@ -64,34 +45,53 @@ candidates:
       - "antigravity-plugins"
       - "coding-agent"
       - "context-optimization"
-    stars: 583
-    score: 78
+    stars: 830
+    score: 88
     verdict: "Watch"
-    captured_at: "2026-11-23"
-  - name: "morluto/rea"
+    captured_at: "2026-11-24"
+  - name: "erkamyaman/safe-anything"
     source: "github"
-    url: "https://github.com/morluto/rea"
-    summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:474309"
+    url: "https://github.com/erkamyaman/safe-anything"
+    summary: "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups."
+    reason: "new repo, topic:mcp, created within 7d, stars:529"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "claude-code"
+      - "claude-code-plugin"
+      - "cli"
+      - "codex"
+      - "cursor"
+      - "devsecops"
+      - "mcp"
+    stars: 529
+    score: 76
+    verdict: "Watch"
+    captured_at: "2026-11-24"
+  - name: "NousResearch/hermes-agent"
+    source: "github"
+    url: "https://github.com/NousResearch/hermes-agent"
+    summary: "The agent that grows with you"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:265724"
     category: "open-source/updated"
     tags:
-      - "agent-skills"
       - "ai"
-      - "android"
+      - "ai-agent"
+      - "ai-agents"
+      - "anthropic"
+      - "chatgpt"
+      - "claude"
       - "claude-code"
-      - "cli"
-      - "cpp"
-      - "dsh-plugin"
-      - "html"
-    stars: 474309
+      - "codex"
+    stars: 265724
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-23"
+    captured_at: "2026-11-24"
   - name: "langgenius/dify"
     source: "github"
     url: "https://github.com/langgenius/dify"
     summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:161705"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:161797"
     category: "open-source/updated"
     tags:
       - "agent"
@@ -102,15 +102,15 @@ candidates:
       - "automation"
       - "claude"
       - "deepseek"
-    stars: 161705
+    stars: 161797
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-23"
+    captured_at: "2026-11-24"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:156855"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:156896"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -119,34 +119,15 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 156855
+    stars: 156896
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-23"
-  - name: "farion1231/cc-switch"
-    source: "github"
-    url: "https://github.com/farion1231/cc-switch"
-    summary: "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io"
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:156447"
-    category: "open-source/updated"
-    tags:
-      - "ai-tools"
-      - "claude-code"
-      - "codex"
-      - "deepseek-harness"
-      - "desktop-app"
-      - "grok"
-      - "grokbuild"
-      - "hermes"
-    stars: 156447
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-11-23"
+    captured_at: "2026-11-24"
   - name: "langchain-ai/langchain"
     source: "github"
     url: "https://github.com/langchain-ai/langchain"
     summary: "The agent engineering platform."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:149997"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:149956"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -157,34 +138,34 @@ candidates:
       - "deepagents"
       - "enterprise"
       - "framework"
-    stars: 149997
+    stars: 149956
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-23"
-  - name: "thedotmack/claude-mem"
+    captured_at: "2026-11-24"
+  - name: "infiniflow/ragflow"
     source: "github"
-    url: "https://github.com/thedotmack/claude-mem"
-    summary: "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future se..."
-    reason: "major repo update, topic:rag, pushed within 7d, stars:119118"
+    url: "https://github.com/infiniflow/ragflow"
+    summary: "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:94621"
     category: "open-source/updated"
     tags:
+      - "agent-harness"
+      - "agent-native-database"
+      - "agentic-ai"
+      - "agentic-retrieval"
+      - "agentic-search"
       - "ai"
       - "ai-agents"
-      - "ai-memory"
-      - "anthropic"
-      - "artificial-intelligence"
-      - "chromadb"
-      - "claude"
-      - "claude-agent-sdk"
-    stars: 119118
+      - "context-engine"
+    stars: 94621
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-23"
+    captured_at: "2026-11-24"
   - name: "heygen-com/hyperframes"
     source: "github"
     url: "https://github.com/heygen-com/hyperframes"
     summary: "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:88360"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:89117"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -195,34 +176,34 @@ candidates:
       - "animation"
       - "claude-code"
       - "ffmpeg"
-    stars: 88360
+    stars: 89117
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-23"
-  - name: "bytedance/deer-flow"
+    captured_at: "2026-11-24"
+  - name: "career-ops-hq/career-ops"
     source: "github"
-    url: "https://github.com/bytedance/deer-flow"
-    summary: "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:85629"
+    url: "https://github.com/career-ops-hq/career-ops"
+    summary: "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get intervi..."
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:84473"
     category: "open-source/updated"
     tags:
-      - "agent"
-      - "agentic"
-      - "agentic-framework"
-      - "agentic-workflow"
-      - "ai"
-      - "ai-agents"
-      - "deep-research"
-      - "harness"
-    stars: 85629
+      - "agent-skills"
+      - "ai-agent"
+      - "ai-job-search"
+      - "ats"
+      - "career"
+      - "career-ops"
+      - "claude-code"
+      - "claude-code-plugin"
+    stars: 84473
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-23"
+    captured_at: "2026-11-24"
   - name: "BerriAI/litellm"
     source: "github"
     url: "https://github.com/BerriAI/litellm"
     summary: "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock,..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:63729"
+    reason: "major repo update, topic:llmops, pushed within 7d, stars:63787"
     category: "open-source/updated"
     tags:
       - "ai-gateway"
@@ -233,10 +214,29 @@ candidates:
       - "langchain"
       - "litellm"
       - "llm"
-    stars: 63729
+    stars: 63787
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-23"
+    captured_at: "2026-11-24"
+  - name: "CherryHQ/cherry-studio"
+    source: "github"
+    url: "https://github.com/CherryHQ/cherry-studio"
+    summary: "Your AI workspace for models, agents, and productivity."
+    reason: "major repo update, topic:rag, pushed within 7d, stars:53802"
+    category: "open-source/updated"
+    tags:
+      - "agent-skills"
+      - "agent-workspace"
+      - "agentic-workspace"
+      - "ai-agents"
+      - "ai-models"
+      - "ai-productivity"
+      - "ai-workspace"
+      - "computer-use"
+    stars: 53802
+    score: 75
+    verdict: "Watch"
+    captured_at: "2026-11-24"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

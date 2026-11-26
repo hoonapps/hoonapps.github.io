@@ -1,4 +1,4 @@
-generated_at: "2026-11-25T05:28:41+00:00"
+generated_at: "2026-11-26T05:09:13+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "github"
     url: "https://github.com/EL4CTEO/fast-anything"
     summary: "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
-    reason: "new repo, topic:mcp, created within 7d, stars:3685"
+    reason: "new repo, topic:mcp, created within 7d, stars:4039"
     category: "open-source/fresh"
     tags:
       - "agent-skills"
@@ -26,47 +26,34 @@ candidates:
       - "developer-tools"
       - "ffi"
       - "mcp"
-    stars: 3685
+    stars: 4039
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-25"
-  - name: "INK-Q/agy-fast"
+    captured_at: "2026-11-26"
+  - name: "qianyiai/kurocat"
     source: "github"
-    url: "https://github.com/INK-Q/agy-fast"
-    summary: "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or..."
-    reason: "new repo, topic:ai-agent, created within 7d, stars:1274"
+    url: "https://github.com/qianyiai/kurocat"
+    summary: "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3..."
+    reason: "new repo, topic:mcp, created within 7d, stars:1079"
     category: "open-source/fresh"
     tags:
-      - "ai-agent"
-      - "ai-coding"
-      - "antigravity"
-      - "antigravity-cli"
-      - "antigravity-ide"
-      - "antigravity-plugins"
-      - "coding-agent"
-      - "context-optimization"
-    stars: 1274
+      - "3d"
+      - "ai-companion"
+      - "android"
+      - "bongo-cat"
+      - "bongocat"
+      - "claude-code"
+      - "codex"
+      - "cross-platform"
+    stars: 1079
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-25"
-  - name: "LLM agents work for their parent companies, not for you"
-    source: "hacker-news"
-    url: "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
-    summary: "LLM agents work for their parent companies, not for you"
-    reason: "query:LLM agent, points:952, comments:393"
-    category: "discussion"
-    tags:
-      - "llm"
-      - "agent"
-    stars: 0
-    score: 85
-    verdict: "Watch"
-    captured_at: "2026-11-25"
+    captured_at: "2026-11-26"
   - name: "sous-labs/songe"
     source: "github"
     url: "https://github.com/sous-labs/songe"
     summary: "A training engine for your local model, using your idle compute"
-    reason: "new repo, topic:llm, created within 7d, stars:735"
+    reason: "new repo, topic:llm, created within 7d, stars:875"
     category: "open-source/fresh"
     tags:
       - "coding-agents"
@@ -76,34 +63,28 @@ candidates:
       - "local-llm"
       - "lora"
       - "mlx"
-    stars: 735
-    score: 84
+    stars: 875
+    score: 90
     verdict: "Watch"
-    captured_at: "2026-11-25"
-  - name: "qianyiai/kurocat"
-    source: "github"
-    url: "https://github.com/qianyiai/kurocat"
-    summary: "KuroCat — Free open-source desktop typing cat pet & OBS overlay (Bongo Cat alternative, Tauri v2 + Rust + MCP)｜轻量级透明置顶桌面打字小黑猫伴侣（6款猫咪+鲸鱼娘大肥鱼 / 输密码防偷窥 / OBS透明源 / AI捏猫 / Win·Mac·Li..."
-    reason: "new repo, topic:mcp, created within 7d, stars:710"
-    category: "open-source/fresh"
+    captured_at: "2026-11-26"
+  - name: "LLM agents work for their parent companies, not for you"
+    source: "hacker-news"
+    url: "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+    summary: "LLM agents work for their parent companies, not for you"
+    reason: "query:LLM agent, points:1008, comments:410"
+    category: "discussion"
     tags:
-      - "android"
-      - "bongo-cat"
-      - "bongocat"
-      - "cross-platform"
-      - "desktop-pet"
-      - "keyboard-visualizer"
-      - "kurocat"
-      - "linux"
-    stars: 710
-    score: 83
+      - "llm"
+      - "agent"
+    stars: 0
+    score: 85
     verdict: "Watch"
-    captured_at: "2026-11-25"
+    captured_at: "2026-11-26"
   - name: "erkamyaman/safe-anything"
     source: "github"
     url: "https://github.com/erkamyaman/safe-anything"
     summary: "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups."
-    reason: "new repo, topic:mcp, created within 7d, stars:641"
+    reason: "new repo, topic:mcp, created within 7d, stars:726"
     category: "open-source/fresh"
     tags:
       - "ai-agents"
@@ -114,34 +95,15 @@ candidates:
       - "cursor"
       - "devsecops"
       - "mcp"
-    stars: 641
-    score: 80
+    stars: 726
+    score: 84
     verdict: "Watch"
-    captured_at: "2026-11-25"
-  - name: "Developing-Gamer/agent-sim"
-    source: "github"
-    url: "https://github.com/Developing-Gamer/agent-sim"
-    summary: "iOS simulators for AI agents, on Linux. The agent layer for x86Sim."
-    reason: "new repo, topic:mcp, created within 7d, stars:571"
-    category: "open-source/fresh"
-    tags:
-      - "ai-agents"
-      - "claude-code"
-      - "ios"
-      - "ios-simulator"
-      - "linux"
-      - "mcp"
-      - "mobile-testing"
-      - "testing"
-    stars: 571
-    score: 77
-    verdict: "Watch"
-    captured_at: "2026-11-25"
+    captured_at: "2026-11-26"
   - name: "w01fb0ss/PiBot"
     source: "github"
     url: "https://github.com/w01fb0ss/PiBot"
     summary: "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi."
-    reason: "new repo, topic:llm, created within 7d, stars:565"
+    reason: "new repo, topic:llm, created within 7d, stars:611"
     category: "open-source/fresh"
     tags:
       - "agent"
@@ -152,15 +114,53 @@ candidates:
       - "automation"
       - "chatgpt"
       - "coding-agent"
-    stars: 565
-    score: 77
+    stars: 611
+    score: 79
     verdict: "Watch"
-    captured_at: "2026-11-25"
+    captured_at: "2026-11-26"
+  - name: "Developing-Gamer/agent-sim"
+    source: "github"
+    url: "https://github.com/Developing-Gamer/agent-sim"
+    summary: "iOS simulators for AI agents, on Linux. The agent layer for x86Sim."
+    reason: "new repo, topic:mcp, created within 7d, stars:600"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "claude-code"
+      - "ios"
+      - "ios-simulator"
+      - "linux"
+      - "mcp"
+      - "mobile-testing"
+      - "testing"
+    stars: 600
+    score: 79
+    verdict: "Watch"
+    captured_at: "2026-11-26"
+  - name: "chanke17/KuroCat"
+    source: "github"
+    url: "https://github.com/chanke17/KuroCat"
+    summary: "KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++, 802 KB)｜开源免费原生桌面萌猫（全平台 macOS·Win·Linux·UOS / 2.5D转头捕猎 / 数位板 / OBS透明绿幕 / 在线皮肤工坊..."
+    reason: "new repo, topic:mcp, created within 7d, stars:578"
+    category: "open-source/fresh"
+    tags:
+      - "bongo-cat"
+      - "bongo-cat-alternative"
+      - "cpp"
+      - "desktop-companion"
+      - "desktop-pet"
+      - "drawing-tablet"
+      - "kurocat"
+      - "linux"
+    stars: 578
+    score: 78
+    verdict: "Watch"
+    captured_at: "2026-11-26"
   - name: "morluto/rea"
     source: "github"
     url: "https://github.com/morluto/rea"
     summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:477417"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:478695"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -171,15 +171,15 @@ candidates:
       - "cpp"
       - "dsh-plugin"
       - "html"
-    stars: 477417
+    stars: 478695
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-25"
+    captured_at: "2026-11-26"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:265947"
+    reason: "major repo update, topic:llm, pushed within 7d, stars:266150"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -190,34 +190,34 @@ candidates:
       - "claude"
       - "claude-code"
       - "codex"
-    stars: 265947
+    stars: 266150
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-25"
-  - name: "langgenius/dify"
+    captured_at: "2026-11-26"
+  - name: "n8n-io/n8n"
     source: "github"
-    url: "https://github.com/langgenius/dify"
-    summary: "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to..."
-    reason: "major repo update, topic:llm, pushed within 7d, stars:161856"
+    url: "https://github.com/n8n-io/n8n"
+    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:212172"
     category: "open-source/updated"
     tags:
-      - "agent"
-      - "agentic-ai"
-      - "agentic-framework"
-      - "agentic-workflow"
       - "ai"
+      - "apis"
       - "automation"
-      - "claude"
-      - "deepseek"
-    stars: 161856
+      - "cli"
+      - "data-flow"
+      - "development"
+      - "integration-framework"
+      - "integrations"
+    stars: 212172
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-25"
+    captured_at: "2026-11-26"
   - name: "langflow-ai/langflow"
     source: "github"
     url: "https://github.com/langflow-ai/langflow"
     summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:156919"
+    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:156956"
     category: "open-source/updated"
     tags:
       - "agents"
@@ -226,10 +226,10 @@ candidates:
       - "large-language-models"
       - "multiagent"
       - "react-flow"
-    stars: 156919
+    stars: 156956
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-25"
+    captured_at: "2026-11-26"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""

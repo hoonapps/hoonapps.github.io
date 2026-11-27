@@ -1,4 +1,4 @@
-generated_at: "2026-11-26T05:09:13+00:00"
+generated_at: "2026-11-27T05:06:59+00:00"
 window_days: 7
 sources:
   - name: "GitHub Search"
@@ -15,7 +15,7 @@ candidates:
     source: "github"
     url: "https://github.com/EL4CTEO/fast-anything"
     summary: "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same."
-    reason: "new repo, topic:mcp, created within 7d, stars:4039"
+    reason: "new repo, topic:mcp, created within 7d, stars:4285"
     category: "open-source/fresh"
     tags:
       - "agent-skills"
@@ -26,15 +26,34 @@ candidates:
       - "developer-tools"
       - "ffi"
       - "mcp"
-    stars: 4039
+    stars: 4285
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-26"
-  - name: "qianyiai/kurocat"
+    captured_at: "2026-11-27"
+  - name: "alesha-pro/llm.asm"
     source: "github"
-    url: "https://github.com/qianyiai/kurocat"
+    url: "https://github.com/alesha-pro/llm.asm"
+    summary: "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero lib..."
+    reason: "new repo, topic:llm, created within 7d, stars:1656"
+    category: "open-source/fresh"
+    tags:
+      - "assembly"
+      - "avx2"
+      - "bare-metal"
+      - "llm"
+      - "machine-learning"
+      - "nasm"
+      - "osdev"
+      - "qwen"
+    stars: 1656
+    score: 90
+    verdict: "Watch"
+    captured_at: "2026-11-27"
+  - name: "qianyiai/KuroCat"
+    source: "github"
+    url: "https://github.com/qianyiai/KuroCat"
     summary: "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3..."
-    reason: "new repo, topic:mcp, created within 7d, stars:1079"
+    reason: "new repo, topic:mcp, created within 7d, stars:1501"
     category: "open-source/fresh"
     tags:
       - "3d"
@@ -45,46 +64,34 @@ candidates:
       - "claude-code"
       - "codex"
       - "cross-platform"
-    stars: 1079
+    stars: 1501
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-26"
-  - name: "sous-labs/songe"
+    captured_at: "2026-11-27"
+  - name: "nexu-io/opengame"
     source: "github"
-    url: "https://github.com/sous-labs/songe"
-    summary: "A training engine for your local model, using your idle compute"
-    reason: "new repo, topic:llm, created within 7d, stars:875"
+    url: "https://github.com/nexu-io/opengame"
+    summary: "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game st..."
+    reason: "new repo, topic:mcp, created within 7d, stars:1296"
     category: "open-source/fresh"
     tags:
-      - "coding-agents"
-      - "distillation"
-      - "fine-tuning"
-      - "llm"
-      - "local-llm"
-      - "lora"
-      - "mlx"
-    stars: 875
+      - "agent-skills"
+      - "ai-agents"
+      - "ai-game-generator"
+      - "claude-code"
+      - "codex"
+      - "deepseek"
+      - "deepseek-harness"
+      - "dsh"
+    stars: 1296
     score: 90
     verdict: "Watch"
-    captured_at: "2026-11-26"
-  - name: "LLM agents work for their parent companies, not for you"
-    source: "hacker-news"
-    url: "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
-    summary: "LLM agents work for their parent companies, not for you"
-    reason: "query:LLM agent, points:1008, comments:410"
-    category: "discussion"
-    tags:
-      - "llm"
-      - "agent"
-    stars: 0
-    score: 85
-    verdict: "Watch"
-    captured_at: "2026-11-26"
+    captured_at: "2026-11-27"
   - name: "erkamyaman/safe-anything"
     source: "github"
     url: "https://github.com/erkamyaman/safe-anything"
     summary: "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups."
-    reason: "new repo, topic:mcp, created within 7d, stars:726"
+    reason: "new repo, topic:mcp, created within 7d, stars:796"
     category: "open-source/fresh"
     tags:
       - "ai-agents"
@@ -95,53 +102,41 @@ candidates:
       - "cursor"
       - "devsecops"
       - "mcp"
-    stars: 726
-    score: 84
+    stars: 796
+    score: 86
     verdict: "Watch"
-    captured_at: "2026-11-26"
-  - name: "w01fb0ss/PiBot"
-    source: "github"
-    url: "https://github.com/w01fb0ss/PiBot"
-    summary: "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi."
-    reason: "new repo, topic:llm, created within 7d, stars:611"
-    category: "open-source/fresh"
+    captured_at: "2026-11-27"
+  - name: "LLM agents work for their parent companies, not for you"
+    source: "hacker-news"
+    url: "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
+    summary: "LLM agents work for their parent companies, not for you"
+    reason: "query:LLM agent, points:1030, comments:413"
+    category: "discussion"
     tags:
+      - "llm"
       - "agent"
-      - "ai-agent"
-      - "ai-agents"
-      - "ai-assistant"
-      - "android"
-      - "automation"
-      - "chatgpt"
-      - "coding-agent"
-    stars: 611
-    score: 79
+    stars: 0
+    score: 85
     verdict: "Watch"
-    captured_at: "2026-11-26"
-  - name: "Developing-Gamer/agent-sim"
-    source: "github"
-    url: "https://github.com/Developing-Gamer/agent-sim"
-    summary: "iOS simulators for AI agents, on Linux. The agent layer for x86Sim."
-    reason: "new repo, topic:mcp, created within 7d, stars:600"
-    category: "open-source/fresh"
+    captured_at: "2026-11-27"
+  - name: "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email"
+    source: "hacker-news"
+    url: "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"
+    summary: "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email"
+    reason: "query:MCP server, points:294, comments:245"
+    category: "discussion"
     tags:
-      - "ai-agents"
-      - "claude-code"
-      - "ios"
-      - "ios-simulator"
-      - "linux"
       - "mcp"
-      - "mobile-testing"
-      - "testing"
-    stars: 600
-    score: 79
+      - "server"
+    stars: 0
+    score: 85
     verdict: "Watch"
-    captured_at: "2026-11-26"
+    captured_at: "2026-11-27"
   - name: "chanke17/KuroCat"
     source: "github"
     url: "https://github.com/chanke17/KuroCat"
     summary: "KuroCat — Free open-source native desktop cat pet & OBS overlay (Bongo Cat alternative, Swift/C++, 802 KB)｜开源免费原生桌面萌猫（全平台 macOS·Win·Linux·UOS / 2.5D转头捕猎 / 数位板 / OBS透明绿幕 / 在线皮肤工坊..."
-    reason: "new repo, topic:mcp, created within 7d, stars:578"
+    reason: "new repo, topic:mcp, created within 7d, stars:703"
     category: "open-source/fresh"
     tags:
       - "bongo-cat"
@@ -152,15 +147,53 @@ candidates:
       - "drawing-tablet"
       - "kurocat"
       - "linux"
-    stars: 578
-    score: 78
+    stars: 703
+    score: 83
     verdict: "Watch"
-    captured_at: "2026-11-26"
+    captured_at: "2026-11-27"
+  - name: "w01fb0ss/PiBot"
+    source: "github"
+    url: "https://github.com/w01fb0ss/PiBot"
+    summary: "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi."
+    reason: "new repo, topic:llm, created within 7d, stars:660"
+    category: "open-source/fresh"
+    tags:
+      - "agent"
+      - "ai-agent"
+      - "ai-agents"
+      - "ai-assistant"
+      - "android"
+      - "automation"
+      - "chatgpt"
+      - "coding-agent"
+    stars: 660
+    score: 81
+    verdict: "Watch"
+    captured_at: "2026-11-27"
+  - name: "Developing-Gamer/agent-sim"
+    source: "github"
+    url: "https://github.com/Developing-Gamer/agent-sim"
+    summary: "iOS simulators for AI agents, on Linux. The agent layer for x86Sim."
+    reason: "new repo, topic:mcp, created within 7d, stars:616"
+    category: "open-source/fresh"
+    tags:
+      - "ai-agents"
+      - "claude-code"
+      - "ios"
+      - "ios-simulator"
+      - "linux"
+      - "mcp"
+      - "mobile-testing"
+      - "testing"
+    stars: 616
+    score: 79
+    verdict: "Watch"
+    captured_at: "2026-11-27"
   - name: "morluto/rea"
     source: "github"
     url: "https://github.com/morluto/rea"
     summary: "Reverse engineer anything with agents, from app behavior down to native binaries."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:478695"
+    reason: "major repo update, topic:mcp, pushed within 7d, stars:480047"
     category: "open-source/updated"
     tags:
       - "agent-skills"
@@ -171,15 +204,15 @@ candidates:
       - "cpp"
       - "dsh-plugin"
       - "html"
-    stars: 478695
+    stars: 480047
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-26"
+    captured_at: "2026-11-27"
   - name: "NousResearch/hermes-agent"
     source: "github"
     url: "https://github.com/NousResearch/hermes-agent"
     summary: "The agent that grows with you"
-    reason: "major repo update, topic:llm, pushed within 7d, stars:266150"
+    reason: "major repo update, topic:ai-agent, pushed within 7d, stars:266450"
     category: "open-source/updated"
     tags:
       - "ai"
@@ -190,46 +223,10 @@ candidates:
       - "claude"
       - "claude-code"
       - "codex"
-    stars: 266150
+    stars: 266450
     score: 75
     verdict: "Watch"
-    captured_at: "2026-11-26"
-  - name: "n8n-io/n8n"
-    source: "github"
-    url: "https://github.com/n8n-io/n8n"
-    summary: "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
-    reason: "major repo update, topic:mcp, pushed within 7d, stars:212172"
-    category: "open-source/updated"
-    tags:
-      - "ai"
-      - "apis"
-      - "automation"
-      - "cli"
-      - "data-flow"
-      - "development"
-      - "integration-framework"
-      - "integrations"
-    stars: 212172
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-11-26"
-  - name: "langflow-ai/langflow"
-    source: "github"
-    url: "https://github.com/langflow-ai/langflow"
-    summary: "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
-    reason: "major repo update, topic:generative-ai, pushed within 7d, stars:156956"
-    category: "open-source/updated"
-    tags:
-      - "agents"
-      - "chatgpt"
-      - "generative-ai"
-      - "large-language-models"
-      - "multiagent"
-      - "react-flow"
-    stars: 156956
-    score: 75
-    verdict: "Watch"
-    captured_at: "2026-11-26"
+    captured_at: "2026-11-27"
 manual_inbox:
   - title: "Threads에서 본 AI 도구"
     url: ""
